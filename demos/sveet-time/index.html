@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Світлана · перукар</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f7f1ec; --bg-2:#efe4dc; --card:#fffaf6; --ink:#2a1f1b; --ink-2:#4a3a33; --muted:#8a7a70;
+    --rose:#c08a7a; --rose-2:#e3b8a8; --espresso:#3b2a24; --line:#e6d8cf; --ok:#5b7a5e;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Manrope,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  button,input,select{font:inherit;color:inherit}
+  button{cursor:pointer}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+  .serif{font-family:"Cormorant Garamond",Georgia,serif}
+  .eyebrow{color:var(--rose);font-size:11px;letter-spacing:.24em;text-transform:uppercase;margin-bottom:14px;font-weight:600}
+  h2.t{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(34px,4.6vw,52px);line-height:1.02}
+  .sub{color:var(--muted);font-size:15px;max-width:440px}
+  section{padding:84px 0}
+
+  .demo-bar{background:var(--espresso);color:var(--rose-2);font-size:12px;letter-spacing:.04em;text-align:center;padding:7px 16px}
+
+  header{position:sticky;top:0;z-index:30;background:rgba(247,241,236,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:66px;gap:16px}
+  .brand{font-family:"Cormorant Garamond",serif;font-size:26px;font-weight:600;text-decoration:none;color:var(--ink);line-height:1}
+  .brand small{display:block;font-family:Manrope;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+  .links{display:flex;gap:26px}
+  .links a{color:var(--ink-2);text-decoration:none;font-size:14px}
+  .links a:hover{color:var(--rose)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:40px;padding:14px 26px;font-size:14px;font-weight:600;text-decoration:none;border:1px solid transparent;transition:.2s}
+  .btn:active{transform:scale(.98)}
+  .btn-dark{background:var(--espresso);color:#fff}
+  .btn-dark:hover{background:#000}
+  .btn-rose{background:var(--rose);color:#fff}
+  .btn-rose:hover{background:#b07a6a}
+  .btn-line{border-color:var(--ink);color:var(--ink);background:none}
+  .btn-line:hover{background:var(--ink);color:#fff}
+  .btn-sm{padding:10px 18px;font-size:13px}
+
+  /* hero */
+  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;padding-top:60px;padding-bottom:80px}
+  .hero h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(46px,6.6vw,82px);line-height:.96;letter-spacing:-.01em}
+  .hero h1 em{color:var(--rose)}
+  .hero p{color:var(--ink-2);font-size:17px;max-width:460px;margin:22px 0 30px}
+  .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .facts{display:flex;gap:30px;margin-top:40px;font-size:13px;color:var(--muted)}
+  .facts b{display:block;font-family:"Cormorant Garamond",serif;font-size:30px;color:var(--ink);font-weight:500;line-height:1.1}
+  .portrait{position:relative;aspect-ratio:4/5;border-radius:220px 220px 16px 16px;overflow:hidden;box-shadow:0 30px 60px rgba(59,42,36,.18)}
+  .portrait svg{width:100%;height:100%}
+  .badge{position:absolute;left:-18px;bottom:40px;background:var(--card);border-radius:14px;padding:12px 16px;box-shadow:0 14px 30px rgba(59,42,36,.14);font-size:12px;display:flex;gap:10px;align-items:center}
+  .badge i{width:9px;height:9px;border-radius:50%;background:#6fae73;box-shadow:0 0 0 4px rgba(111,174,115,.2)}
+  .badge b{display:block;font-size:13px}
+  .hero-wrap{position:relative}
+
+  /* services */
+  .services{background:var(--card)}
+  .svc-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:34px}
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+  .tab{border:1px solid var(--line);background:none;border-radius:30px;padding:9px 16px;font-size:13px}
+  .tab.on{background:var(--espresso);color:#fff;border-color:var(--espresso)}
+  .svc-list{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+  .svc{display:flex;gap:14px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}
+  .svc .nm{flex:1}
+  .svc .nm b{font-weight:600;display:block}
+  .svc .nm span{font-size:13px;color:var(--muted)}
+  .svc .pr{font-family:"Cormorant Garamond",serif;font-size:22px;font-weight:600;white-space:nowrap}
+  .svc button{border:1px solid var(--line);background:none;border-radius:30px;padding:7px 12px;font-size:12px;white-space:nowrap}
+  .svc button:hover{border-color:var(--ink)}
+
+  /* shades */
+  .shades .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:center}
+  .swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .sw{aspect-ratio:1/1.4;border-radius:12px;border:none;position:relative;overflow:hidden;transition:transform .2s}
+  .sw:hover{transform:translateY(-3px)}
+  .sw.on{outline:2px solid var(--ink);outline-offset:3px}
+  .sw span{position:absolute;left:8px;bottom:8px;font-size:11px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.4);font-weight:600}
+  .preview{display:flex;gap:18px;align-items:center;margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+  .preview .dot{width:54px;height:54px;border-radius:50%;flex:none}
+  .preview b{display:block}
+  .preview span{font-size:13px;color:var(--muted)}
+
+  /* works */
+  .works{background:var(--bg-2)}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+  .work{position:relative;aspect-ratio:4/5;border-radius:14px;overflow:hidden}
+  .work svg{width:100%;height:100%}
+  .work .lbl{position:absolute;left:12px;bottom:12px;background:rgba(255,250,246,.92);border-radius:20px;padding:6px 12px;font-size:12px;font-weight:600}
+  .ig-note{text-align:center;color:var(--muted);font-size:13px;margin-top:18px}
+
+  /* booking */
+  .book .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:50px;align-items:start}
+  .steps-mini{display:grid;gap:14px;margin-top:26px}
+  .steps-mini div{display:flex;gap:12px;align-items:flex-start;font-size:15px}
+  .steps-mini i{flex:none;width:28px;height:28px;border-radius:50%;background:var(--rose-2);color:var(--espresso);font-style:normal;font-weight:700;display:grid;place-items:center;font-size:13px}
+  form.box{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;display:grid;gap:16px;box-shadow:0 20px 50px rgba(59,42,36,.06)}
+  label.f{font-size:12px;color:var(--muted);display:grid;gap:7px;font-weight:500}
+  .inp{border:1px solid var(--line);border-radius:10px;padding:12px 13px;background:#fff;width:100%;font-size:14px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .days{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+  .day{flex:none;border:1px solid var(--line);background:#fff;border-radius:12px;padding:8px 12px;text-align:center;font-size:12px;min-width:60px}
+  .day b{display:block;font-size:19px;font-family:"Cormorant Garamond",serif}
+  .day.on{background:var(--espresso);color:#fff;border-color:var(--espresso)}
+  .day.off{opacity:.35;cursor:default}
+  .slots{display:flex;gap:8px;flex-wrap:wrap}
+  .slot{border:1px solid var(--line);background:#fff;border-radius:10px;padding:9px 13px;font-size:13px}
+  .slot.on{background:var(--espresso);color:#fff;border-color:var(--espresso)}
+  .slot[disabled]{opacity:.35;text-decoration:line-through;cursor:default}
+  .sum{display:flex;justify-content:space-between;align-items:center;background:var(--bg);border-radius:12px;padding:12px 14px;font-size:14px}
+  .sum b{font-family:"Cormorant Garamond",serif;font-size:22px}
+
+  /* about */
+  .about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+  .about p{color:var(--ink-2);margin-top:14px;font-size:16px}
+  .cake{margin-top:24px;display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+  .cake svg{width:44px;height:44px;flex:none}
+  .cake span{font-size:13px;color:var(--muted)}
+  .about-art{aspect-ratio:1/1;border-radius:16px;overflow:hidden}
+  .about-art svg{width:100%;height:100%}
+
+  /* faq */
+  .faq{background:var(--card)}
+  details{border-bottom:1px solid var(--line);padding:18px 0}
+  summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px}
+  summary::-webkit-details-marker{display:none}
+  summary:after{content:"+";font-size:22px;line-height:1;color:var(--rose)}
+  details[open] summary:after{content:"–"}
+  details p{color:var(--ink-2);margin-top:10px;font-size:15px}
+
+  footer{background:var(--espresso);color:#cdb9ae;padding:54px 0 40px;font-size:14px}
+  footer .wrap{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:30px}
+  footer h4{font-family:"Cormorant Garamond",serif;color:#fff;font-size:22px;font-weight:600;margin-bottom:10px}
+  footer a{color:var(--rose-2);text-decoration:none}
+  footer ul{list-style:none;display:grid;gap:7px}
+  .credit{border-top:1px solid #54413a;margin-top:36px;padding-top:18px;font-size:12px;color:#9c877c}
+
+  .sticky-cta{display:none}
+  .modal{position:fixed;inset:0;z-index:60;display:none;place-items:center;background:rgba(42,31,27,.55);padding:16px;backdrop-filter:blur(3px)}
+  .modal.show{display:grid}
+  .mbox{background:var(--card);border-radius:18px;width:min(440px,100%);padding:30px;text-align:center;display:grid;gap:12px;justify-items:center}
+  .tick{width:64px;height:64px;border-radius:50%;background:var(--ok);display:grid;place-items:center}
+  .mbox h3{font-family:"Cormorant Garamond",serif;font-size:30px;font-weight:600}
+  .tg{background:#e4ecdf;border-radius:12px;padding:12px;width:100%;text-align:left;font-size:13px}
+  .tg .msg{background:#fff;border-radius:12px 12px 12px 4px;padding:10px 12px;box-shadow:0 1px 1px rgba(0,0,0,.08)}
+  .tg .tm{display:block;text-align:right;font-size:10px;color:#8a9a84}
+  .toast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,200px);background:var(--espresso);color:#fff;padding:12px 20px;border-radius:30px;font-size:14px;z-index:80;transition:.35s;max-width:calc(100% - 32px);text-align:center}
+  .toast.show{transform:translate(-50%,0)}
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+  .reveal.in{opacity:1;transform:none}
+
+  @media (max-width:900px){
+    .links{display:none}
+    .hero .wrap,.shades .wrap,.book .wrap,.about .wrap{grid-template-columns:1fr}
+    .hero .wrap{padding-top:28px;gap:34px}
+    .hero-wrap{order:-1;max-width:300px;margin:0 auto;width:100%}
+    .svc-list{grid-template-columns:1fr}
+    .grid{grid-template-columns:repeat(2,1fr)}
+    footer .wrap{grid-template-columns:1fr}
+    section{padding:64px 0}
+    .sticky-cta{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:40;gap:8px}
+    .sticky-cta a{flex:1;box-shadow:0 10px 30px rgba(42,31,27,.25)}
+    body{padding-bottom:76px}
+    .nav .btn{display:none}
+  }
+  @media (max-width:520px){
+    .wrap{padding:0 16px}
+    .hero h1{font-size:46px}
+    .two{grid-template-columns:1fr}
+    .swatches{grid-template-columns:repeat(4,1fr);gap:8px}
+    .facts{gap:22px}
+    .badge{left:8px;bottom:18px}
+    .svc{flex-wrap:wrap}
+    .svc .nm{flex-basis:100%}
+    .svc .pr{margin-right:auto}
+  }
+</style>
+</head>
+<body>
+
+<div class="demo-bar">Демо-концепт сайту для Світлани · ціни, фото та тексти умовні</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">Світлана<small>hair stylist</small></a>
+    <nav class="links">
+      <a href="#services">Послуги і ціни</a>
+      <a href="#works">Роботи</a>
+      <a href="#about">Про мене</a>
+      <a href="#faq">Питання</a>
+    </nav>
+    <a class="btn btn-dark btn-sm" href="#book">Записатись</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" style="padding:0">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">Перукар · Миколаїв</div>
+        <h1>Волосся, яке <em>хочеться</em> торкатись</h1>
+        <p>Стрижки, фарбування, догляд і зачіски на свято. Приходите за образом, а йдете з волоссям, яке легко укладати вдома.</p>
+        <div class="cta">
+          <a class="btn btn-dark" href="#book">Записатись онлайн</a>
+          <a class="btn btn-line" href="#services">Послуги і ціни</a>
+        </div>
+        <div class="facts">
+          <div><b>5 хв</b>на онлайн-запис</div>
+          <div><b>24/7</b>вільні вікна</div>
+          <div><b>1 : 1</b>тільки ви і майстер</div>
+        </div>
+      </div>
+      <div class="hero-wrap">
+        <div class="portrait" id="portrait"></div>
+        <div class="badge"><i></i><div><span>Найближче вільне вікно</span><b id="nearest">Завтра, 11:00</b></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="svc-head reveal">
+        <div><div class="eyebrow">Послуги</div><h2 class="t">Послуги і ціни</h2></div>
+        <p class="sub">Остаточна ціна залежить від довжини і густоти. Точно порахую на консультації, вона безкоштовна.</p>
+      </div>
+      <div class="tabs" id="tabs"></div>
+      <div class="svc-list" id="svcList"></div>
+    </div>
+  </section>
+
+  <section class="shades" id="shades">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Фарбування</div>
+        <h2 class="t">Оберіть відтінок, який вам подобається</h2>
+        <p class="sub" style="margin-top:14px">Натисніть на колір, і він додасться до запису. Так я заздалегідь підготую фарбу і час.</p>
+        <div class="preview" id="preview"></div>
+      </div>
+      <div class="swatches reveal" id="swatches"></div>
+    </div>
+  </section>
+
+  <section class="works" id="works">
+    <div class="wrap">
+      <div class="svc-head reveal" style="margin-bottom:0">
+        <div><div class="eyebrow">Портфоліо</div><h2 class="t">Роботи</h2></div>
+        <a class="btn btn-line btn-sm" href="https://instagram.com/sveet_time" target="_blank" rel="noopener">Більше в Instagram</a>
+      </div>
+      <div class="grid reveal" id="works-grid"></div>
+      <div class="ig-note">Тут будуть ваші справжні роботи, вони підтягуються з Instagram автоматично</div>
+    </div>
+  </section>
+
+  <section class="book" id="book">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Онлайн-запис</div>
+        <h2 class="t">Запис без переписок</h2>
+        <div class="steps-mini">
+          <div><i>1</i><span>Оберіть послугу, день і вільний час</span></div>
+          <div><i>2</i><span>Залиште ім’я і телефон</span></div>
+          <div><i>3</i><span>Отримайте підтвердження і нагадування за день до візиту</span></div>
+        </div>
+      </div>
+      <form class="box reveal" id="bookForm">
+        <label class="f">Послуга<select class="inp" id="svcSel"></select></label>
+        <label class="f">День<div class="days" id="days"></div></label>
+        <label class="f">Час<div class="slots" id="slots"></div></label>
+        <div class="two">
+          <label class="f">Ім’я<input class="inp" required placeholder="Ваше ім’я"></label>
+          <label class="f">Телефон<input class="inp" required type="tel" placeholder="+380"></label>
+        </div>
+        <div class="sum"><span id="sumTxt">Жіноча стрижка</span><b id="sumPr">від 500 ₴</b></div>
+        <button class="btn btn-dark" type="submit">Підтвердити запис</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-art reveal" id="aboutArt"></div>
+      <div class="reveal">
+        <div class="eyebrow">Про мене</div>
+        <h2 class="t">Колись я створювала торти, тепер створюю образи</h2>
+        <p>Я прийшла в перукарство з кондитерства і забрала звідти головне: любов до деталей, точність і бажання, щоб результат радував не один день.</p>
+        <p>Працюю з кожною клієнткою сама, від консультації до укладки. Підкажу, як доглядати за волоссям удома, щоб колір і форма трималися довше.</p>
+        <a class="cake" href="https://instagram.com/mag.cake" target="_blank" rel="noopener">
+          <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="24" width="32" height="16" rx="3" fill="#e3b8a8"/><rect x="12" y="14" width="24" height="12" rx="3" fill="#f3d6cb"/><path d="M8 30c4 3 8-3 12 0s8-3 12 0 8-3 8 0" stroke="#fff" stroke-width="2"/><rect x="23" y="6" width="2" height="8" fill="#c08a7a"/><path d="M24 2c2 2 2 4 0 5-2-1-2-3 0-5z" fill="#f0b64c"/></svg>
+          <div><b>А ще я печу торти</b><br><span>@mag.cake · солодке на ваше свято</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="wrap" style="max-width:780px">
+      <div class="reveal" style="margin-bottom:20px"><div class="eyebrow">Питання</div><h2 class="t">Часті питання</h2></div>
+      <details open><summary>Скільки триває фарбування?</summary><p>Від 2 до 5 годин залежно від техніки. Точний час я бачу при записі, тож ви не чекатимете.</p></details>
+      <details><summary>Чи можна перенести запис?</summary><p>Так, просто напишіть мені не пізніше, ніж за 24 години. Або натисніть «Перенести» в нагадуванні.</p></details>
+      <details><summary>Чи потрібна консультація перед фарбуванням?</summary><p>Для складного фарбування так, вона безкоштовна і займає 15 хвилин. Можна онлайн, по фото.</p></details>
+      <details><summary>Як оплатити?</summary><p>Готівкою або карткою на місці. Подарункові сертифікати можна оплатити онлайн.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><h4>Світлана · hair stylist</h4><p>Стрижки, фарбування і догляд.<br>Адреса студії з Google Карт</p></div>
+    <div><h4>Контакти</h4><ul><li><a href="https://instagram.com/sveet_time" target="_blank" rel="noopener">Instagram @sveet_time</a></li><li><a href="#book">Онлайн-запис</a></li></ul></div>
+    <div><h4>Графік</h4><ul><li>Пн–Сб: 9:00–19:00</li><li>Нд: за домовленістю</li></ul></div>
+  </div>
+  <div class="wrap credit">Демо-концепт · підготовлено спеціально для Світлани</div>
+</footer>
+
+<div class="sticky-cta"><a class="btn btn-dark" href="#book">Записатись онлайн</a></div>
+
+<div class="modal" id="ok"><div class="mbox" id="okBox"></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const SVC=[
+  {c:'cut',n:'Жіноча стрижка',d:'з миттям і укладкою · 1 год',p:500,t:60},
+  {c:'cut',n:'Чоловіча стрижка',d:'40 хв',p:350,t:40},
+  {c:'cut',n:'Дитяча стрижка',d:'до 12 років · 30 хв',p:250,t:30},
+  {c:'color',n:'Фарбування в один тон',d:'2–3 год',p:1200,t:150},
+  {c:'color',n:'Балаяж / AirTouch',d:'4–5 год',p:2500,t:270},
+  {c:'color',n:'Тонування',d:'1,5 год',p:800,t:90},
+  {c:'care',n:'Відновлювальний догляд',d:'кератин або ботокс · 2 год',p:1500,t:120},
+  {c:'care',n:'Спа-догляд для шкіри голови',d:'40 хв',p:450,t:40},
+  {c:'style',n:'Укладка',d:'локони, об’єм, гладкість · 45 хв',p:400,t:45},
+  {c:'style',n:'Вечірня або весільна зачіска',d:'з пробною · 1,5 год',p:900,t:90}
+];
+const CATS=[['all','Усі'],['cut','Стрижки'],['color','Фарбування'],['care','Догляд'],['style','Укладки']];
+const SHADES=[['Молочний блонд','#eadcc4','#d8c3a0'],['Перлинний','#e2dcd6','#bfb3aa'],['Мед','#d4a262','#a8743a'],['Карамель','#b9804f','#8a5a34'],['Мідний','#b8612f','#8a3f1c'],['Шоколад','#5e3a28','#3a2218'],['Мокко','#7a5646','#4f362b'],['Графіт','#3a3433','#1f1a19']];
+let cat='all',svcIdx=0,day=0,slot=null,shade=null;
+
+function hairSVG(ends,root,skin='#eecab4',bg=['#efe0d6','#e3cfc2'],uid='h',bob=false){
+  // вигляд зі спини: коріння -> довжина, пасма, відблиск
+  const L=bob?330:470;
+  const R=(a,b)=>a+Math.random()*(b-a);
+  let strands='';
+  for(let i=0;i<22;i++){
+    const x0=132+i*(136/21)+R(-4,4),x1=110+i*(180/21)+R(-6,6),mid=(x0+x1)/2+R(-18,18);
+    const light=i%3===0;
+    strands+=`<path d="M${x0} ${R(92,120)} C ${mid} ${R(200,260)}, ${x1+R(-10,10)} ${L-120}, ${x1} ${L-R(0,16)}" stroke="${light?'#fff':'#000'}" stroke-opacity="${light?R(.10,.22):R(.06,.14)}" stroke-width="${R(1.2,3.4)}" fill="none" stroke-linecap="round"/>`;
+  }
+  const bottom=bob
+   ?`C 300 300, 292 332, 270 336 C 240 342, 160 342, 130 336 C 108 332, 100 300, 104 250`
+   :`C 302 360, 312 420, 296 452 C 286 474, 268 482, 254 470 C 244 486, 224 492, 208 478 C 192 494, 168 488, 158 474 C 138 486, 114 474, 104 450 C 90 400, 96 330, 104 250`;
+  return `<svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+   <linearGradient id="${uid}b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${bg[0]}"/><stop offset="1" stop-color="${bg[1]}"/></linearGradient>
+   <linearGradient id="${uid}h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${root}"/><stop offset=".38" stop-color="${root}"/><stop offset="${bob?'.8':'.72'}" stop-color="${ends}"/><stop offset="1" stop-color="${ends}"/></linearGradient>
+   <linearGradient id="${uid}sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${skin}"/><stop offset="1" stop-color="#d9ad95"/></linearGradient>
+   <radialGradient id="${uid}sh" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+   <clipPath id="${uid}c"><path d="M104 250 C 96 120, 140 70, 200 70 C 260 70, 304 120, 296 250 ${bottom.replace(/^C 30[02] [0-9]+,/,'C 300 300,')}Z"/></clipPath>
+  </defs>
+  <rect width="400" height="500" fill="url(#${uid}b)"/>
+  <circle cx="320" cy="80" r="130" fill="#fff" opacity=".22"/>
+  <path d="M40 500 C 60 440, 120 408, 160 400 L240 400 C 280 408, 340 440, 360 500Z" fill="url(#${uid}sk)"/>
+  <path d="M150 402 L150 500 M250 402 L250 500" stroke="#3b2a24" stroke-width="7" opacity=".85"/>
+  <path d="M40 500 C 60 440, 120 408, 160 400 L240 400 C 280 408, 340 440, 360 500" fill="none" stroke="#000" stroke-opacity=".05" stroke-width="10"/>
+  <rect x="176" y="330" width="48" height="80" rx="20" fill="${skin}"/>
+  <g clip-path="url(#${uid}c)">
+    <rect width="400" height="500" fill="url(#${uid}h)"/>
+    ${strands}
+    <ellipse cx="200" cy="150" rx="120" ry="26" fill="url(#${uid}sh)"/>
+    <ellipse cx="205" cy="${bob?270:330}" rx="90" ry="14" fill="url(#${uid}sh)" opacity=".5"/>
+  </g>
+  </svg>`;
+}
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2600);}
+
+function renderTabs(){
+  document.getElementById('tabs').innerHTML=CATS.map(([k,n])=>`<button class="tab${k===cat?' on':''}" data-k="${k}">${n}</button>`).join('');
+  document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cat=b.dataset.k;renderTabs();renderSvc();});
+}
+function renderSvc(){
+  document.getElementById('svcList').innerHTML=SVC.map((s,i)=>({s,i})).filter(({s})=>cat==='all'||s.c===cat).map(({s,i})=>`<div class="svc"><div class="nm"><b>${s.n}</b><span>${s.d}</span></div><div class="pr">від ${s.p} ₴</div><button data-i="${i}">Записатись</button></div>`).join('');
+  document.querySelectorAll('.svc button').forEach(b=>b.onclick=()=>{svcIdx=+b.dataset.i;syncBook();document.getElementById('book').scrollIntoView({behavior:'smooth'});toast('Послугу додано в запис');});
+}
+function renderShades(){
+  document.getElementById('swatches').innerHTML=SHADES.map(([n,a,b],i)=>`<button class="sw${i===shade?' on':''}" data-i="${i}" style="background:linear-gradient(160deg,${a},${b})"><span>${n}</span></button>`).join('');
+  document.querySelectorAll('.sw').forEach(b=>b.onclick=()=>{shade=+b.dataset.i;if(SVC[svcIdx].c!=='color')svcIdx=3;renderShades();syncBook();toast('Відтінок «'+SHADES[shade][0]+'» додано в запис');});
+  const s=shade==null?null:SHADES[shade];
+  document.getElementById('preview').innerHTML=s?`<div class="dot" style="background:linear-gradient(160deg,${s[1]},${s[2]})"></div><div><b>${s[0]}</b><span>додано до запису на фарбування</span></div>`:`<div class="dot" style="background:conic-gradient(${SHADES.map(x=>x[1]).join(',')})"></div><div><b>Відтінок не обрано</b><span>натисніть на колір праворуч</span></div>`;
+  document.getElementById('portrait').innerHTML=hairSVG(s?s[1]:'#9a6a4c',s?s[2]:'#5a3a2a','#eecab4',['#efe0d6','#e3cfc2'],'p');
+}
+function renderDays(){
+  const box=document.getElementById('days');const out=[];
+  for(let i=0;i<10;i++){const d=new Date();d.setDate(d.getDate()+i+1);const off=d.getDay()===0;out.push(`<button type="button" class="day${i===day&&!off?' on':''}${off?' off':''}" data-d="${i}" ${off?'disabled':''}>${d.toLocaleDateString('uk-UA',{weekday:'short'})}<b>${d.getDate()}</b></button>`);}
+  box.innerHTML=out.join('');
+  box.querySelectorAll('.day:not(.off)').forEach(b=>b.onclick=()=>{day=+b.dataset.d;slot=null;renderDays();});
+  const taken=[[1,4],[0,2,5],[3],[1,2],[0,4,6],[2],[5],[1,3],[0],[4]][day];
+  const times=['9:00','10:30','11:00','13:00','14:30','16:00','17:30'];
+  if(slot==null)slot=times.findIndex((_,i)=>!taken.includes(i));
+  const sl=document.getElementById('slots');
+  sl.innerHTML=times.map((t,i)=>`<button type="button" class="slot${i===slot?' on':''}" data-s="${i}" ${taken.includes(i)?'disabled':''}>${t}</button>`).join('');
+  sl.querySelectorAll('.slot:not([disabled])').forEach(b=>b.onclick=()=>{slot=+b.dataset.s;renderDays();});
+}
+function syncBook(){
+  const sel=document.getElementById('svcSel');
+  sel.innerHTML=SVC.map((s,i)=>`<option value="${i}" ${i===svcIdx?'selected':''}>${s.n} · від ${s.p} ₴</option>`).join('');
+  const s=SVC[svcIdx];
+  document.getElementById('sumTxt').textContent=s.n+(shade!=null&&s.c==='color'?' · '+SHADES[shade][0]:'');
+  document.getElementById('sumPr').textContent='від '+s.p+' ₴';
+}
+document.getElementById('svcSel').onchange=e=>{svcIdx=+e.target.value;syncBook();};
+document.getElementById('bookForm').onsubmit=e=>{
+  e.preventDefault();
+  const d=new Date();d.setDate(d.getDate()+day+1);
+  const dateTxt=d.toLocaleDateString('uk-UA',{weekday:'long',day:'numeric',month:'long'});
+  const t=document.querySelector('.slot.on')?.textContent||'';
+  const name=e.target.querySelector('input').value;
+  const s=SVC[svcIdx];
+  document.getElementById('okBox').innerHTML=`<div class="tick"><svg width="30" height="30" viewBox="0 0 16 16"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="#fff" stroke-width="2"/></svg></div>
+   <h3>Ви записані!</h3><p style="color:var(--muted)">${dateTxt}, ${t}<br>${s.n}. Нагадаю за день до візиту.</p>
+   <div style="font-size:12px;color:var(--muted)">А так запис бачить Світлана в Telegram:</div>
+   <div class="tg"><div class="msg"><b>📅 Новий запис</b><br>${name||'Клієнтка'} · ${e.target.querySelector('input[type=tel]').value}<br>${s.n}${shade!=null&&s.c==='color'?' · '+SHADES[shade][0]:''}<br>${dateTxt}, ${t}<span class="tm">${new Date().toTimeString().slice(0,5)}</span></div></div>
+   <button class="btn btn-dark" id="okClose">Чудово</button>`;
+  document.getElementById('ok').classList.add('show');
+  document.getElementById('okClose').onclick=()=>document.getElementById('ok').classList.remove('show');
+  e.target.reset();syncBook();
+};
+document.getElementById('ok').onclick=e=>{if(e.target.id==='ok')e.target.classList.remove('show');};
+
+const WORKS=[['Балаяж','#e0b273','#5a3a2a',['#f1e4da','#e5d2c4']],['Каре','#4a2c20','#3a2218',['#e9e2dc','#d9ccc2'],1],['Молочний блонд','#efe2c8','#cdb58f',['#efe6de','#e0d2c6']],['Мідний','#c2672f','#8a3f1c',['#f3e5da','#e7d3c3']],['Шоколад','#6a4230','#3a2218',['#ece2da','#dccdc1'],1],['Карамель','#c98f58','#7a5238',['#f2e6dc','#e4d2c3']]];
+document.getElementById('works-grid').innerHTML=WORKS.map(([n,a,b,bg,bob],i)=>`<div class="work">${hairSVG(a,b,'#eecab4',bg,'w'+i,!!bob)}<span class="lbl">${n}</span></div>`).join('');
+document.getElementById('aboutArt').innerHTML=hairSVG('#b98659','#4a2c20','#eecab4',['#f3e3d8','#e8d0c1'],'a');
+
+const nd=new Date();nd.setDate(nd.getDate()+1);
+document.getElementById('nearest').textContent='Завтра, '+nd.toLocaleDateString('uk-UA',{day:'numeric',month:'long'})+', 11:00';
+
+renderTabs();renderSvc();renderShades();renderDays();syncBook();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
