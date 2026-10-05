@@ -1,7 +1,7 @@
-[ct2-efh] saved 8
-[ct2-sfh] saved 6
-[ct2-modern] saved 6
-[ct2-living] saved 6
-[ct2-wohn] saved 4
-[ct2-rohbau] saved 5
-[ct2-terrace] saved 4
+[lk2-openbook] saved 8
+[lk2-bind] saved 6
+[lk2-bind2] saved 0
+[lk2-leather] saved 5
+[lk2-book] saved 6
+[lk2-textile] saved 5
+[lk2-hands] saved 5
