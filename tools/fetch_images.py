@@ -131,7 +131,7 @@ def main(req_path):
         log.append(f"[{name}] saved {len(manifest)}")
     for g in req.get("get", []):
         try:
-            ua = BROWSER_UA if "unsplash" in g["url"] else UA
+            ua = BROWSER_UA if ("unsplash" in g["url"] or "pexels" in g["url"]) else UA
             size = save_jpg(fetch(g["url"], ua=ua), g["out"], g.get("w", 2000), g.get("quality", 78))
             log.append(f"[get] {g['out']} {size}")
         except Exception as e:  # noqa: BLE001

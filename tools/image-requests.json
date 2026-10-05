@@ -1,175 +1,148 @@
 {
  "pool": [
   {
-   "name": "kv-bouquet",
-   "q": "incategory:\"Quality_images\" bridal bouquet",
+   "name": "kc-bridal-bouquets",
+   "q": "incategory:\"Bridal_bouquets\"",
    "src": [
     "commons"
    ],
-   "n": 8,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-bouquet2",
-   "q": "wedding bouquet bride flowers",
+   "name": "kc-wedding-bouquets",
+   "q": "incategory:\"Wedding_bouquets\"",
    "src": [
     "commons"
    ],
-   "n": 8,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-arch",
-   "q": "wedding arch flowers",
+   "name": "kc-wedding-decoration",
+   "q": "incategory:\"Wedding_decorations\"",
    "src": [
     "commons"
    ],
-   "n": 8,
-   "w": 1920
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-ceremony",
-   "q": "wedding ceremony floral decoration",
+   "name": "kc-wedding-flowers",
+   "q": "incategory:\"Wedding_flowers\"",
    "src": [
     "commons"
    ],
-   "n": 8,
-   "w": 1920
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-table",
-   "q": "wedding table centerpiece flowers",
+   "name": "kc-floral-arches",
+   "q": "incategory:\"Floral_arches\"",
    "src": [
     "commons"
    ],
-   "n": 8,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-table2",
-   "q": "incategory:\"Quality_images\" table setting flowers",
+   "name": "kc-wedding-arches",
+   "q": "incategory:\"Wedding_arches\"",
    "src": [
     "commons"
    ],
-   "n": 6,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-arrangement",
-   "q": "incategory:\"Quality_images\" flower arrangement",
+   "name": "kc-centrepieces",
+   "q": "incategory:\"Centrepieces\"",
    "src": [
     "commons"
    ],
-   "n": 8,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-florist",
-   "q": "florist arranging flowers",
+   "name": "kc-boutonnieres",
+   "q": "incategory:\"Boutonnieres\"",
    "src": [
     "commons"
    ],
-   "n": 8,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-shop",
-   "q": "incategory:\"Quality_images\" flower shop",
+   "name": "kc-floristry",
+   "q": "incategory:\"Floristry\"",
    "src": [
     "commons"
    ],
-   "n": 6,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-boutonniere",
-   "q": "boutonniere wedding",
+   "name": "kc-florists",
+   "q": "incategory:\"Florists\"",
    "src": [
     "commons"
    ],
-   "n": 6,
-   "w": 960
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-peony",
-   "q": "incategory:\"Quality_images\" peonies",
+   "name": "kc-bouquets-of-peonie",
+   "q": "incategory:\"Bouquets_of_peonies\"",
    "src": [
     "commons"
    ],
-   "n": 8,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-rose",
-   "q": "incategory:\"Quality_images\" roses bouquet",
+   "name": "kc-bouquets-of-roses",
+   "q": "incategory:\"Bouquets_of_roses\"",
    "src": [
     "commons"
    ],
-   "n": 6,
-   "w": 1280
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-ranunc",
-   "q": "incategory:\"Quality_images\" ranunculus",
+   "name": "kc-dried-flowers",
+   "q": "incategory:\"Dried_flowers\"",
    "src": [
     "commons"
    ],
-   "n": 4,
-   "w": 960
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-hydr",
-   "q": "incategory:\"Quality_images\" hydrangea",
+   "name": "kc-wedding-receptions",
+   "q": "incategory:\"Wedding_receptions\"",
    "src": [
     "commons"
    ],
-   "n": 4,
-   "w": 960
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-dahlia",
-   "q": "incategory:\"Quality_images\" dahlia",
+   "name": "kc-flower-arrangement",
+   "q": "incategory:\"Flower_arrangements_in_vases\"",
    "src": [
     "commons"
    ],
-   "n": 4,
-   "w": 960
+   "n": 10,
+   "w": 1600
   },
   {
-   "name": "kv-tulip",
-   "q": "incategory:\"Quality_images\" tulips",
+   "name": "kc-eustoma-grandiflor",
+   "q": "incategory:\"Eustoma_grandiflorum\"",
    "src": [
     "commons"
    ],
-   "n": 4,
-   "w": 960
-  },
-  {
-   "name": "kv-gypso",
-   "q": "incategory:\"Quality_images\" gypsophila",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 960
-  },
-  {
-   "name": "kv-euca",
-   "q": "incategory:\"Quality_images\" eucalyptus leaves",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 960
-  },
-  {
-   "name": "kv-wedding",
-   "q": "incategory:\"Quality_images\" wedding",
-   "src": [
-    "commons"
-   ],
-   "n": 8,
-   "w": 1920
+   "n": 10,
+   "w": 1600
   }
  ]
 }
