@@ -1,64 +1,202 @@
 {
- "get": [
+ "pool": [
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Piotrkowska_Street_in_%C5%81%C3%B3d%C5%BA_at_the_intersection_with_Tuwima_Street._July_2023%2C_%C5%81%C3%B3dz%2C_Poland.jpg/1920px-Piotrkowska_Street_in_%C5%81%C3%B3d%C5%BA_at_the_intersection_with_Tuwima_Street._July_2023%2C_%C5%81%C3%B3dz%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/hero.jpg",
+   "name": "ra-hero-int",
+   "q": "incategory:\"Quality_images\" living room interior",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
    "w": 1920
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Critcal_Mass_in_%C5%81%C3%B3d%C5%BA%2C_Piotrkowska_Street%2C_October_2015_01.jpg/1280px-Critcal_Mass_in_%C5%81%C3%B3d%C5%BA%2C_Piotrkowska_Street%2C_October_2015_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/piotrkowska-night.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Fountain_pen_writing_%28literacy%29.jpg/1280px-Fountain_pen_writing_%28literacy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/pen.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/The_Residence_of_Bukovinian_and_Dalmatian_Metropolitans_in_Chernivtsi_DSC_9710.JPG/1280px-The_Residence_of_Bukovinian_and_Dalmatian_Metropolitans_in_Chernivtsi_DSC_9710.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/chernivtsi.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/%D0%A0%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D1%96%D1%8F_%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D1%96%D0%B2_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8_%D1%96_%D0%94%D0%B0%D0%BB%D0%BC%D0%B0%D1%86%D1%96%D1%97_5.jpg/1280px-%D0%A0%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D1%96%D1%8F_%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D1%96%D0%B2_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8_%D1%96_%D0%94%D0%B0%D0%BB%D0%BC%D0%B0%D1%86%D1%96%D1%97_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/chernivtsi-aerial.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Austria_-_G%C3%B6ttweig_Abbey_-_2015.jpg/1280px-Austria_-_G%C3%B6ttweig_Abbey_-_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/library.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%C5%81%C3%B3d%C5%BA_2023_13_Palace_Street_Corner.jpg/1280px-%C5%81%C3%B3d%C5%BA_2023_13_Palace_Street_Corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/poznanski.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/%C5%81%C3%B3d%C5%BA_2023_01.jpg/1280px-%C5%81%C3%B3d%C5%BA_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/manufaktura.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%C5%81%C3%B3d%C5%BA_Piotrkowska_December_2011.jpg/1280px-%C5%81%C3%B3d%C5%BA_Piotrkowska_December_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/piotrkowska-lights.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017.jpg/1280px-%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/gaiseniuk/img/fabryczna.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Piazza_dei_miracoli_-_aerial_panorama.jpg/1920px-Piazza_dei_miracoli_-_aerial_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/miracoli-aerial.jpg",
+   "name": "ra-kitchen",
+   "q": "incategory:\"Quality_images\" kitchen interior",
+   "src": [
+    "commons"
+   ],
+   "n": 5,
    "w": 1920
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Cypress_tree_alley_at_sunset_in_Asciano%2C_Tuscany.jpg/1920px-Cypress_tree_alley_at_sunset_in_Asciano%2C_Tuscany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/cypress.jpg",
+   "name": "ra-alicante",
+   "q": "incategory:\"Quality_images\" Alicante",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
    "w": 1920
+  },
+  {
+   "name": "ra-bath",
+   "q": "modern bathroom interior tiles shower",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 1280
+  },
+  {
+   "name": "ra-bath-q",
+   "q": "incategory:\"Quality_images\" bathroom",
+   "src": [
+    "commons"
+   ],
+   "n": 5,
+   "w": 1280
+  },
+  {
+   "name": "ra-reno",
+   "q": "apartment renovation interior walls",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 1280
+  },
+  {
+   "name": "ra-reno2",
+   "q": "room under renovation plaster",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 1280
+  },
+  {
+   "name": "ra-parquet",
+   "q": "parquet floor laying installation",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 960
+  },
+  {
+   "name": "ra-parquet2",
+   "q": "Parkett verlegen",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "ra-parquet-q",
+   "q": "incategory:\"Quality_images\" parquet",
+   "src": [
+    "commons"
+   ],
+   "n": 5,
+   "w": 960
+  },
+  {
+   "name": "ra-tiles",
+   "q": "tiler laying tiles",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 960
+  },
+  {
+   "name": "ra-tiles2",
+   "q": "Fliesenleger",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "ra-azulejos",
+   "q": "incategory:\"Quality_images\" azulejos",
+   "src": [
+    "commons"
+   ],
+   "n": 5,
+   "w": 960
+  },
+  {
+   "name": "ra-drywall",
+   "q": "drywall installation",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 960
+  },
+  {
+   "name": "ra-drywall2",
+   "q": "Trockenbau",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "ra-drywall3",
+   "q": "plasterboard ceiling construction",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "ra-weld-q",
+   "q": "incategory:\"Quality_images\" welding",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
+   "w": 960
+  },
+  {
+   "name": "ra-weld2",
+   "q": "welder at work sparks",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "ra-elec",
+   "q": "electrician at work",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 960
+  },
+  {
+   "name": "ra-elec-q",
+   "q": "incategory:\"Quality_images\" electrical installation",
+   "src": [
+    "commons"
+   ],
+   "n": 5,
+   "w": 960
+  },
+  {
+   "name": "ra-elec3",
+   "q": "Elektroinstallation",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "ra-paint",
+   "q": "painter painting wall roller",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
   }
  ]
 }
