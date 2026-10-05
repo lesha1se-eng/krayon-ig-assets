@@ -1,8 +1,8 @@
 {
  "pool": [
   {
-   "name": "lk2-openbook",
-   "q": "incategory:\"Quality_images\" open book",
+   "name": "ms-massage",
+   "q": "incategory:\"Quality_images\" massage",
    "src": [
     "commons"
    ],
@@ -10,8 +10,17 @@
    "w": 1920
   },
   {
-   "name": "lk2-bind",
-   "q": "incategory:\"Quality_images\" bookbinding",
+   "name": "ms-massage2",
+   "q": "massage therapy hands back",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 1920
+  },
+  {
+   "name": "ms-spa",
+   "q": "incategory:\"Quality_images\" spa wellness",
    "src": [
     "commons"
    ],
@@ -19,17 +28,8 @@
    "w": 1280
   },
   {
-   "name": "lk2-bind2",
-   "q": "handmade book cover fabric",
-   "src": [
-    "commons"
-   ],
-   "n": 6,
-   "w": 1280
-  },
-  {
-   "name": "lk2-leather",
-   "q": "leather notebook cover",
+   "name": "ms-face",
+   "q": "facial massage",
    "src": [
     "commons"
    ],
@@ -37,30 +37,30 @@
    "w": 1280
   },
   {
-   "name": "lk2-book",
-   "q": "incategory:\"Quality_images\" book on table",
+   "name": "ms-stones",
+   "q": "incategory:\"Quality_images\" stones towel spa",
    "src": [
     "commons"
    ],
-   "n": 6,
+   "n": 4,
    "w": 1280
   },
   {
-   "name": "lk2-textile",
-   "q": "incategory:\"Quality_images\" textile fabric",
+   "name": "ms-wroclaw",
+   "q": "incategory:\"Quality_images\" Wroc\u0142aw Ostr\u00f3w Tumski",
    "src": [
     "commons"
    ],
-   "n": 5,
-   "w": 1280
+   "n": 4,
+   "w": 1920
   },
   {
-   "name": "lk2-hands",
-   "q": "hands holding book",
+   "name": "ms-plants",
+   "q": "incategory:\"Quality_images\" eucalyptus leaves",
    "src": [
     "commons"
    ],
-   "n": 5,
+   "n": 4,
    "w": 1280
   }
  ]
