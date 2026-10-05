@@ -130,12 +130,18 @@ def main(req_path):
         json.dump(manifest, open(f"demos/_pool/{name}/manifest.json", "w"), ensure_ascii=False, indent=1)
         log.append(f"[{name}] saved {len(manifest)}")
     for g in req.get("get", []):
-        try:
-            ua = BROWSER_UA if ("unsplash" in g["url"] or "pexels" in g["url"]) else UA
-            size = save_jpg(fetch(g["url"], ua=ua), g["out"], g.get("w", 2000), g.get("quality", 78))
-            log.append(f"[get] {g['out']} {size}")
-        except Exception as e:  # noqa: BLE001
-            log.append(f"[get] FAILED {g['out']}: {e}")
+        err = None
+        for url in g.get("urls") or [g["url"]]:  # try alternatives in order
+            try:
+                ua = BROWSER_UA if ("unsplash" in url or "pexels" in url) else UA
+                size = save_jpg(fetch(url, ua=ua), g["out"], g.get("w", 2000), g.get("quality", 78))
+                log.append(f"[get] {g['out']} {size}")
+                err = None
+                break
+            except Exception as e:  # noqa: BLE001
+                err = e
+        if err:
+            log.append(f"[get] FAILED {g['out']}: {err}")
     os.makedirs("demos/_pool", exist_ok=True)
     open("demos/_pool/fetch-log.txt", "w").write("\n".join(log) + "\n")
     print("\n".join(log))
