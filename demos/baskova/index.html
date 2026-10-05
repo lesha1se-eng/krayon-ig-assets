@@ -184,7 +184,7 @@ textarea{min-height:90px;resize:vertical}
 
 footer{background:#17120f;color:#9c8d7e;font-size:13px;padding:30px 0}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.credits{font-size:11.5px;max-width:640px}.credits summary{cursor:pointer}.credits a{color:#c9b8a6}
+details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.credits summary{cursor:pointer;font-size:12px;font-weight:600;font-family:inherit;line-height:1.4;display:inline;list-style:none}details.credits summary::after{content:" ▾";font-size:11px;color:inherit}details.credits p{margin-top:6px;color:inherit}.credits a{color:#c9b8a6}
 .wa-float{position:fixed;right:18px;bottom:18px;z-index:50;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 12px 26px -8px rgba(0,0,0,.45);text-decoration:none;transition:.2s}
 .wa-float:hover{transform:scale(1.08)}
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
@@ -201,6 +201,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   section{padding:70px 0}
 }
 @media (max-width:520px){
+  .hero .bg img{object-position:88% center}
+  .logo{font-size:21px;white-space:nowrap}
+  .right .btn.sm{display:none}
   .intro-grid{grid-template-columns:1fr}
   .row2{grid-template-columns:1fr}
   .tour{grid-template-rows:220px auto}
