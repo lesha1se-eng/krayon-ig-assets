@@ -71,9 +71,12 @@ def commons(q, n, w):
     return out
 
 
-def openverse(q, n, w):
-    url = "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode(
-        {"q": q, "license_type": "commercial", "page_size": 30, "mature": "false"})
+def openverse(q, n, w, source=None):
+    params = {"q": q, "license_type": "commercial", "page_size": 30, "mature": "false",
+              "category": "photograph"}
+    if source:
+        params["source"] = source
+    url = "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode(params)
     data = json.loads(fetch(url, accept="application/json"))
     out = []
     for r in data.get("results", []):
@@ -107,7 +110,11 @@ def main(req_path):
         items = []
         for s in job.get("src", ["unsplash"]):
             try:
-                items += SOURCES[s](q, n, w)
+                if s == "openverse":
+                    items += openverse(q, n, w, job.get("ov_source"))
+                else:
+                    items += SOURCES[s](q, n, w)
+                time.sleep(1)
             except Exception as e:  # noqa: BLE001
                 log.append(f"[{name}] {s} search failed: {e}")
         manifest = []
