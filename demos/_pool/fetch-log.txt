@@ -1,34 +1,24 @@
-[pisa-tower] unsplash search failed: HTTP Error 401: Unauthorized
-[pisa-tower] saved 0
-[pisa-miracoli] unsplash search failed: HTTP Error 401: Unauthorized
-[pisa-miracoli] saved 0
-[pisa-arno] unsplash search failed: HTTP Error 401: Unauthorized
-[pisa-arno] saved 0
-[lucca] unsplash search failed: HTTP Error 401: Unauthorized
-[lucca] saved 0
-[lucca-walls] unsplash search failed: HTTP Error 401: Unauthorized
-[lucca-walls] saved 6
-[lucca-guinigi] unsplash search failed: HTTP Error 401: Unauthorized
-[lucca-guinigi] saved 5
-[lucca-anfiteatro] unsplash search failed: HTTP Error 401: Unauthorized
-[lucca-anfiteatro] saved 0
-[tuscany] unsplash search failed: HTTP Error 401: Unauthorized
-[tuscany] saved 0
-[guide] unsplash search failed: HTTP Error 401: Unauthorized
-[guide] saved 0
-[food] unsplash search failed: HTTP Error 401: Unauthorized
-[food] saved 0
-[lodz] unsplash search failed: HTTP Error 401: Unauthorized
-[lodz] saved 12
-[lodz-piotrkowska] unsplash search failed: HTTP Error 401: Unauthorized
-[lodz-piotrkowska] saved 6
-[docs] unsplash search failed: HTTP Error 401: Unauthorized
-[docs] saved 0
-[stamp] unsplash search failed: HTTP Error 401: Unauthorized
-[stamp] saved 0
-[translator] unsplash search failed: HTTP Error 401: Unauthorized
-[translator] saved 0
-[passport] unsplash search failed: HTTP Error 401: Unauthorized
-[passport] saved 0
-[books] unsplash search failed: HTTP Error 401: Unauthorized
-[books] saved 0
+[q-pisa] saved 12
+[q-miracoli] saved 8
+[q-arno] saved 6
+[q-lucca] saved 14
+[q-anfiteatro] saved 6
+[q-tuscany] saved 8
+[q-lodz] saved 14
+[q-piotrkowska] saved 3
+[ov-docs] openverse search failed: HTTP Error 401: Unauthorized
+[ov-docs] saved 0
+[ov-stamp] openverse search failed: HTTP Error 401: Unauthorized
+[ov-stamp] saved 0
+[ov-passport] openverse search failed: HTTP Error 401: Unauthorized
+[ov-passport] saved 0
+[ov-desk] openverse search failed: HTTP Error 429: Too Many Requests
+[ov-desk] saved 0
+[ov-books] openverse search failed: HTTP Error 429: Too Many Requests
+[ov-books] saved 0
+[ov-guide] openverse search failed: HTTP Error 429: Too Many Requests
+[ov-guide] saved 0
+[ov-food] openverse search failed: HTTP Error 429: Too Many Requests
+[ov-food] saved 0
+[ov-tuscany] openverse search failed: HTTP Error 429: Too Many Requests
+[ov-tuscany] saved 0
