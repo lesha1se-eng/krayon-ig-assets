@@ -1,18 +1,161 @@
-{"pool": [
- {"name": "q-pisa", "q": "Leaning Tower of Pisa incategory:\"Quality_images\"", "src": ["commons"], "n": 12},
- {"name": "q-miracoli", "q": "Piazza dei Miracoli incategory:\"Quality_images\"", "src": ["commons"], "n": 8},
- {"name": "q-arno", "q": "Pisa Arno incategory:\"Quality_images\"", "src": ["commons"], "n": 6},
- {"name": "q-lucca", "q": "Lucca incategory:\"Quality_images\"", "src": ["commons"], "n": 14},
- {"name": "q-anfiteatro", "q": "Piazza dell'Anfiteatro Lucca", "src": ["commons"], "n": 6},
- {"name": "q-tuscany", "q": "Tuscany landscape incategory:\"Featured_pictures_on_Wikimedia_Commons\"", "src": ["commons"], "n": 8},
- {"name": "q-lodz", "q": "Łódź incategory:\"Quality_images\"", "src": ["commons"], "n": 14},
- {"name": "q-piotrkowska", "q": "Piotrkowska incategory:\"Quality_images\"", "src": ["commons"], "n": 8},
- {"name": "ov-docs", "q": "documents desk pen signing", "src": ["openverse"], "n": 8},
- {"name": "ov-stamp", "q": "rubber stamp document", "src": ["openverse"], "n": 8},
- {"name": "ov-passport", "q": "passport documents", "src": ["openverse"], "n": 6},
- {"name": "ov-desk", "q": "woman working laptop desk", "src": ["openverse"], "n": 8, "ov_source": "stocksnap,rawpixel"},
- {"name": "ov-books", "q": "dictionary books", "src": ["openverse"], "n": 6},
- {"name": "ov-guide", "q": "tour guide tourists walking", "src": ["openverse"], "n": 6},
- {"name": "ov-food", "q": "tuscan wine cheese", "src": ["openverse"], "n": 6},
- {"name": "ov-tuscany", "q": "tuscany cypress hills", "src": ["openverse"], "n": 6}
-]}
+{
+ "pool": [
+  {
+   "name": "o-chernivtsi",
+   "q": "Chernivtsi University incategory:\"Quality_images\"",
+   "src": [
+    "commons"
+   ],
+   "n": 8
+  },
+  {
+   "name": "o-residence",
+   "q": "Residence of Bukovinian and Dalmatian Metropolitans",
+   "src": [
+    "commons"
+   ],
+   "n": 8
+  },
+  {
+   "name": "o-pen",
+   "q": "fountain pen incategory:\"Quality_images\"",
+   "src": [
+    "commons"
+   ],
+   "n": 8
+  },
+  {
+   "name": "o-library",
+   "q": "library interior books incategory:\"Featured_pictures_on_Wikimedia_Commons\"",
+   "src": [
+    "commons"
+   ],
+   "n": 10
+  },
+  {
+   "name": "o-ksiezy",
+   "q": "Księży Młyn incategory:\"Quality_images\"",
+   "src": [
+    "commons"
+   ],
+   "n": 8
+  },
+  {
+   "name": "o-manufaktura",
+   "q": "Manufaktura Łódź incategory:\"Quality_images\"",
+   "src": [
+    "commons"
+   ],
+   "n": 6
+  },
+  {
+   "name": "o-lodz-night",
+   "q": "Łódź Piotrkowska night",
+   "src": [
+    "commons"
+   ],
+   "n": 8
+  },
+  {
+   "name": "o-stamp",
+   "q": "rubber stamp",
+   "src": [
+    "commons"
+   ],
+   "n": 8
+  },
+  {
+   "name": "o-docs",
+   "q": "documents paper desk",
+   "src": [
+    "commons"
+   ],
+   "n": 8
+  },
+  {
+   "name": "o-ul",
+   "q": "University of Łódź",
+   "src": [
+    "commons"
+   ],
+   "n": 6
+  }
+ ],
+ "get": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg/1920px-The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/hero.jpg",
+   "w": 1920
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Piazza_dei_miracoli_-_aerial_panorama.jpg/1600px-Piazza_dei_miracoli_-_aerial_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/miracoli-aerial.jpg",
+   "w": 1600
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Piazza_dei_Miracoli_%28Pisa%29_2023.jpg/1280px-Piazza_dei_Miracoli_%28Pisa%29_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/pisa.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lucca_-_Torre_Guinigi_from_Campanile.jpg/1280px-Lucca_-_Torre_Guinigi_from_Campanile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/lucca-guinigi.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/02_Lucca_seen_from_Torre_Guinigi.jpg/1280px-02_Lucca_seen_from_Torre_Guinigi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/lucca-roofs.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Lucca_-_Piazza_Anfiteatro_View.jpg/1280px-Lucca_-_Piazza_Anfiteatro_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/anfiteatro-day.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Piazza_dell%27Anfiteatro_tramonto.jpg/1280px-Piazza_dell%27Anfiteatro_tramonto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/anfiteatro-sunset.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Piazza_del_Duomo_Pisa_1.jpg/1280px-Piazza_del_Duomo_Pisa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/battistero.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Pisa_-_Chiesa_di_Santa_Maria_della_Spina_-_2025-09-07_21-59-42_001.jpg/1280px-Pisa_-_Chiesa_di_Santa_Maria_della_Spina_-_2025-09-07_21-59-42_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/arno.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Lucca_San_Michele_in_Foro_01.jpg/960px-Lucca_San_Michele_in_Foro_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/san-michele.jpg",
+   "w": 960
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Cypress_tree_alley_at_sunset_in_Asciano%2C_Tuscany.jpg/1600px-Cypress_tree_alley_at_sunset_in_Asciano%2C_Tuscany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/cypress.jpg",
+   "w": 1600
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Exterior_of_the_Leaning_Tower_%28Pisa%29_at_night.jpg/960px-Exterior_of_the_Leaning_Tower_%28Pisa%29_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/tower-night.jpg",
+   "w": 960
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Window_in_a_cafe_in_San_Gimignano_%2802182%292.jpg/960px-Window_in_a_cafe_in_San_Gimignano_%2802182%292.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/window.jpg",
+   "w": 960
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Duomo_di_Lucca_vom_Torre_Guinigi_2009-07.jpg/1280px-Duomo_di_Lucca_vom_Torre_Guinigi_2009-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/lucca-duomo.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Walls_of_Lucca%2C_May_2013_%2802%29.JPG/1280px-Walls_of_Lucca%2C_May_2013_%2802%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/baskova/img/walls.jpg",
+   "w": 1280
+  }
+ ]
+}
