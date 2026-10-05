@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Олена Баскова · Гід у Пізі та Луцці українською</title>
+<meta name="description" content="Екскурсії Пізою, Луккою та Тосканою українською мовою. Гід і перекладач Олена Баскова.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#faf5ec;--sand:#f0e4cf;--terra:#c0623a;--terra-d:#9c4a27;--olive:#5f6b3a;--ink:#2b2420;--muted:#6f6359;--line:#e4d6bf;--card:#fffdf8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Manrope,system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;font-size:16px}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.1}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(250,245,236,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:600;text-decoration:none}
+.logo span{color:var(--terra)}
+.links{display:flex;gap:22px;font-size:14px;font-weight:500}
+.links a{text-decoration:none;color:var(--muted)}
+.links a:hover{color:var(--terra)}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;font-size:13px;font-weight:600}
+.lang button{border:0;background:none;padding:6px 12px;cursor:pointer;color:var(--muted);font:inherit}
+.lang button.on{background:var(--ink);color:var(--cream)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--terra);color:#fff;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:999px;border:0;cursor:pointer;font-size:15px;transition:.2s}
+.btn:hover{background:var(--terra-d);transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--cream)}
+/* hero */
+.hero{position:relative;overflow:hidden;background:linear-gradient(180deg,#f7e6c8 0%,#f3d6b0 45%,#e9c398 100%)}
+.hero .wrap{position:relative;z-index:2;padding-top:72px;padding-bottom:300px}
+.kicker{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--terra-d);background:rgba(255,255,255,.55);padding:6px 12px;border-radius:999px}
+.hero h1{font-size:clamp(42px,7vw,82px);margin:18px 0 16px;max-width:760px}
+.hero h1 em{font-style:italic;color:var(--terra)}
+.hero p.lead{font-size:18px;max-width:560px;color:#4a3e35}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.facts{display:flex;gap:28px;margin-top:34px;flex-wrap:wrap}
+.facts div{font-size:13px;color:#5a4d42}
+.facts b{display:block;font-family:"Cormorant Garamond",serif;font-size:30px;color:var(--ink);line-height:1}
+.scene{position:absolute;left:0;right:0;bottom:0;height:360px;z-index:1}
+.scene svg{width:100%;height:100%;display:block}
+/* sections */
+section{padding:88px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:36px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(34px,4.5vw,52px)}
+.sec-head p{max-width:420px;color:var(--muted)}
+.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--olive);margin-bottom:10px}
+/* tours */
+.tours{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.tour{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+.tour:hover{transform:translateY(-4px);box-shadow:0 18px 40px -20px rgba(80,50,20,.35)}
+.tour .pic{height:170px;position:relative}
+.tour .pic svg{width:100%;height:100%;display:block}
+.tag{position:absolute;top:14px;left:14px;background:rgba(255,253,248,.92);font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px}
+.tour .body{padding:20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.tour h3{font-size:26px}
+.tour p{color:var(--muted);font-size:14.5px}
+.meta{display:flex;gap:14px;font-size:13px;color:var(--muted);flex-wrap:wrap}
+.tour .bottom{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:12px;border-top:1px dashed var(--line)}
+.price{font-family:"Cormorant Garamond",serif;font-size:28px;font-weight:600}
+.price small{font-family:Manrope;font-size:12px;color:var(--muted);font-weight:500}
+.mini{background:var(--ink);color:#fff;border:0;border-radius:999px;padding:9px 16px;font-weight:600;cursor:pointer;font:600 13px Manrope}
+.mini:hover{background:var(--terra)}
+/* about */
+.about{background:var(--sand)}
+.about-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:56px;align-items:center}
+.portrait{aspect-ratio:4/5;border-radius:200px 200px 24px 24px;background:linear-gradient(160deg,#d9a77a,#b8693f);position:relative;overflow:hidden;display:grid;place-items:center}
+.portrait .ph{color:rgba(255,255,255,.9);text-align:center;font-size:14px;padding:30px}
+.portrait .ph b{display:block;font-family:"Cormorant Garamond",serif;font-size:64px;line-height:1;margin-bottom:8px}
+.about h2{font-size:clamp(34px,4.5vw,52px);margin-bottom:18px}
+.about p{color:#4a3e35;margin-bottom:14px}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.badges span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600}
+/* translate */
+.translate{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.tcard{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px}
+.tcard .ic{width:46px;height:46px;border-radius:14px;background:#f3e3d2;display:grid;place-items:center;font-size:22px;margin-bottom:14px}
+.tcard h3{font-size:24px;margin-bottom:8px}
+.tcard p{color:var(--muted);font-size:14.5px}
+.langs{margin-top:26px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:14px}
+.langs b{background:var(--olive);color:#fff;border-radius:8px;padding:4px 10px;font-size:13px}
+/* reviews */
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px}
+.stars{color:#d49a2a;letter-spacing:2px;margin-bottom:10px}
+.rev p{font-family:"Cormorant Garamond",serif;font-size:21px;line-height:1.35;margin-bottom:14px}
+.rev span{font-size:13px;color:var(--muted)}
+.demo-note{font-size:12px;color:var(--muted);margin-top:14px;font-style:italic}
+/* booking */
+.book{background:var(--ink);color:var(--cream)}
+.book .sec-head p{color:#cdbfae}
+.book-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px}
+form{background:#3a312b;border-radius:24px;padding:28px;display:grid;gap:14px}
+label{font-size:13px;color:#cdbfae;display:grid;gap:6px}
+input,select,textarea{font:inherit;background:#2b2420;border:1px solid #574a40;color:var(--cream);border-radius:12px;padding:12px 14px;width:100%}
+textarea{min-height:90px;resize:vertical}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.contact-list{display:grid;gap:14px;align-content:start}
+.cbox{border:1px solid #574a40;border-radius:18px;padding:20px}
+.cbox h3{font-size:24px;margin-bottom:6px}
+.cbox p{color:#cdbfae;font-size:14px}
+.preview{display:none;background:#e7f7e9;color:#14301a;border-radius:16px;padding:16px;font-size:14px;white-space:pre-wrap}
+.preview.show{display:block}
+footer{background:#221c18;color:#9c8d7e;font-size:13px;padding:28px 0}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:30;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 10px 24px -8px rgba(0,0,0,.4);text-decoration:none}
+@media (max-width:860px){
+  .links{display:none}
+  .about-grid,.book-grid{grid-template-columns:1fr}
+  .portrait{max-width:340px;margin:0 auto}
+  .hero .wrap{padding-bottom:220px}
+  .scene{height:260px}
+  section{padding:64px 0}
+}
+@media (max-width:480px){.row2{grid-template-columns:1fr}.facts{gap:18px}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a href="#" class="logo">Олена <span>Баскова</span></a>
+  <div class="links">
+    <a href="#tours" data-i="nav1">Екскурсії</a>
+    <a href="#about" data-i="nav2">Про мене</a>
+    <a href="#translate" data-i="nav3">Переклади</a>
+    <a href="#book" data-i="nav4">Бронювання</a>
+  </div>
+  <div class="lang"><button class="on" data-l="uk">UA</button><button data-l="it">IT</button></div>
+</div></nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker" data-i="kick">Піза · Лукка · Тоскана</span>
+    <h1 data-i="h1">Тоскана, яку вам розкажуть <em>українською</em></h1>
+    <p class="lead" data-i="lead">Пішохідні екскурсії Пізою та Луккою без поспіху: історії, які не пишуть у путівниках, найкращі ракурси для фото і місця, де обідають місцеві.</p>
+    <div class="cta">
+      <a href="#book" class="btn" data-i="cta1">Забронювати екскурсію</a>
+      <a href="#tours" class="btn ghost" data-i="cta2">Подивитися маршрути</a>
+    </div>
+    <div class="facts">
+      <div><b>3</b><span data-i="f1">мови: UA · IT · CZ</span></div>
+      <div><b>2</b><span data-i="f2">міста, де я вдома</span></div>
+      <div><b>1–8</b><span data-i="f3">гостей у групі</span></div>
+    </div>
+  </div>
+  <div class="scene" aria-hidden="true">
+    <svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice">
+      <defs>
+        <linearGradient id="h1g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9a77a"/><stop offset="1" stop-color="#b48a5c"/></linearGradient>
+        <linearGradient id="h2g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8c9a5a"/><stop offset="1" stop-color="#6f7c42"/></linearGradient>
+        <linearGradient id="h3g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6d7a3e"/><stop offset="1" stop-color="#4f5a2c"/></linearGradient>
+      </defs>
+      <circle cx="1180" cy="90" r="46" fill="#fbe7c2" opacity=".9"/>
+      <path d="M0 200 C200 150 360 170 520 190 S860 140 1040 170 1300 150 1440 175 V360 H0Z" fill="url(#h1g)" opacity=".7"/>
+      <!-- Pisa tower -->
+      <g transform="translate(300 70) rotate(4 40 220)">
+        <rect x="18" y="20" width="48" height="200" rx="4" fill="#f7efe1" stroke="#d8c7ab" stroke-width="2"/>
+        <g stroke="#d8c7ab" stroke-width="2">
+          <line x1="18" y1="50" x2="66" y2="50"/><line x1="18" y1="80" x2="66" y2="80"/><line x1="18" y1="110" x2="66" y2="110"/>
+          <line x1="18" y1="140" x2="66" y2="140"/><line x1="18" y1="170" x2="66" y2="170"/><line x1="18" y1="200" x2="66" y2="200"/>
+        </g>
+        <g fill="#e2d3bb"><rect x="24" y="56" width="6" height="18" rx="3"/><rect x="39" y="56" width="6" height="18" rx="3"/><rect x="54" y="56" width="6" height="18" rx="3"/>
+        <rect x="24" y="86" width="6" height="18" rx="3"/><rect x="39" y="86" width="6" height="18" rx="3"/><rect x="54" y="86" width="6" height="18" rx="3"/>
+        <rect x="24" y="116" width="6" height="18" rx="3"/><rect x="39" y="116" width="6" height="18" rx="3"/><rect x="54" y="116" width="6" height="18" rx="3"/>
+        <rect x="24" y="146" width="6" height="18" rx="3"/><rect x="39" y="146" width="6" height="18" rx="3"/><rect x="54" y="146" width="6" height="18" rx="3"/></g>
+        <rect x="26" y="2" width="32" height="20" rx="3" fill="#f7efe1" stroke="#d8c7ab" stroke-width="2"/>
+      </g>
+      <!-- duomo -->
+      <g transform="translate(380 175)">
+        <rect x="0" y="40" width="190" height="70" fill="#f4eadb" stroke="#d8c7ab" stroke-width="2"/>
+        <path d="M0 40 L95 8 L190 40Z" fill="#efe3cf" stroke="#d8c7ab" stroke-width="2"/>
+        <path d="M70 40 Q95 -18 120 40Z" fill="#e9dcc6" stroke="#d8c7ab" stroke-width="2"/>
+        <g fill="#e2d3bb"><rect x="14" y="58" width="10" height="34" rx="5"/><rect x="36" y="58" width="10" height="34" rx="5"/><rect x="58" y="58" width="10" height="34" rx="5"/><rect x="122" y="58" width="10" height="34" rx="5"/><rect x="144" y="58" width="10" height="34" rx="5"/><rect x="166" y="58" width="10" height="34" rx="5"/></g>
+        <rect x="84" y="66" width="22" height="44" rx="11" fill="#d6c3a5"/>
+      </g>
+      <!-- Lucca Guinigi tower with oaks -->
+      <g transform="translate(980 90)">
+        <rect x="0" y="40" width="58" height="170" fill="#c98a5e"/>
+        <rect x="0" y="40" width="58" height="10" fill="#b3764d"/>
+        <g fill="#a96c45"><rect x="12" y="80" width="10" height="16" rx="5"/><rect x="36" y="80" width="10" height="16" rx="5"/><rect x="12" y="130" width="10" height="16" rx="5"/><rect x="36" y="130" width="10" height="16" rx="5"/></g>
+        <circle cx="16" cy="30" r="18" fill="#5f6b3a"/><circle cx="34" cy="20" r="20" fill="#6f7c42"/><circle cx="48" cy="34" r="16" fill="#5f6b3a"/>
+      </g>
+      <g fill="#c98a5e"><rect x="1050" y="170" width="70" height="40"/><rect x="900" y="160" width="80" height="50"/><rect x="1120" y="180" width="60" height="30"/></g>
+      <path d="M0 250 C240 220 420 240 640 245 S1040 215 1240 230 1380 228 1440 235 V360 H0Z" fill="url(#h2g)"/>
+      <!-- cypresses -->
+      <g fill="#3f4a22">
+        <path d="M120 250 q10 -70 20 0z"/><path d="M150 252 q12 -90 24 0z"/><path d="M700 246 q10 -70 20 0z"/><path d="M728 248 q12 -95 24 0z"/>
+        <path d="M1260 232 q11 -80 22 0z"/><path d="M1290 234 q9 -60 18 0z"/>
+      </g>
+      <path d="M0 300 C300 270 520 300 760 290 S1160 270 1440 285 V360 H0Z" fill="url(#h3g)"/>
+      <!-- Lucca walls -->
+      <path d="M820 300 h420 v-22 h-420z" fill="#b97c52"/>
+      <g fill="#a96c45"><rect x="830" y="270" width="16" height="10"/><rect x="880" y="270" width="16" height="10"/><rect x="930" y="270" width="16" height="10"/><rect x="980" y="270" width="16" height="10"/><rect x="1030" y="270" width="16" height="10"/><rect x="1080" y="270" width="16" height="10"/><rect x="1130" y="270" width="16" height="10"/><rect x="1180" y="270" width="16" height="10"/></g>
+    </svg>
+  </div>
+</header>
+
+<section id="tours">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow" data-i="t-eye">Маршрути</div><h2 data-i="t-h">Обирайте прогулянку</h2></div>
+      <p data-i="t-p">Усі екскурсії індивідуальні: темп, зупинки і кава по дорозі під вас. Можна поєднати два міста за один день.</p>
+    </div>
+    <div class="tours">
+      <article class="tour">
+        <div class="pic"><svg viewBox="0 0 400 170" preserveAspectRatio="xMidYMid slice"><rect width="400" height="170" fill="#f3d6b0"/><rect y="120" width="400" height="50" fill="#8c9a5a"/><g transform="translate(180 25) rotate(5 20 95)"><rect x="0" y="10" width="40" height="100" fill="#f7efe1" stroke="#d8c7ab" stroke-width="2"/><rect x="8" y="0" width="24" height="12" fill="#f7efe1" stroke="#d8c7ab" stroke-width="2"/><g stroke="#d8c7ab" stroke-width="2"><line x1="0" y1="35" x2="40" y2="35"/><line x1="0" y1="60" x2="40" y2="60"/><line x1="0" y1="85" x2="40" y2="85"/></g></g><rect x="60" y="95" width="110" height="30" fill="#f4eadb"/><path d="M60 95 L115 78 L170 95Z" fill="#efe3cf"/></svg><span class="tag" data-i="tag1">Найпопулярніша</span></div>
+        <div class="body">
+          <h3 data-i="tr1">Піза: Площа Чудес і не тільки</h3>
+          <p data-i="tr1p">Вежа, Собор і Баптистерій, а потім місто, яке туристи пропускають: набережні Арно, студентські квартали, найсмачніша чечина.</p>
+          <div class="meta"><span>⏱ 2,5 год</span><span>👣 3 км</span><span data-i="m-ind">👤 індивідуально</span></div>
+          <div class="bottom"><div class="price">€ 120 <small data-i="pg">за групу</small></div><button class="mini" data-tour="Піза: Площа Чудес" data-i="bk">Обрати</button></div>
+        </div>
+      </article>
+      <article class="tour">
+        <div class="pic"><svg viewBox="0 0 400 170" preserveAspectRatio="xMidYMid slice"><rect width="400" height="170" fill="#f0dcc0"/><rect y="118" width="400" height="52" fill="#6f7c42"/><rect x="0" y="110" width="400" height="14" fill="#b97c52"/><g transform="translate(240 20)"><rect x="0" y="28" width="38" height="90" fill="#c98a5e"/><circle cx="10" cy="22" r="12" fill="#5f6b3a"/><circle cx="24" cy="14" r="14" fill="#6f7c42"/><circle cx="32" cy="24" r="11" fill="#5f6b3a"/></g><g fill="#c98a5e"><rect x="80" y="70" width="60" height="45"/><rect x="150" y="60" width="50" height="55"/><rect x="300" y="75" width="70" height="40"/></g></svg><span class="tag" data-i="tag2">Для неспішних</span></div>
+        <div class="body">
+          <h3 data-i="tr2">Лукка: стіни, вежі й Пуччіні</h3>
+          <p data-i="tr2p">Прогулянка по ренесансних стінах, вежа Гвініджі з дубами на даху, овальна площа Амфітеатру і будинок, де народився Пуччіні.</p>
+          <div class="meta"><span>⏱ 3 год</span><span>👣 4 км</span><span data-i="m-ind">👤 індивідуально</span></div>
+          <div class="bottom"><div class="price">€ 140 <small data-i="pg">за групу</small></div><button class="mini" data-tour="Лукка: стіни і вежі" data-i="bk">Обрати</button></div>
+        </div>
+      </article>
+      <article class="tour">
+        <div class="pic"><svg viewBox="0 0 400 170" preserveAspectRatio="xMidYMid slice"><rect width="400" height="170" fill="#f6e2c4"/><path d="M0 120 C100 90 200 110 400 95 V170 H0Z" fill="#8c9a5a"/><path d="M0 140 C120 120 260 145 400 125 V170 H0Z" fill="#6f7c42"/><g transform="translate(90 40) rotate(5 15 70)"><rect x="0" y="8" width="28" height="80" fill="#f7efe1" stroke="#d8c7ab" stroke-width="2"/></g><g transform="translate(270 50)"><rect x="0" y="20" width="28" height="70" fill="#c98a5e"/><circle cx="14" cy="16" r="14" fill="#5f6b3a"/></g><path d="M130 100 q60 -40 130 -10" stroke="#c0623a" stroke-width="3" fill="none" stroke-dasharray="6 6"/></svg><span class="tag" data-i="tag3">Два міста за день</span></div>
+        <div class="body">
+          <h3 data-i="tr3">Піза + Лукка за один день</h3>
+          <p data-i="tr3p">Зранку Площа Чудес, обід у тосканській тратторії, після обіду стіни Лукки на заході сонця. Допоможу з потягом між містами.</p>
+          <div class="meta"><span>⏱ 6–7 год</span><span>🚆 30 хв</span><span data-i="m-ind">👤 індивідуально</span></div>
+          <div class="bottom"><div class="price">€ 240 <small data-i="pg">за групу</small></div><button class="mini" data-tour="Піза + Лукка за день" data-i="bk">Обрати</button></div>
+        </div>
+      </article>
+      <article class="tour">
+        <div class="pic"><svg viewBox="0 0 400 170" preserveAspectRatio="xMidYMid slice"><rect width="400" height="170" fill="#f3dcc0"/><path d="M0 110 C80 80 160 100 240 85 S360 95 400 90 V170 H0Z" fill="#a3ad6a"/><path d="M0 135 C100 115 220 140 400 120 V170 H0Z" fill="#6f7c42"/><g fill="#3f4a22"><path d="M60 112 q8 -50 16 0z"/><path d="M84 114 q9 -60 18 0z"/><path d="M300 100 q8 -50 16 0z"/></g><g fill="#7a2f3b"><circle cx="180" cy="128" r="6"/><circle cx="192" cy="128" r="6"/><circle cx="186" cy="138" r="6"/></g></svg><span class="tag" data-i="tag4">Смак Тоскани</span></div>
+        <div class="body">
+          <h3 data-i="tr4">Гастро-прогулянка Луккою</h3>
+          <p data-i="tr4p">Бучелато з найстарішої пекарні, тосканські сири, олія і келих місцевого вина. Розповідаю, що і де куштувати після екскурсії.</p>
+          <div class="meta"><span>⏱ 2,5 год</span><span>🍷 4 зупинки</span><span data-i="m-ind">👤 індивідуально</span></div>
+          <div class="bottom"><div class="price">€ 75 <small data-i="pp">з особи</small></div><button class="mini" data-tour="Гастро-прогулянка Луккою" data-i="bk">Обрати</button></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap about-grid">
+    <div class="portrait"><div class="ph"><b>ОБ</b><span data-i="photo">Тут буде ваше фото на тлі Лукки</span></div></div>
+    <div>
+      <div class="eyebrow" data-i="a-eye">Про мене</div>
+      <h2 data-i="a-h">Привіт, я Олена</h2>
+      <p data-i="a-p1">Я живу в Тоскані й показую Пізу та Лукку так, як їх бачать місцеві: з історіями, легендами і смачними адресами. Мої гості не біжать за парасолькою в натовпі, а гуляють у своєму темпі і ставлять скільки завгодно питань.</p>
+      <p data-i="a-p2">Окрім екскурсій, я перекладачка, внесена до списку Трибуналу Лукки. Тож якщо в поїздці знадобиться допомога з документами, лікарем чи орендою, я поруч.</p>
+      <div class="badges">
+        <span data-i="b1">🇺🇦 Українська</span><span data-i="b2">🇮🇹 Italiano</span><span data-i="b3">🇨🇿 Čeština</span><span data-i="b4">Перекладач Tribunale di Lucca</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="translate">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow" data-i="tl-eye">Переклади</div><h2 data-i="tl-h">Перекладач, якому довіряє суд</h2></div>
+      <p data-i="tl-p">Для українців і чехів у Тоскані: допомагаю з документами і супроводжую там, де потрібен перекладач.</p>
+    </div>
+    <div class="translate">
+      <div class="tcard"><div class="ic">📄</div><h3 data-i="s1">Переклад документів</h3><p data-i="s1p">Свідоцтва, дипломи, довідки, договори. Українська, чеська та італійська.</p></div>
+      <div class="tcard"><div class="ic">🏛️</div><h3 data-i="s2">Суд і установи</h3><p data-i="s2p">Усний переклад у суді, квестурі, комуні та під час нотаріальних дій.</p></div>
+      <div class="tcard"><div class="ic">🩺</div><h3 data-i="s3">Лікар і щоденні справи</h3><p data-i="s3p">Супровід до лікаря, у банк, під час оренди житла чи оформлення авто.</p></div>
+    </div>
+    <div class="langs"><span data-i="lg">Мовні пари:</span><b>UA ↔ IT</b><b>CZ ↔ IT</b><b>UA ↔ CZ</b></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow" data-i="r-eye">Відгуки</div><h2 data-i="r-h">Що кажуть гості</h2></div></div>
+    <div class="reviews">
+      <div class="rev"><div class="stars">★★★★★</div><p data-i="rv1">«Ми були в Пізі вдруге, але вперше справді її побачили. Дякуємо за ресторанчик після екскурсії!»</p><span>Ірина, Київ</span></div>
+      <div class="rev"><div class="stars">★★★★★</div><p data-i="rv2">«Прогулянка стінами Лукки на заході сонця, найкращий вечір нашої відпустки в Італії.»</p><span>Андрій і Оля, Варшава</span></div>
+      <div class="rev"><div class="stars">★★★★★</div><p data-i="rv3">«Олена допомогла з перекладом документів для квестури швидко і без стресу. Рекомендую.»</p><span>Марія, Лукка</span></div>
+    </div>
+    <p class="demo-note" data-i="note">* У демо відгуки для прикладу, на сайті будуть ваші справжні.</p>
+  </div>
+</section>
+
+<section id="book" class="book">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow" style="color:#c9b27a" data-i="bk-eye">Бронювання</div><h2 data-i="bk-h">Оберіть дату, решту я підкажу</h2></div><p data-i="bk-p">Відповідаю протягом кількох годин. Оплата на місці, без передоплати.</p></div>
+    <div class="book-grid">
+      <form id="f">
+        <label><span data-i="l1">Екскурсія або послуга</span>
+          <select id="tour">
+            <option>Піза: Площа Чудес</option><option>Лукка: стіни і вежі</option><option>Піза + Лукка за день</option><option>Гастро-прогулянка Луккою</option><option>Переклад / супровід</option>
+          </select></label>
+        <div class="row2">
+          <label><span data-i="l2">Дата</span><input type="date" id="date" required></label>
+          <label><span data-i="l3">Кількість гостей</span><input type="number" id="ppl" min="1" max="20" value="2"></label>
+        </div>
+        <label><span data-i="l4">Ваше ім'я</span><input id="name" required placeholder="Ірина"></label>
+        <label><span data-i="l5">Телефон або WhatsApp</span><input id="phone" required placeholder="+380 ..."></label>
+        <label><span data-i="l6">Побажання</span><textarea id="msg" placeholder="Подорожуємо з дитиною 8 років, хочемо більше легенд :)"></textarea></label>
+        <button class="btn" type="submit" data-i="send">Надіслати запит</button>
+        <div class="preview" id="pv"></div>
+      </form>
+      <div class="contact-list">
+        <div class="cbox"><h3>WhatsApp</h3><p data-i="c1">Найшвидше: пишіть у WhatsApp, відповім з фото місця зустрічі.</p></div>
+        <div class="cbox"><h3>Email</h3><p>guidapisalucca@gmail.com</p></div>
+        <div class="cbox"><h3 data-i="c3h">Де зустрічаємось</h3><p data-i="c3">Піза: біля Порта Санта Марія. Лукка: біля вокзалу або воріт Сан П'єтро.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap"><span>© Олена Баскова · Гід і перекладач у Пізі та Луцці</span><span>Демо від Krayon · krayon.site</span></div></footer>
+
+<a class="wa-float" href="#book" aria-label="WhatsApp"><svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.9-1.1-4.7-4-4.9-4.2-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg></a>
+
+<script>
+// Tour buttons -> preselect in form
+document.querySelectorAll('.mini[data-tour]').forEach(b=>b.addEventListener('click',()=>{
+  const s=document.getElementById('tour');[...s.options].forEach(o=>{if(o.text===b.dataset.tour)s.value=o.text});
+  document.getElementById('book').scrollIntoView({behavior:'smooth'});
+}));
+// Form -> preview of the WhatsApp message Olena would receive
+document.getElementById('f').addEventListener('submit',e=>{
+  e.preventDefault();
+  const v=id=>document.getElementById(id).value;
+  const pv=document.getElementById('pv');
+  pv.textContent=(lang==='it'?'✅ Richiesta inviata! Olena riceverà su WhatsApp:\n\n':'✅ Запит надіслано! Олена отримає у WhatsApp:\n\n')+
+    `🗓 ${v('tour')}\n📅 ${v('date')||'—'} · 👥 ${v('ppl')}\n🙋 ${v('name')} · ${v('phone')}\n💬 ${v('msg')||'—'}`;
+  pv.classList.add('show');
+});
+// UA / IT switch (demo: key texts)
+const IT={nav1:'Tour',nav2:'Chi sono',nav3:'Traduzioni',nav4:'Prenota',kick:'Pisa · Lucca · Toscana',
+h1:'La Toscana raccontata <em>con passione</em>',lead:'Passeggiate a Pisa e Lucca senza fretta: storie che le guide non scrivono, i migliori scorci per le foto e i posti dove mangiano i locali.',
+cta1:'Prenota un tour',cta2:'Vedi gli itinerari',f1:"lingue: UA · IT · CZ",f2:'città che sono casa',f3:'ospiti per gruppo',
+'t-eye':'Itinerari','t-h':'Scegli la passeggiata','t-p':'Tutti i tour sono privati: ritmo, soste e caffè su misura. Si possono unire due città in un giorno.',
+tag1:'Il più amato',tag2:'Per chi ama la calma',tag3:'Due città in un giorno',tag4:'Sapori di Toscana',
+tr1:'Pisa: Piazza dei Miracoli e oltre',tr1p:'Torre, Duomo e Battistero, poi la città che i turisti saltano: i lungarni, i quartieri universitari, la cecina più buona.',
+tr2:'Lucca: mura, torri e Puccini',tr2p:'Passeggiata sulle mura rinascimentali, Torre Guinigi con i lecci in cima, Piazza dell\'Anfiteatro e la casa natale di Puccini.',
+tr3:'Pisa + Lucca in un giorno',tr3p:'Mattina in Piazza dei Miracoli, pranzo in trattoria, pomeriggio sulle mura di Lucca al tramonto.',
+tr4:'Passeggiata gastronomica a Lucca',tr4p:'Buccellato dal forno più antico, formaggi toscani, olio e un calice di vino locale.',
+'m-ind':'👤 privato',pg:'a gruppo',pp:'a persona',bk:'Scegli','a-eye':'Chi sono','a-h':'Ciao, sono Olena',
+'a-p1':'Vivo in Toscana e mostro Pisa e Lucca come le vedono i locali: con storie, leggende e indirizzi buoni.',
+'a-p2':'Sono anche interprete iscritta all\'albo del Tribunale di Lucca: posso aiutarti con documenti, medici e uffici.',
+photo:'Qui la tua foto con Lucca sullo sfondo',b4:'Interprete Tribunale di Lucca','tl-eye':'Traduzioni','tl-h':'Un\'interprete di fiducia del tribunale',
+'tl-p':'Per ucraini e cechi in Toscana: documenti, uffici e accompagnamento.',s1:'Traduzione documenti',s1p:'Certificati, diplomi, contratti. Ucraino, ceco e italiano.',
+s2:'Tribunale e uffici',s2p:'Interpretariato in tribunale, questura, comune e dal notaio.',s3:'Medico e vita quotidiana',s3p:'Accompagnamento dal medico, in banca, per affitti e auto.',
+lg:'Coppie linguistiche:','r-eye':'Recensioni','r-h':'Cosa dicono gli ospiti',note:'* Nella demo le recensioni sono esempi.',
+'bk-eye':'Prenotazione','bk-h':'Scegli la data, al resto penso io','bk-p':'Rispondo entro poche ore. Pagamento sul posto, senza anticipo.',
+l1:'Tour o servizio',l2:'Data',l3:'Ospiti',l4:'Nome',l5:'Telefono o WhatsApp',l6:'Richieste',send:'Invia richiesta',
+c1:'Il modo più veloce: scrivimi su WhatsApp.',c3h:'Dove ci incontriamo',c3:'Pisa: Porta Santa Maria. Lucca: stazione o Porta San Pietro.'};
+const UA={};document.querySelectorAll('[data-i]').forEach(el=>UA[el.dataset.i]=el.innerHTML);
+let lang='uk';
+document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>{
+  lang=b.dataset.l;document.querySelectorAll('.lang button').forEach(x=>x.classList.toggle('on',x===b));
+  document.documentElement.lang=lang==='it'?'it':'uk';
+  document.querySelectorAll('[data-i]').forEach(el=>{const k=el.dataset.i;const t=(lang==='it'?IT:UA)[k];if(t)el.innerHTML=t;});
+}));
+</script>
+</body>
+</html>
