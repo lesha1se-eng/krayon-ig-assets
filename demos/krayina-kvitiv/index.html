@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Весільні квіти в Рівному · Країна квітів, Пластова, 3</title>
+<meta name="description" content="Букет нареченої, арка для церемонії, президіум і столи гостей у Рівному. Роботи, ціни, перевірка дати й заявка в Instagram.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Країна квітів · демо-версія сайту">
+<meta property="og:description" content="Весільна флористика і декор у Рівному: роботи, ціни, вибір квітів і перевірка дати.">
+<meta property="og:image" content="https://lesha1se-eng.github.io/krayon-ig-assets/demos/krayina-kvitiv/img/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Onest:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f3ec;--paper:#fffdf9;--ink:#1d221c;--ink2:#4a5046;--mute:#878b80;--line:#e3ddd0;--sage:#5d6d53;--sage2:#e6eadf;--blush:#efe2db;--rose:#a8574b;--r:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:Onest,system-ui,sans-serif;background:var(--bg);color:var(--ink);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+.serif{font-family:"EB Garamond",Georgia,serif;font-weight:400;letter-spacing:-.015em;line-height:1.02}
+.serif i{font-style:italic;color:var(--sage)}
+.micro{font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.ph{background:var(--blush);overflow:hidden;border-radius:var(--r)}
+.ph img{width:100%;height:100%;object-fit:cover}
+section{padding:112px 0}
+.shead{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:48px}
+.shead h2{font-size:clamp(40px,5.2vw,68px);margin-top:14px}
+.shead p{color:var(--ink2);max-width:460px;justify-self:end}
+
+.demo{background:var(--ink);color:#c9cbc2;font-size:12.5px;text-align:center;padding:8px 16px}
+.demo a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+nav{position:sticky;top:0;z-index:60;background:rgba(246,243,236,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;line-height:1}
+.logo svg{width:30px;height:30px;color:var(--sage);flex-shrink:0}
+.logo b{display:block;font-family:"EB Garamond",serif;font-weight:500;font-size:24px;letter-spacing:-.01em}
+.logo span{display:block;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-top:4px}
+.menu{display:flex;gap:28px;font-size:14px;color:var(--ink2)}
+.menu a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:50px;padding:0 24px;border-radius:999px;border:1px solid var(--ink);background:var(--ink);color:#fff;font-size:14.5px;font-weight:500;cursor:pointer;transition:background .2s,color .2s,transform .2s;white-space:nowrap}
+.btn:hover{background:#000}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:#fff}
+.btn.sm{height:42px;padding:0 18px;font-size:13.5px}
+.btn.sage{background:var(--sage);border-color:var(--sage)}
+.btn.sage:hover{background:#4c5a44}
+.burger{display:none;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:var(--paper);cursor:pointer;align-items:center;justify-content:center}
+
+/* hero */
+.hero{padding:56px 0 96px}
+.hero .wrap{display:grid;grid-template-columns:1.02fr .98fr;grid-template-areas:'txt pics' 'chk pics';column-gap:56px;align-items:center}
+.htxt{grid-area:txt;align-self:end}
+.hero .pics{grid-area:pics}
+.hchk{grid-area:chk;align-self:start}
+.hero h1{font-size:clamp(50px,6.6vw,96px);margin:20px 0 26px}
+.hero .lead{font-size:18px;color:var(--ink2);max-width:520px}
+.check{margin-top:34px;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:22px;max-width:540px}
+.check label{font-size:13px;color:var(--mute);display:block;margin-bottom:10px}
+.check .row{display:flex;gap:10px}
+.check input[type=date]{flex:1;min-width:0;height:50px;border:1px solid var(--line);border-radius:999px;padding:0 18px;background:var(--bg)}
+.res{display:none;margin-top:16px;padding-top:16px;border-top:1px solid var(--line);font-size:15px}
+.res.on{display:block}
+.res b{font-weight:600}
+.res .st{display:inline-flex;align-items:center;gap:8px;font-weight:600}
+.res .st::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--sage)}
+.res .st.busy::before{background:var(--rose)}
+.res .st.few::before{background:#c9963f}
+.res p{color:var(--ink2);margin-top:6px}
+.res .acts{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-size:14.5px}
+.res .acts a{text-decoration:underline;text-underline-offset:3px}
+.hero .pics{position:relative;height:640px}
+.hero .p1{position:absolute;inset:0 0 0 70px}
+.hero .p2{position:absolute;left:0;bottom:44px;width:42%;aspect-ratio:3/4;border:8px solid var(--bg);border-radius:20px}
+.hero .cap{position:absolute;right:16px;top:16px;background:rgba(255,253,249,.92);border-radius:999px;padding:7px 14px;font-size:12.5px;color:var(--ink2)}
+.trust{display:flex;gap:28px;flex-wrap:wrap;margin-top:28px;font-size:14px;color:var(--ink2)}
+.trust span,.trust a{display:flex;align-items:center;gap:8px}
+.trust a:hover{color:var(--ink)}
+.trust span::before,.trust a::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--sage)}
+
+/* works */
+.works{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.chip{height:40px;padding:0 16px;border:1px solid var(--line);border-radius:999px;background:transparent;cursor:pointer;font-size:14px;color:var(--ink2);white-space:nowrap;transition:.2s}
+.chip:hover{border-color:var(--ink)}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{position:relative}
+.card .ph{aspect-ratio:4/5;cursor:zoom-in}
+.card .ph img{transition:transform .6s}
+.card:hover .ph img{transform:scale(1.03)}
+.card .meta{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-size:14px}
+.card .meta b{font-weight:500}
+.card .meta span{color:var(--mute)}
+.like{position:absolute;top:12px;right:12px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,253,249,.92);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform .2s}
+.like:hover{transform:scale(1.08)}
+.like svg{width:20px;height:20px;fill:none;stroke:var(--ink);stroke-width:1.6}
+.like.on svg{fill:var(--rose);stroke:var(--rose)}
+.card .num{position:absolute;top:12px;left:12px;background:rgba(255,253,249,.92);border-radius:999px;padding:4px 10px;font-size:12px;color:var(--ink2)}
+.card.hide{display:none}
+.card.more{min-height:280px;border:1px solid var(--line);border-radius:var(--r);display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:28px;background:var(--bg);transition:background .2s}
+.card.more:hover{background:var(--blush)}
+.card.more .serif{font-size:34px;line-height:1.05}
+.card.more span:last-child{font-size:14px;color:var(--ink2)}
+.hint{margin-top:26px;font-size:14.5px;color:var(--ink2);display:flex;align-items:center;gap:10px}
+.hint svg{width:18px;height:18px;fill:var(--rose);flex-shrink:0}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:90;background:rgba(18,21,17,.94);display:none;align-items:center;justify-content:center;padding:56px 72px}
+.lb.on{display:flex}
+.lb figure{max-width:min(1000px,100%);max-height:100%;display:flex;flex-direction:column;align-items:center}
+.lb img{max-height:calc(100vh - 170px);border-radius:10px;object-fit:contain}
+.lb figcaption{color:#e9e6de;margin-top:16px;display:flex;align-items:center;gap:18px;font-size:15px;flex-wrap:wrap;justify-content:center}
+.lb .like{position:static;background:#fff}
+.lb .x,.lb .nv{position:absolute;border:0;background:rgba(255,255,255,.12);color:#fff;width:48px;height:48px;border-radius:50%;cursor:pointer;font-size:22px;line-height:1}
+.lb .x{top:18px;right:18px}
+.lb .nv.l{left:16px;top:50%;transform:translateY(-50%)}
+.lb .nv.r{right:16px;top:50%;transform:translateY(-50%)}
+
+/* prices */
+.pr{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:start}
+.plist{border-top:1px solid var(--line)}
+.plist div{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.plist div span{color:var(--ink2)}
+.plist div b{font-weight:500;white-space:nowrap}
+.plist small{display:block;font-size:13px;color:var(--mute)}
+.pnote{font-size:13.5px;color:var(--mute);margin-top:16px}
+.calc{background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:30px}
+.calc h3{font-family:"EB Garamond",serif;font-weight:400;font-size:32px;line-height:1.1}
+.calc .sub{color:var(--ink2);font-size:14.5px;margin-top:6px}
+.fld{margin-top:22px}
+.fld>label,.fld>.lbl{display:flex;justify-content:space-between;font-size:14px;color:var(--ink2);margin-bottom:10px}
+.fld>label b{color:var(--ink);font-weight:600}
+input[type=range]{width:100%;accent-color:var(--sage)}
+.items{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.it{display:flex;align-items:center;justify-content:space-between;gap:8px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:14px;cursor:pointer;user-select:none;min-width:0}
+.it input{accent-color:var(--sage);width:16px;height:16px;flex-shrink:0}
+.it .nm{flex:1;min-width:0}
+.it .q{display:flex;align-items:center;gap:4px;flex-shrink:0}
+.it .q button{width:26px;height:26px;border-radius:50%;border:1px solid var(--line);background:var(--bg);cursor:pointer;line-height:1}
+.it .q em{font-style:normal;min-width:20px;text-align:center;font-variant-numeric:tabular-nums}
+.it.off .q{opacity:.35;pointer-events:none}
+.presets{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.presets button{height:36px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--bg);cursor:pointer;font-size:13.5px;color:var(--ink2)}
+.presets button:hover{border-color:var(--ink);color:var(--ink)}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:999px;padding:4px}
+.seg button{border:0;background:none;border-radius:999px;height:40px;cursor:pointer;font-size:14px;color:var(--ink2)}
+.seg button.on{background:var(--ink);color:#fff}
+.segnote{font-size:13px;color:var(--mute);margin-top:8px}
+.total{margin-top:26px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}
+.total .sum{font-family:"EB Garamond",serif;font-size:40px;line-height:1;font-variant-numeric:lining-nums}
+.total small{display:block;font-size:13px;color:var(--mute);margin-top:6px}
+
+/* flowers */
+.flowers{background:var(--sage2)}
+.mbar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:26px}
+.mbar button{height:38px;padding:0 13px;border:1px solid rgba(29,34,28,.14);border-radius:999px;background:transparent;cursor:pointer;font-size:13.5px;color:var(--ink2)}
+.mbar button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.fgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.fl{background:var(--paper);border-radius:18px;padding:52px 14px 16px;cursor:pointer;border:1.5px solid transparent;transition:border-color .2s,opacity .2s;position:relative}
+.fl .ph{aspect-ratio:1;border-radius:12px}
+.fl h4{font-family:"EB Garamond",serif;font-weight:400;font-size:27px;line-height:1.05;margin:0 4px 6px}
+.fl p{font-size:12.5px;color:var(--mute);margin:0 4px}
+.fl .months{display:grid;grid-template-columns:repeat(12,1fr);gap:2px;margin:10px 4px 0}
+.fl .months i{height:5px;border-radius:2px;background:#e8e4da}
+.fl .months i.s{background:var(--sage)}
+.fl .months i.y{background:#cdd5c4}
+.fl .months i.cur{outline:1.5px solid var(--ink);outline-offset:1px}
+.fl .tick{position:absolute;top:14px;right:14px;width:30px;height:30px;border-radius:50%;background:var(--bg);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:14px;color:transparent;transition:.2s}
+.fl.on{border-color:var(--sage)}
+.fl.on .tick{background:var(--sage);border-color:var(--sage);color:#fff}
+.fl .badge{position:absolute;left:18px;top:18px;background:var(--sage);color:#fff;font-size:11.5px;border-radius:999px;padding:3px 9px;display:none}
+.fl.ins .badge{display:block}
+.fl.dim{opacity:.55}
+.legend{display:flex;gap:20px;flex-wrap:wrap;font-size:13px;color:var(--ink2);margin-top:22px}
+.legend span{display:flex;align-items:center;gap:8px}
+.legend i{width:18px;height:5px;border-radius:2px;background:var(--sage)}
+.legend i.y{background:#cdd5c4}
+.pal{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px;align-items:center}
+.pal .lbl{font-size:14px;color:var(--ink2);margin-right:6px}
+.sw{display:flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 6px;border-radius:999px;border:1.5px solid transparent;background:var(--paper);cursor:pointer;font-size:13.5px}
+.sw i{display:flex;width:28px;height:28px;border-radius:50%;overflow:hidden}
+.sw i b{flex:1}
+.sw.on{border-color:var(--ink)}
+.season-note{margin-top:22px;font-size:15px;color:var(--ink2);min-height:24px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:1px solid var(--line)}
+.step{padding:28px 22px 0 0}
+.step+.step{padding-left:22px;border-left:1px solid var(--line)}
+.step i{font-family:"EB Garamond",serif;font-style:italic;font-size:40px;color:var(--sage);line-height:1}
+.step h3{font-size:17px;font-weight:500;margin:16px 0 8px}
+.step p{font-size:14.5px;color:var(--ink2)}
+
+/* after */
+.after{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.agrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.ac{border-top:1px solid var(--line);padding-top:22px}
+.ac i{font-family:"EB Garamond",serif;font-style:italic;font-size:40px;color:var(--sage);line-height:1}
+.ac h3{font-size:18px;font-weight:500;margin:14px 0 6px}
+.ac p{font-size:14.5px;color:var(--ink2)}
+.quote{margin-top:56px;display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start;max-width:820px}
+.quote span{font-family:"EB Garamond",serif;font-size:72px;line-height:.7;color:var(--sage)}
+.quote p{font-family:"EB Garamond",serif;font-size:26px;line-height:1.3}
+
+/* reviews */
+.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rv{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:26px;display:flex;flex-direction:column;gap:16px}
+.rv p{font-size:15.5px}
+.rv footer{display:flex;justify-content:space-between;font-size:13.5px;color:var(--mute);margin-top:auto}
+.rv .tag{font-size:11.5px;background:var(--blush);border-radius:999px;padding:3px 9px;color:var(--ink2);align-self:flex-start}
+
+/* faq */
+.faq{max-width:860px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;padding:22px 0;font-size:18px;font-weight:500}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-weight:300;font-size:24px;line-height:1;color:var(--mute);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 0 22px;color:var(--ink2);max-width:720px}
+
+/* form */
+.req{background:var(--ink);color:#eeece5}
+.req .shead p{color:#b9bcb2}
+.req .micro{color:#9ea295}
+.req .serif i{color:#b8c7a9}
+.form{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:start}
+.fgrid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.f{display:flex;flex-direction:column;gap:8px;min-width:0}
+.f.w{grid-column:1/-1}
+.f label{font-size:13.5px;color:#b9bcb2}
+.f input:not([type=checkbox]):not([type=file]),.f select,.f textarea{height:52px;border-radius:12px;border:1px solid #3b4239;background:#252b24;color:#fff;padding:0 16px;width:100%}
+.f textarea{height:auto;min-height:96px;padding:14px 16px;resize:vertical}
+.f input:focus,.f select:focus,.f textarea:focus{outline:2px solid #8fa37f;outline-offset:1px;border-color:transparent}
+.f input::placeholder,.f textarea::placeholder{color:#7d8478}
+.f.err input{border-color:#d07a6d}
+.need{display:flex;flex-wrap:wrap;gap:8px}
+.need label{display:flex;align-items:center;gap:8px;height:42px;padding:0 14px;border:1px solid #3b4239;border-radius:999px;cursor:pointer;font-size:14px;color:#e6e4dc}
+.need input{accent-color:#8fa37f;width:16px;height:16px;flex-shrink:0;margin:0}
+.need label:has(input:checked){background:#e6e4dc;color:var(--ink);border-color:#e6e4dc}
+.up{border:1px dashed #4a5246;border-radius:12px;padding:16px;display:flex;align-items:center;gap:14px;cursor:pointer;color:#c8cbc1;font-size:14px}
+.up input{display:none}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap}
+.thumbs img{width:56px;height:56px;object-fit:cover;border-radius:8px}
+.side{background:#252b24;border:1px solid #3b4239;border-radius:20px;padding:24px;position:sticky;top:96px}
+.side h3{font-family:"EB Garamond",serif;font-weight:400;font-size:28px}
+.side .sl{font-size:14.5px;color:#c8cbc1;margin-top:14px;display:flex;flex-direction:column;gap:10px}
+.side .sl div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #3b4239;padding-bottom:10px}
+.side .sl div span:first-child{color:#8e9489}
+.side .sl div span:last-child{text-align:right}
+.side .likes{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.side .likes img{width:48px;height:60px;object-fit:cover;border-radius:6px}
+.side .btn{width:100%;margin-top:20px;background:#e6e4dc;color:var(--ink);border-color:#e6e4dc}
+.side .btn:hover{background:#fff}
+.side small{display:block;font-size:12.5px;color:#8e9489;margin-top:12px;line-height:1.5}
+
+/* shop */
+.spics{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:36px}
+.spics .ph{aspect-ratio:4/5}
+.shop{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.sgrid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
+.sgrid div{padding:24px 22px 0 0}
+.sgrid div+div{padding-left:22px;border-left:1px solid var(--line)}
+.sgrid h3{font-family:"EB Garamond",serif;font-weight:400;font-size:26px;line-height:1.1;margin-bottom:10px}
+.sgrid p{font-size:14.5px;color:var(--ink2)}
+
+/* contacts */
+.ct{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:stretch}
+.crow{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+.crow span{color:var(--mute)}
+.map{border-radius:var(--r);overflow:hidden;min-height:380px;background:var(--blush)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0;filter:grayscale(.6) contrast(.95)}
+
+/* value */
+.value{background:#eae5d9}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid rgba(29,34,28,.15)}
+.vgrid div{padding:28px 26px 30px 0}
+.vgrid div:not(:nth-child(3n+1)){padding-left:26px;border-left:1px solid rgba(29,34,28,.15)}
+.vgrid div:nth-child(n+4){border-top:1px solid rgba(29,34,28,.15)}
+.vgrid i{font-family:"EB Garamond",serif;font-style:italic;font-size:34px;color:var(--sage)}
+.vgrid h3{font-size:17px;font-weight:500;margin:10px 0 8px}
+.vgrid p{font-size:14.5px;color:var(--ink2)}
+.vnote{margin-top:30px;font-size:14px;color:var(--ink2)}
+
+footer.site{padding:32px 0 40px;font-size:13px;color:var(--mute)}
+footer.site .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.credits summary{cursor:pointer}
+.credits p{margin-top:10px;max-width:900px;line-height:1.7}
+.credits a{text-decoration:underline;text-underline-offset:2px}
+
+.mbar2{display:none}
+@media (max-width:860px){
+  .mbar2{position:fixed;left:0;right:0;bottom:0;z-index:65;display:grid;grid-template-columns:1fr 1fr 1.3fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(246,243,236,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .3s}
+  .mbar2.on{transform:none}
+  .mbar2 a{height:44px;border-radius:999px;border:1px solid var(--line);background:var(--paper);display:flex;align-items:center;justify-content:center;gap:7px;font-size:13.5px;font-weight:500;white-space:nowrap}
+  .mbar2 a svg{width:17px;height:17px;fill:currentColor;flex-shrink:0}
+  .mbar2 a.pri{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .mood{bottom:76px}
+  footer.site{padding-bottom:90px}
+}
+/* floating moodboard bar */
+.mood{position:fixed;left:50%;bottom:18px;transform:translate(-50%,140%);z-index:70;background:var(--ink);color:#fff;border-radius:999px;padding:8px 8px 8px 18px;display:flex;align-items:center;gap:14px;box-shadow:0 10px 30px rgba(0,0,0,.18);transition:transform .35s;max-width:calc(100vw - 24px)}
+.mood.on{transform:translate(-50%,0)}
+.mood .pics{display:flex}
+.mood .pics img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:2px solid var(--ink);margin-left:-8px}
+.mood .pics img:first-child{margin-left:0}
+.mood span{font-size:14px;white-space:nowrap}
+.mood a{background:#fff;color:var(--ink);border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:500;white-space:nowrap}
+.toast{position:fixed;left:50%;top:20px;transform:translate(-50%,-160%);z-index:95;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:14px;padding:14px 18px;font-size:14.5px;box-shadow:0 10px 30px rgba(0,0,0,.12);transition:transform .35s;max-width:calc(100vw - 32px)}
+.toast.on{transform:translate(-50%,0)}
+
+.fade{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.fade.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fade{opacity:1;transform:none}html{scroll-behavior:auto}}
+
+@media (max-width:1080px){
+  .menu{display:none}
+  .fgrid{grid-template-columns:repeat(4,1fr)}
+  .steps{grid-template-columns:1fr 1fr 1fr}
+  .step:nth-child(4){border-left:0;padding-left:0}
+  .agrid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:860px){
+  .wrap{padding:0 20px}
+  section{padding:76px 0}
+  .shead{grid-template-columns:1fr;gap:14px;margin-bottom:32px}
+  .shead p{justify-self:start}
+  .hero{padding:28px 0 64px}
+  .hero .wrap{grid-template-columns:1fr;grid-template-areas:'txt' 'pics' 'chk';row-gap:30px}
+  .hero h1{margin:16px 0 18px}
+  .check{margin-top:28px}
+  .hero .pics{height:auto;aspect-ratio:4/4.2;margin-right:8px}
+  .hero .p1{inset:0 0 0 0}
+  .hero .p2{width:40%;left:-4px;bottom:-24px;border-width:6px}
+  .grid{grid-template-columns:1fr 1fr;gap:12px}
+  .card .meta{flex-direction:column;gap:0;font-size:13.5px}
+  .like{width:40px;height:40px;top:8px;right:8px}
+  .card .num{top:8px;left:8px}
+  .chips{flex-wrap:nowrap;overflow-x:auto;margin:0 -20px 22px;padding:0 20px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .pr{grid-template-columns:1fr;gap:36px}
+  .calc{padding:22px}
+  .items{grid-template-columns:1fr}
+  .mbar{flex-wrap:nowrap;overflow-x:auto;margin:0 -20px 22px;padding:0 20px;scrollbar-width:none}
+  .mbar::-webkit-scrollbar{display:none}
+  .mbar button{flex-shrink:0}
+  .fgrid{grid-template-columns:1fr 1fr;gap:10px}
+  .steps{grid-template-columns:1fr}
+  .step,.step+.step{padding:22px 0;border-left:0;border-bottom:1px solid var(--line)}
+  .agrid{grid-template-columns:1fr 1fr;gap:12px}
+  .rgrid{grid-template-columns:1fr}
+  .form{grid-template-columns:1fr}
+  .fgrid2{grid-template-columns:1fr}
+  .side{position:static}
+  .ct{grid-template-columns:1fr}
+  .sgrid{grid-template-columns:1fr 1fr}
+  .spics{grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+  .spics .ph:nth-child(3){display:none}
+  .sgrid div,.sgrid div+div{padding:20px 14px 20px 0;border-left:0;border-bottom:1px solid var(--line)}
+  .sgrid div:nth-child(even){padding-left:14px;border-left:1px solid var(--line)}
+  .vgrid{grid-template-columns:1fr}
+  .vgrid div,.vgrid div:not(:nth-child(3n+1)){padding:24px 0;border-left:0;border-top:1px solid rgba(29,34,28,.15)}
+  .lb{padding:56px 10px}
+  .lb .nv{top:auto;bottom:18px;transform:none}
+  .quote p{font-size:22px}
+}
+@media (max-width:420px){
+  .check .row{flex-direction:column}
+  .check input[type=date]{flex:none;width:100%}
+  .check .btn{width:100%}
+  .logo span{display:none}
+  nav .btn.sm{padding:0 14px}
+  .total .sum{font-size:34px}
+  .hero .ctas .btn{flex:1}
+}
+</style>
+</head>
+<body>
+
+<div class="demo">Демо-версія сайту для «Країни квітів» від Krayon · <a href="#value">що дасть вам цей сайт</a></div>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="logo" aria-label="Країна квітів">
+      <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M16 29V14"/><path d="M16 21c-4 0-7-2.6-7.4-6.6 4 .2 7 2.6 7.4 6.6zM16 18c3.5 0 6.4-2.2 6.9-5.8-3.6.2-6.4 2.3-6.9 5.8z"/><circle cx="16" cy="8" r="3.2"/><path d="M16 4.8V3M19.2 8H21M12.8 8H11M18.3 5.7l1.2-1.2M13.7 5.7l-1.2-1.2"/></svg>
+      <div><b>Країна квітів</b><span>весільна флористика · Рівне</span></div>
+    </a>
+    <div class="menu">
+      <a href="#works">Роботи</a><a href="#prices">Ціни</a><a href="#flowers">Квіти за сезоном</a><a href="#after">Після свята</a><a href="#faq">Питання</a>
+    </div>
+    <a href="#request" class="btn sm">Залишити дату</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="htxt fade">
+      <span class="micro">Весільна флористика й декор · Рівне та область</span>
+      <h1 class="serif">Весільні квіти, <i>зібрані саме для вас</i></h1>
+      <p class="lead">Букет нареченої, арка для церемонії, президіум і столи гостей. Подивіться наші роботи й ціни, позначте те, що подобається, і перевірте, чи вільна ваша дата.</p>
+    </div>
+    <div class="pics fade">
+      <div class="ph p1"><img src="img/hero.jpg" alt="Білий букет нареченої від «Країни квітів»" fetchpriority="high"></div>
+      <div class="ph p2"><img src="img/hero2.jpg" alt="Оформлення церемонії рожевим текстилем і квітами"></div>
+      <span class="cap">Наш букет нареченої</span>
+    </div>
+    <div class="hchk fade">
+      <div class="check" id="check">
+        <label for="d0">Дата вашого весілля</label>
+        <div class="row">
+          <input type="date" id="d0" aria-label="Дата весілля">
+          <button class="btn" id="d0b">Перевірити дату</button>
+        </div>
+        <div class="res" id="d0r"></div>
+      </div>
+      <div class="trust"><span>Магазин квітів на Пластовій, 3</span><a href="tel:+380961244646">096 124 46 46</a><a href="https://instagram.com/krayina_kvitiv_rv" target="_blank" rel="noopener">@krayina_kvitiv_rv</a></div>
+    </div>
+  </div>
+</header>
+
+<section class="works" id="works">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Портфоліо</span><h2 class="serif">Наші <i>роботи</i></h2></div><p>Кожна композиція створена з любовʼю і увагою до деталей. Натисніть ♡ на роботах, які вам до душі, і ми побачимо вашу добірку в заявці.</p></div>
+    <div class="chips" id="chips"></div>
+    <div class="grid" id="grid"></div>
+    <p class="hint"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.3-9.2C1.4 8.4 3.6 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.7 1.2-1.6 2.8-2.7 4.8-2.7 3.6 0 5.8 3.6 4.5 7C19.5 16.4 12 21 12 21z"/></svg>Ваша добірка збережеться, навіть якщо ви закриєте сторінку.</p>
+  </div>
+</section>
+
+<section id="prices">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Ціни</span><h2 class="serif">Скільки коштують <i>квіти на весілля</i></h2></div><p>Точна сума залежить від квітів, сезону й розміру залу. Ось ціни «від», щоб ви могли спланувати бюджет, і калькулятор, щоб порахувати свій варіант.</p></div>
+    <div class="pr">
+      <div class="fade">
+        <div class="plist" id="plist"></div>
+        <p class="pnote">Ціни орієнтовні для демо-версії. Доставка й монтаж по Рівному від 800 грн, за містом за домовленістю.</p>
+      </div>
+      <div class="calc fade" id="calc">
+        <h3>Порахуйте бюджет на квіти</h3>
+        <p class="sub">Орієнтовна сума за хвилину. Розрахунок можна додати до заявки.</p>
+        <div class="presets" id="presets"></div>
+        <div class="fld"><label for="g">Кількість гостей <b id="gv">60</b></label><input type="range" id="g" min="10" max="200" step="5" value="60"></div>
+        <div class="fld"><div class="lbl">Що потрібно</div><div class="items" id="items"></div></div>
+        <div class="fld"><div class="lbl">Квіти</div><div class="seg" id="lvl"><button data-v="0.85">Сезонні</button><button data-v="1" class="on">Мікс</button><button data-v="1.35">Преміум</button></div><p class="segnote" id="lvln"></p></div>
+        <div class="total"><div><div class="sum" id="sum">0 грн</div><small id="sumn"></small></div><a href="#request" class="btn sage" id="toReq">Додати в заявку</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="flowers" id="flowers">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Квіти за сезоном</span><h2 class="serif">Що цвіте <i>у ваш місяць</i></h2></div><p>Сезонні квіти свіжіші й дешевші. Оберіть місяць весілля, позначте квіти й палітру, і ми підберемо склад, який точно буде гарним у ваш день.</p></div>
+    <div class="mbar" id="mbar"></div>
+    <div class="fgrid" id="fgrid"></div>
+    <div class="legend"><span><i></i>сезон: найкраща ціна й вибір</span><span><i class="y"></i>на замовлення, дорожче</span></div>
+    <p class="season-note" id="snote"></p>
+    <div class="pal" id="pal"><span class="lbl">Палітра:</span></div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Як ми працюємо</span><h2 class="serif">Від заявки <i>до першого танцю</i></h2></div><p>Ви заздалегідь знатимете, що буде на кожному етапі й скільки це коштуватиме.</p></div>
+    <div class="steps fade">
+      <div class="step"><i>01</i><h3>Заявка з датою</h3><p>Ви залишаєте дату, локацію і роботи, що сподобались, а ми відповідаємо в Direct.</p></div>
+      <div class="step"><i>02</i><h3>Зустріч і мудборд</h3><p>У магазині на Пластовій чи онлайн обговорюємо стиль, палітру й квіти. Ви отримуєте мудборд і кошторис.</p></div>
+      <div class="step"><i>03</i><h3>Бронювання дати</h3><p>Передоплата закріплює дату за вами. Решту сплачуєте ближче до весілля.</p></div>
+      <div class="step"><i>04</i><h3>Фінальний склад</h3><p>За два тижні до весілля затверджуємо квіти з урахуванням сезону. Якщо щось недоступне, пропонуємо рівноцінну заміну.</p></div>
+      <div class="step"><i>05</i><h3>День весілля</h3><p>Привозимо, монтуємо й забираємо декор після свята. Вам не треба нічого контролювати.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="after" id="after">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Після свята</span><h2 class="serif">Що буде з квітами <i>після весілля</i></h2></div><p>Про це нас часто питають. Квіти не мають стати сміттям наступного ранку, тому заздалегідь вирішуємо, куди вони підуть.</p></div>
+    <div class="agrid">
+      <div class="ac fade"><i>01</i><h3>Забираєте додому</h3><p>Композиції зі столів перетворюємо на букети, і ви забираєте їх із собою після свята.</p></div>
+      <div class="ac fade"><i>02</i><h3>Даруєте рідним</h3><p>Пакуємо квіти для батьків і гостей. Гарне «дякую» тим, хто був поруч у цей день.</p></div>
+      <div class="ac fade"><i>03</i><h3>Зберігаєте букет</h3><p>Букет нареченої можна засушити й оформити в рамку, щоб він залишився з вами надовго.</p></div>
+      <div class="ac fade"><i>04</i><h3>Передаєте далі</h3><p>Якщо хочете, домовимося й відвеземо квіти туди, де їм зрадіють, наприклад до храму чи будинку для літніх людей.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Питання</span><h2 class="serif">Часті <i>питання</i></h2></div><p>Не знайшли відповідь? Напишіть нам у Direct або зателефонуйте: 096 124 46 46.</p></div>
+    <div class="faq fade" id="faqs"></div>
+  </div>
+</section>
+
+<section class="req" id="request">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Заявка</span><h2 class="serif">Розкажіть про <i>своє весілля</i></h2></div><p>Заповніть, що знаєте. Решту уточнимо разом. Заявка відкриється в Instagram Direct, текст скопіюється автоматично.</p></div>
+    <form class="form" id="form" novalidate>
+      <div class="fgrid2">
+        <div class="f"><label for="fd">Дата весілля</label><input type="date" id="fd"></div>
+        <div class="f"><label for="fv">Локація</label><input id="fv" placeholder="Ресторан, садиба або місто"></div>
+        <div class="f"><label for="fg">Кількість гостей</label><input id="fg" type="number" min="1" inputmode="numeric" placeholder="Наприклад, 60"></div>
+        <div class="f"><label for="fb">Бюджет на квіти</label><select id="fb"><option value="">Ще не знаю</option><option>до 15 000 грн</option><option>15 000 – 30 000 грн</option><option>30 000 – 50 000 грн</option><option>понад 50 000 грн</option></select></div>
+        <div class="f w"><label>Що потрібно</label><div class="need" id="need"></div></div>
+        <div class="f w"><label for="fm">Побажання</label><textarea id="fm" placeholder="Стиль, кольори, квіти, які любите або не любите"></textarea></div>
+        <div class="f w"><label>Фото квітів, які подобаються</label><label class="up" for="ff"><input type="file" id="ff" accept="image/*" multiple><span>＋ Додати фото з телефону</span><div class="thumbs" id="thumbs"></div></label></div>
+        <div class="f"><label for="fn">Ваше імʼя</label><input id="fn" autocomplete="name" placeholder="Наприклад, Олена та Андрій"></div>
+        <div class="f"><label for="fp">Телефон</label><input id="fp" type="tel" autocomplete="tel" inputmode="tel" placeholder="+380"></div>
+      </div>
+      <aside class="side">
+        <h3>Ваша заявка</h3>
+        <div class="sl" id="sl"></div>
+        <div class="likes" id="slikes"></div>
+        <button class="btn" type="submit">Надіслати в Direct</button>
+        <small>Текст заявки скопіюється, і відкриється чат із нами в Instagram. Вставте текст і, якщо додавали фото, надішліть їх слідом.</small>
+      </aside>
+    </form>
+  </div>
+</section>
+
+<section class="shop" id="shop">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Наш магазин</span><h2 class="serif">Квіти не лише <i>на весілля</i></h2></div><p>У магазині на Пластовій, 3 збираємо букети щодня. Замовити можна в Direct або телефоном, доставимо по Рівному.</p></div>
+    <div class="sgrid fade">
+      <div><h3>Авторські букети</h3><p>На день народження, побачення чи просто так. Є готова добірка букетів до 5 000 грн.</p></div>
+      <div><h3>Кімнатні рослини</h3><p>Вазони для дому й офісу. Підкажемо, як доглядати, щоб рослина прижилась.</p></div>
+      <div><h3>Їстівні букети</h3><p>Солодкий або фруктовий подарунок, який точно не залишиться без уваги.</p></div>
+      <div><h3>Флавербокси</h3><p>Квіти в коробці, які зручно дарувати й не треба ставити у вазу.</p></div>
+    </div>
+    <div class="fade" style="margin-top:30px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn ghost" href="https://ig.me/m/krayina_kvitiv_rv" target="_blank" rel="noopener">Замовити букет у Direct</a><a class="btn ghost" href="tel:+380961244646">096 124 46 46</a></div>
+  </div>
+</section>
+
+<section id="contacts">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro">Контакти</span><h2 class="serif">Приходьте <i>подивитись на квіти</i></h2></div><p>На консультацію краще домовитись заздалегідь. Покажемо квіти наживо й підкажемо, що буде гарним саме у ваш місяць.</p></div>
+    <div class="ct">
+      <div class="fade">
+        <div class="crow"><span>Магазин</span><b style="font-weight:500;text-align:right">Рівне, вул. Пластова, 3<br><span style="color:var(--mute);font-weight:400">біля готелю «Мир»</span></b></div>
+        <div class="crow"><span>Телефон</span><a href="tel:+380961244646">096 124 46 46</a></div>
+        <div class="crow"><span>Instagram</span><a href="https://instagram.com/krayina_kvitiv_rv" target="_blank" rel="noopener">@krayina_kvitiv_rv</a></div>
+        <div class="crow"><span>Весілля</span><span style="color:var(--ink)">Рівне та область</span></div>
+        <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="#request">Залишити заявку</a><a class="btn ghost" href="https://ig.me/m/krayina_kvitiv_rv" target="_blank" rel="noopener">Написати в Direct</a></div>
+      </div>
+      <div class="map fade"><iframe title="Мапа: Рівне, вул. Пластова, 3" loading="lazy" src="https://maps.google.com/maps?q=%D0%A0%D1%96%D0%B2%D0%BD%D0%B5%2C%20%D0%B2%D1%83%D0%BB.%20%D0%9F%D0%BB%D0%B0%D1%81%D1%82%D0%BE%D0%B2%D0%B0%2C%203&z=16&output=embed"></iframe></div>
+    </div>
+  </div>
+</section>
+
+<section id="value" class="value">
+  <div class="wrap">
+    <div class="shead"><div><span class="micro">Для вас · не частина сайту</span><h2 class="serif">Що дасть вам <i>цей сайт</i></h2></div><p>Це демо-версія на фото з вашого Instagram. Ціни й тексти поки орієнтовні, підставимо ваші. Ось як сайт працюватиме на вас.</p></div>
+    <div class="vgrid">
+      <div><i>01</i><h3>Пари з Google</h3><p>Наречені шукають «весільна флористика Рівне», «оформлення весілля Рівне». Сайт допомагає їм знайти вас у Google, а не лише в Instagram.</p></div>
+      <div><i>02</i><h3>Готові заявки замість «скільки коштує?»</h3><p>У заявці вже є дата, локація, кількість гостей, бюджет і роботи, що сподобались. Менше переписки, швидше до бронювання.</p></div>
+      <div><i>03</i><h3>Відкриті ціни</h3><p>Багато весільних флористів працює тільки через Instagram і не публікує цін. Ціни «від» і калькулятор дають парам те, чого вони часто не знаходять в інших.</p></div>
+      <div><i>04</i><h3>Календар зайнятих дат</h3><p>Ви позначаєте зайняті дні, і пари одразу бачать, чи вільна їхня дата. Ніяких «а 14 червня ще можна?».</p></div>
+      <div><i>05</i><h3>Ваші справжні відгуки</h3><p>Додамо відгуки пар з Instagram і Google. Нових наречених вони переконують краще за будь-яку рекламу.</p></div>
+      <div><i>06</i><h3>Без клопоту для вас</h3><p>Домен, хостинг на перший рік і налаштування Google беремо на себе. Нові роботи додаємо за вашим повідомленням.</p></div>
+    </div>
+    <p class="vnote">Демо-версію підготувала команда Krayon · krayon.site</p>
+  </div>
+</section>
+
+<footer class="site"><div class="wrap"><span>© Країна квітів · Рівне</span><details class="credits"><summary>Фото: @krayina_kvitiv_rv ↓</summary><p id="credits"></p></details><span>Demo · Krayon</span></div></footer>
+
+<div class="mbar2" id="mbar2"><a href="tel:+380961244646"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Подзвонити</a><a href="https://ig.me/m/krayina_kvitiv_rv" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.1"/></svg>Direct</a><a href="#request" class="pri">Залишити дату</a></div>
+<div class="mood" id="mood"><div class="pics" id="mpics"></div><span id="mtxt"></span><a href="#request">До заявки</a></div>
+<div class="toast" id="toast"></div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Перегляд роботи">
+  <button class="x" id="lbx" aria-label="Закрити">×</button>
+  <button class="nv l" id="lbp" aria-label="Попередня">‹</button>
+  <figure><img id="lbi" alt=""><figcaption><span id="lbc"></span><button class="like" id="lbl" aria-label="Подобається"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.3-9.2C1.4 8.4 3.6 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.7 1.2-1.6 2.8-2.7 4.8-2.7 3.6 0 5.8 3.6 4.5 7C19.5 16.4 12 21 12 21z"/></svg></button></figcaption></figure>
+  <button class="nv r" id="lbn" aria-label="Наступна">›</button>
+</div>
+
+<script>
+const IG='krayina_kvitiv_rv';
+const CATS=[['all','Усі роботи'],['bq','Весільні букети'],['cer','Церемонія'],['tab','Столи гостей'],['det','Декор зали'],['day','Букети']];
+/* WORKS: [img, category, title, note] */
+const W=[["ig-ceremony.jpg", "cer", "Оформлення церемонії", "рожевий текстиль і живі квіти"], ["ig-white.jpg", "bq", "Букет нареченої", "білий, ніжний, класичний"], ["ig-mirror.jpg", "cer", "Вітальна зона", "весілля 12 вересня 2026"], ["ig-table.jpg", "tab", "Столи гостей", "зелений ранер і квіти в склі"], ["ig-decor.jpg", "det", "Декор зали", "білі гербери, зелень і бордо"], ["ig-pastel.jpg", "day", "Пастельний букет", "троянди, жоржини, гербери"], ["ig-bright.jpg", "day", "Яскравий букет", "троянди, хризантеми, жоржини"], ["ig-hydrangea.jpg", "day", "Букет з гортензією", "гортензія й кущові троянди"]];
+/* PRICE LIST: [name, note, from] */
+const PL=[['Букет нареченої','дублер для кидання від 1 200 грн',3000],['Бутоньєрка','для нареченого, свідків і батьків',250],['Браслет для подружки','',300],['Арка або зона церемонії','живі квіти, конструкція в оренду',4500],['Президіум','композиції на стіл молодят',3500],['Композиція на стіл гостей','за один стіл',800],['Фотозона','',5000],['Оформлення авто живими квітами','',1000],['Квіти для торта','',500]];
+/* CALC ITEMS: [key, name, price, qty or null, on by default, max] */
+const CI=[['bq','Букет нареченої',3000,null,true,1],['bt','Бутоньєрки',250,2,true,12],['br','Браслети',300,3,false,10],['ar','Арка для церемонії',4500,null,true,1],['pr','Президіум',3500,null,true,1],['tb','Столи гостей',800,8,true,30],['fz','Фотозона',5000,null,false,1],['av','Авто',1000,null,false,1],['ck','Квіти для торта',500,null,false,1]];
+const PRESETS=[['Камерно',['bq','bt','br']],['Церемонія',['bq','bt','ar']],['Повне оформлення',['bq','bt','br','ar','pr','tb','fz']]];
+/* FLOWERS: [key, name, note, season months, available months ('all' = year-round)] */
+const FL=[['peony','Півонії','головні квіти травня й червня',[5,6],[4,7]],['ranunculus','Ранункулюси','ніжні, з тонкими пелюстками',[11,12,1,2,3,4,5],[6,10]],['rose','Садові троянди','пишні, з ароматом',[6,7,8,9],'all'],['eustoma','Еустома','легка, добре переносить спеку',[6,7,8,9],'all'],['hydrangea','Гортензія','обʼєм для арок і столів',[7,8,9],'all'],['dahlia','Жоржини','королеви серпня й вересня',[8,9,10],[7]],['tulip','Тюльпани','весняна класика',[3,4],[1,2,5,11,12]],['gypsophila','Гіпсофіла','повітряна хмаринка',[7,8],'all'],['eucalyptus','Евкаліпт','зелень, що тримає форму',[],'all'],['chrysanthemum','Хризантеми','найстійкіші, для осені',[9,10,11],'all']];
+const PAL=[['white','Білий із зеленим',['#f5f2ea','#dfe6d5','#7c8e6c']],['powder','Пудровий',['#f3e1da','#e2bdb2','#c4968a']],['peach','Персиковий',['#f8dcc6','#efb991','#d98f63']],['lilac','Бузковий',['#ece4f2','#c3b0d6','#8d7cab']],['wine','Бордо й вино',['#e5c9bf','#a8574b','#6e2232']],['bright','Яскраве літо',['#f4c95d','#e9724f','#86ad78']]];
+const FAQ=[
+['Скільки коштують квіти на весілля?','Букет нареченої від 3 000 грн. Букет, бутоньєрки, арка, президіум і столи на 60 гостей зазвичай коштують від 17 до 21 тисячі гривень. Точну суму назвемо після розмови: вона залежить від квітів, сезону й розміру залу. Приблизний бюджет покаже калькулятор вище.'],
+['За скільки часу треба бронювати дату?','На травень–вересень краще за 4–6 місяців, суботи в сезоні розбирають першими. Камерне весілля чи будній день часто можна організувати й за місяць.'],
+['Як забронювати дату?','Після консультації ви вносите передоплату, і дата закріплюється за вами. Решту сплачуєте ближче до весілля, коли затвердимо фінальний склад квітів.'],
+['Чи входять у ціну доставка, монтаж і демонтаж?','Це окрема послуга: по Рівному від 800 грн, за містом залежно від відстані. Ми самі привозимо квіти, встановлюємо декор і після свята забираємо конструкції.'],
+['Що, якщо потрібних квітів не буде на нашу дату?','Квіти залежать від сезону й постачання. Якщо якогось сорту не буде, ми заздалегідь погодимо з вами рівноцінну заміну в тій самій палітрі. А якщо якихось квітів ви точно не хочете, просто напишіть про це в заявці.'],
+['Ви привезете букет нареченої зранку?','Так, букет і бутоньєрки привеземо на збори в зручний для вас час. Або заберете їх у нашому магазині на Пластовій, 3.'],
+['Чи можна перенести квіти з церемонії на банкет?','Так. Композиції з арки чи проходу можна поставити біля президіуму або на фотозону, і квіти прикрашатимуть свято до кінця вечора.'],
+['Чи витримають квіти літню спеку?','Для літа обираємо квіти, які добре переносять спеку: еустому, хризантеми, гіпсофілу. Композиції стоять у воді або флористичній губці, а привозимо ми їх якомога ближче до початку свята.'],
+['Що буде з квітами після весілля?','Ви обираєте заздалегідь: забрати додому, подарувати рідним, засушити букет нареченої або передати квіти далі. Більше про це в розділі «Після свята».']];
+const CREDITS='Усі фотографії робіт взято з Instagram <a href="https://instagram.com/krayina_kvitiv_rv" target="_blank" rel="noopener">@krayina_kvitiv_rv</a>.';
+
+const MN=['січень','лютий','березень','квітень','травень','червень','липень','серпень','вересень','жовтень','листопад','грудень'];
+const MS=['Січ','Лют','Бер','Кві','Тра','Чер','Лип','Сер','Вер','Жов','Лис','Гру'];
+const MG=['січня','лютого','березня','квітня','травня','червня','липня','серпня','вересня','жовтня','листопада','грудня'];
+const ML=['у січні','у лютому','у березні','у квітні','у травні','у червні','у липні','у серпні','у вересні','у жовтні','у листопаді','у грудні'];
+const WD=['неділя','понеділок','вівторок','середа','четвер','пʼятниця','субота'];
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const fmt=n=>Math.round(n).toLocaleString('uk-UA').replace(/,/g,' ')+' грн';
+const store={get(k,d){try{const v=localStorage.getItem('kk-'+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem('kk-'+k,JSON.stringify(v))}catch(e){}}};
+const st={date:store.get('date',''),likes:store.get('likes',[]),fl:store.get('fl',[]),pal:store.get('pal',''),calc:null,files:0};
+let toastT;function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(toastT);toastT=setTimeout(()=>e.classList.remove('on'),4200)}
+function pd(v){if(!v)return null;const [y,m,d]=v.split('-').map(Number);return new Date(y,m-1,d)}
+function dlabel(v){const d=pd(v);return d?`${d.getDate()} ${MG[d.getMonth()]} ${d.getFullYear()}, ${WD[d.getDay()]}`:''}
+function inSeason(f,m){return f[3].includes(m)}
+function avail(f,m){return f[3].includes(m)||f[4]==='all'||(Array.isArray(f[4])&&f[4].includes(m))}
+function seasonText(m){const loc=FL.filter(f=>inSeason(f,m)).map(f=>f[1].toLowerCase());const yr=FL.filter(f=>!inSeason(f,m)&&f[4]==='all').map(f=>f[1].toLowerCase());
+  let t=loc.length?`${ML[m-1][0].toUpperCase()+ML[m-1].slice(1)} в сезоні ${loc.join(', ')}.`:`${ML[m-1][0].toUpperCase()+ML[m-1].slice(1)} місцевих квітів мало, тому працюємо з привізними.`;
+  if(yr.length)t+=` Цілий рік доступні ${yr.join(', ')}.`;return t}
+
+/* ---------- date check ---------- */
+function hash(s){let h=7;for(const c of s)h=(h*31+c.charCodeAt(0))%1000003;return h}
+function checkDate(v){
+  const box=$('#d0r');const d=pd(v);if(!d){$('#d0').focus();toast('Оберіть дату весілля');return}
+  const today=new Date();today.setHours(0,0,0,0);const days=Math.round((d-today)/864e5);const m=d.getMonth()+1;
+  let cls='',head='',txt='';
+  if(days<0){cls='busy';head='Ця дата вже минула';txt='Перевірте, будь ласка, рік і число.'}
+  else if(days<10){cls='few';head='Дата вже близько, але шанс є';txt='Термінові замовлення беремо, якщо встигнемо закупити квіти. Напишіть нам сьогодні.'}
+  else{const h=hash(v),wk=d.getDay()===6,peak=m>=5&&m<=9;
+    if(wk&&peak&&h%4===0){cls='busy';head='На цю дату вже є весілля';txt='Напишіть нам: іноді можемо взяти ще одне невелике весілля того ж дня або порадимо, як бути.'}
+    else if(wk&&peak&&h%3===0){cls='few';head='Дата ще вільна, лишилось одне місце';txt='Суботи в сезоні бронюють найшвидше. Дату закріплюємо після короткої консультації.'}
+    else{head='Дата вільна';txt=peak?'З травня до вересня дати бронюють за 4–6 місяців, тож свою краще закріпити завчасно.':'Це спокійніший сезон, тож можемо приділити вашому весіллю більше часу.'}}
+  box.innerHTML=`<span class="st ${cls}">${head}</span> · <b>${dlabel(v)}</b><p>${txt}</p><p>${seasonText(m)}</p><div class="acts"><a href="#request" data-go="req">Заповнити заявку з цією датою</a><a href="#flowers" data-go="fl">Квіти на ${MN[m-1]}</a></div><p style="font-size:12.5px;color:var(--mute)">Демо: зайнятість показана для прикладу. На справжньому сайті ви самі позначатимете зайняті дати.</p>`;
+  box.classList.add('on');setDate(v,true)}
+function setDate(v,fromCheck){st.date=v;store.set('date',v);$('#d0').value=v;$('#fd').value=v;if(v){const m=pd(v).getMonth()+1;setMonth(m)}sum()}
+$('#d0b').onclick=e=>{e.preventDefault();checkDate($('#d0').value)};
+$('#d0').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();checkDate($('#d0').value)}});
+$('#d0r').addEventListener('click',e=>{const g=e.target.closest('[data-go]');if(!g)return});
+$('#d0').min=new Date().toISOString().slice(0,10);$('#fd').min=$('#d0').min;
+
+/* ---------- works ---------- */
+let cat='all',lbIdx=0;
+$('#chips').innerHTML=CATS.map(([k,n])=>`<button class="chip${k==='all'?' on':''}" data-c="${k}">${n}</button>`).join('');
+const heart='<svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.3-9.2C1.4 8.4 3.6 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.7 1.2-1.6 2.8-2.7 4.8-2.7 3.6 0 5.8 3.6 4.5 7C19.5 16.4 12 21 12 21z"/></svg>';
+$('#grid').innerHTML=W.map((w,i)=>`<div class="card fade" data-c="${w[1]}" data-i="${i}"><div class="ph"><img src="img/${w[0]}" alt="${w[2]}" loading="lazy"></div><span class="num">№${i+1}</span><button class="like" data-l="${i}" aria-label="Подобається" aria-pressed="false">${heart}</button><div class="meta"><b>${w[2]}</b><span>${w[3]}</span></div></div>`).join('')+`<a class="card more" href="https://instagram.com/${IG}" target="_blank" rel="noopener"><span class="serif">Ще понад 450 публікацій</span><span>в Instagram @${IG} →</span></a>`;
+$('#chips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;cat=b.dataset.c;$$('.chip').forEach(x=>x.classList.toggle('on',x===b));$$('.card:not(.more)').forEach(c=>c.classList.toggle('hide',cat!=='all'&&c.dataset.c!==cat))};
+function toggleLike(i){i=+i;const k=st.likes.indexOf(i);if(k<0)st.likes.push(i);else st.likes.splice(k,1);store.set('likes',st.likes);paintLikes();if(k<0&&st.likes.length===1)toast('Додали в добірку. Вона потрапить у вашу заявку.')}
+function paintLikes(){$$('.like[data-l]').forEach(b=>{const on=st.likes.includes(+b.dataset.l);b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+  $('#lbl').classList.toggle('on',st.likes.includes(lbIdx));
+  const n=st.likes.length;$('#mpics').innerHTML=st.likes.slice(-4).map(i=>`<img src="img/${W[i][0]}" alt="">`).join('');
+  $('#mtxt').textContent=n+' '+(n%10===1&&n%100!==11?'робота':(n%10>=2&&n%10<=4&&(n%100<12||n%100>14))?'роботи':'робіт')+' у добірці';
+  moodVis();sum()}
+$('#grid').onclick=e=>{const l=e.target.closest('.like');if(l){toggleLike(l.dataset.l);return}const c=e.target.closest('.card .ph');if(c)openLb(+c.parentNode.dataset.i)};
+/* lightbox */
+function vis(){return W.map((w,i)=>i).filter(i=>cat==='all'||W[i][1]===cat)}
+function openLb(i){lbIdx=i;const w=W[i];$('#lbi').src='img/'+w[0];$('#lbi').alt=w[2];$('#lbc').textContent=`№${i+1} · ${w[2]} · ${w[3]}`;$('#lb').classList.add('on');document.body.style.overflow='hidden';paintLikes()}
+function closeLb(){$('#lb').classList.remove('on');document.body.style.overflow=''}
+function stepLb(d){const v=vis();let k=v.indexOf(lbIdx);k=(k+d+v.length)%v.length;openLb(v[k])}
+$('#lbx').onclick=closeLb;$('#lbp').onclick=()=>stepLb(-1);$('#lbn').onclick=()=>stepLb(1);$('#lbl').onclick=()=>toggleLike(lbIdx);
+$('#lb').onclick=e=>{if(e.target.id==='lb')closeLb()};
+document.addEventListener('keydown',e=>{if(!$('#lb').classList.contains('on'))return;if(e.key==='Escape')closeLb();if(e.key==='ArrowLeft')stepLb(-1);if(e.key==='ArrowRight')stepLb(1)});
+let tx=0;$('#lb').addEventListener('touchstart',e=>{tx=e.touches[0].clientX},{passive:true});$('#lb').addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>50)stepLb(dx<0?1:-1)});
+/* mood bar */
+let reqVis=false;function moodVis(){$('#mood').classList.toggle('on',st.likes.length>0&&!reqVis&&!$('#lb').classList.contains('on'))}
+new IntersectionObserver(es=>{es.forEach(e=>{reqVis=e.isIntersecting});moodVis();barVis()},{threshold:.05}).observe($('#request'));
+let heroVis=true;function barVis(){$('#mbar2').classList.toggle('on',!heroVis&&!reqVis)}
+new IntersectionObserver(es=>{es.forEach(e=>{heroVis=e.isIntersecting});barVis()},{threshold:0}).observe($('#check'));
+
+/* ---------- prices + calculator ---------- */
+$('#plist').innerHTML=PL.map(p=>`<div><span>${p[0]}${p[1]?`<small>${p[1]}</small>`:''}</span><b>від ${fmt(p[2])}</b></div>`).join('');
+const calc={guests:60,lvl:1,tablesTouched:false,items:{}};
+CI.forEach(c=>calc.items[c[0]]={on:c[4],q:c[3]});
+function tablesFor(g){return Math.max(2,Math.ceil(g/8))}
+function drawItems(){$('#items').innerHTML=CI.map(c=>{const it=calc.items[c[0]];return `<label class="it${it.on?'':' off'}" data-k="${c[0]}"><input type="checkbox"${it.on?' checked':''}><span class="nm">${c[1]}</span>${c[3]!==null?`<span class="q"><button type="button" data-d="-1" aria-label="Менше">−</button><em>${it.q}</em><button type="button" data-d="1" aria-label="Більше">+</button></span>`:''}</label>`}).join('')}
+$('#items').addEventListener('click',e=>{const b=e.target.closest('button[data-d]');if(!b)return;e.preventDefault();const k=b.closest('.it').dataset.k,c=CI.find(x=>x[0]===k),it=calc.items[k];it.q=Math.min(c[5],Math.max(1,it.q+ +b.dataset.d));if(k==='tb')calc.tablesTouched=true;drawItems();recalc()});
+$('#items').addEventListener('change',e=>{const l=e.target.closest('.it');calc.items[l.dataset.k].on=e.target.checked;drawItems();recalc();syncNeed()});
+$('#g').oninput=e=>{calc.guests=+e.target.value;$('#gv').textContent=calc.guests;if(!calc.tablesTouched){calc.items.tb.q=tablesFor(calc.guests);drawItems()}recalc()};
+const LV={'0.85':'Троянди, еустома, гіпсофіла та квіти сезону. Найвигідніше.','1':'Сезонні квіти з акцентами: гортензія, садові троянди, а в травні й червні півонії.','1.35':'Багато акцентних квітів і пишні обʼєми. Для великого бюджету.'};
+$('#lvl').onclick=e=>{const b=e.target.closest('button');if(!b)return;calc.lvl=+b.dataset.v;$$('#lvl button').forEach(x=>x.classList.toggle('on',x===b));$('#lvln').textContent=LV[b.dataset.v];recalc()};
+$('#lvln').textContent=LV['1'];
+$('#presets').innerHTML='<span style="font-size:13.5px;color:var(--mute);align-self:center">Швидкий вибір:</span>'+PRESETS.map((p,i)=>`<button type="button" data-p="${i}">${p[0]}</button>`).join('');
+$('#presets').onclick=e=>{const b=e.target.closest('button');if(!b)return;const on=PRESETS[+b.dataset.p][1];CI.forEach(c=>calc.items[c[0]].on=on.includes(c[0]));drawItems();recalc();syncNeed()};
+function recalc(){let s=0,any=false;CI.forEach(c=>{const it=calc.items[c[0]];if(it.on){any=true;s+=c[2]*(c[3]!==null?it.q:1)}});s*=calc.lvl;if(any)s+=800;
+  const lo=Math.round(s*0.92/500)*500,hi=Math.round(s*1.15/500)*500;
+  $('#sum').textContent=any?`${fmt(lo).replace(' грн','')} – ${fmt(hi)}`:'0 грн';
+  $('#sumn').textContent=any?`орієнтовно, разом із доставкою й монтажем по Рівному`:'оберіть, що потрібно';
+  calc.range=any?`${fmt(lo).replace(' грн','')} – ${fmt(hi)}`:'';}
+$('#toReq').onclick=()=>{st.calc={range:calc.range,guests:calc.guests,lvl:$('#lvl .on').textContent,items:CI.filter(c=>calc.items[c[0]].on).map(c=>c[1]+(c[3]!==null?` × ${calc.items[c[0]].q}`:''))};
+  if(!$('#fg').value)$('#fg').value=calc.guests;syncNeed(true);sum();toast('Розрахунок додано до заявки')};
+
+/* ---------- flowers ---------- */
+let month=st.date?pd(st.date).getMonth()+1:new Date().getMonth()+1;
+$('#mbar').innerHTML=MN.map((m,i)=>`<button data-m="${i+1}">${m[0].toUpperCase()+m.slice(1)}</button>`).join('');
+$('#fgrid').innerHTML=FL.map(f=>`<div class="fl" data-k="${f[0]}" role="button" tabindex="0" aria-pressed="false"><span class="badge">у сезоні</span><span class="tick">✓</span><h4>${f[1]}</h4><p>${f[2]}</p><div class="months">${MS.map((x,i)=>`<i class="${f[3].includes(i+1)?'s':avail(f,i+1)?'y':''}" title="${MN[i]}"></i>`).join('')}</div></div>`).join('');
+function setMonth(m){month=m;$$('#mbar button').forEach(b=>b.classList.toggle('on',+b.dataset.m===m));
+  $$('.fl').forEach(el=>{const f=FL.find(x=>x[0]===el.dataset.k);el.classList.toggle('ins',inSeason(f,m));el.classList.toggle('dim',!avail(f,m));el.querySelectorAll('.months i').forEach((x,i)=>x.classList.toggle('cur',i+1===m))});
+  $('#snote').textContent=seasonText(m)}
+$('#mbar').onclick=e=>{const b=e.target.closest('button');if(b)setMonth(+b.dataset.m)};
+function paintFl(){$$('.fl').forEach(el=>{const on=st.fl.includes(el.dataset.k);el.classList.toggle('on',on);el.setAttribute('aria-pressed',on)});sum()}
+function togFl(k){const i=st.fl.indexOf(k);if(i<0)st.fl.push(k);else st.fl.splice(i,1);store.set('fl',st.fl);paintFl()}
+$('#fgrid').onclick=e=>{const el=e.target.closest('.fl');if(el)togFl(el.dataset.k)};
+$('#fgrid').onkeydown=e=>{const el=e.target.closest('.fl');if(el&&(e.key==='Enter'||e.key===' ')){e.preventDefault();togFl(el.dataset.k)}};
+$('#pal').insertAdjacentHTML('beforeend',PAL.map(p=>`<button class="sw" data-p="${p[0]}"><i>${p[2].map(c=>`<b style="background:${c}"></b>`).join('')}</i>${p[1]}</button>`).join(''));
+function paintPal(){$$('.sw').forEach(b=>b.classList.toggle('on',b.dataset.p===st.pal));sum()}
+$('#pal').onclick=e=>{const b=e.target.closest('.sw');if(!b)return;st.pal=st.pal===b.dataset.p?'':b.dataset.p;store.set('pal',st.pal);paintPal()};
+
+/* ---------- FAQ ---------- */
+$('#faqs').innerHTML=FAQ.map((q,i)=>`<details${i===0?' open':''}><summary>${q[0]}</summary><p>${q[1]}</p></details>`).join('');
+
+/* ---------- request form ---------- */
+const NEED=[['bq','Букет нареченої'],['bt','Бутоньєрки'],['br','Браслети для подружок'],['ar','Арка для церемонії'],['pr','Президіум'],['tb','Столи гостей'],['fz','Фотозона'],['av','Оформлення авто'],['ck','Квіти для торта']];
+$('#need').innerHTML=NEED.map(n=>`<label><input type="checkbox" value="${n[0]}">${n[1]}</label>`).join('');
+function syncNeed(force){$$('#need input').forEach(i=>{const it=calc.items[i.value];if(it&&(force||!i.dataset.touched))i.checked=it.on});sum()}
+$('#need').addEventListener('change',e=>{e.target.dataset.touched=1;sum()});
+$('#fd').onchange=e=>{setDate(e.target.value)};
+['fv','fg','fb','fm','fn','fp'].forEach(id=>$('#'+id).addEventListener('input',sum));
+$('#ff').onchange=e=>{const fs=[...e.target.files].slice(0,8);st.files=fs.length;$('#thumbs').innerHTML='';fs.forEach(f=>{const u=URL.createObjectURL(f);$('#thumbs').insertAdjacentHTML('beforeend',`<img src="${u}" alt="">`)});sum()};
+function fields(){const need=$$('#need input:checked').map(i=>NEED.find(n=>n[0]===i.value)[1]);
+  return [['Дата',st.date?dlabel(st.date):''],['Локація',$('#fv').value.trim()],['Гостей',$('#fg').value],['Бюджет',$('#fb').value],['Потрібно',need.join(', ')],
+  ['Квіти',FL.filter(f=>st.fl.includes(f[0])).map(f=>f[1].toLowerCase()).join(', ')],['Палітра',(PAL.find(p=>p[0]===st.pal)||[,''])[1]],['Розрахунок',st.calc?st.calc.range:''],
+  ['Добірка',st.likes.length?st.likes.map(i=>'№'+(i+1)).join(', '):''],['Фото',st.files?st.files+' фото, надішлю в чат':'']]}
+function sum(){if(!$('#sl'))return;const f=fields();$('#sl').innerHTML=f.map(([k,v])=>`<div><span>${k}</span><span>${v||'—'}</span></div>`).join('');
+  $('#slikes').innerHTML=st.likes.slice(0,8).map(i=>`<img src="img/${W[i][0]}" alt="">`).join('')}
+function copy(t){if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).catch(()=>fb(t))}else fb(t)}
+function fb(t){const a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove()}
+$('#form').onsubmit=e=>{e.preventDefault();const n=$('#fn');if(!n.value.trim()){n.parentNode.classList.add('err');n.focus();toast('Вкажіть, будь ласка, своє імʼя');return}n.parentNode.classList.remove('err');
+  const lines=['Добрий день! Заявка на весільні квіти з сайту.'];fields().forEach(([k,v])=>{if(v)lines.push(`${k}: ${v}`)});
+  if(st.calc&&st.calc.items.length)lines.push('У розрахунку: '+st.calc.items.join(', ')+` (квіти: ${st.calc.lvl.toLowerCase()})`);
+  const m=$('#fm').value.trim();if(m)lines.push('Побажання: '+m);
+  lines.push(`Імʼя: ${n.value.trim()}`+($('#fp').value.trim()?`, телефон ${$('#fp').value.trim()}`:''));
+  const t=lines.join('\n');copy(t);window.open('https://ig.me/m/'+IG,'_blank','noopener');toast('Текст заявки скопійовано. Вставте його в чат і надішліть'+(st.files?', а потім додайте фото.':'.'))};
+$('#fn').addEventListener('input',()=>$('#fn').parentNode.classList.remove('err'));
+
+/* ---------- init ---------- */
+document.getElementById('credits').innerHTML=CREDITS;
+drawItems();calc.items.tb.q=tablesFor(calc.guests);drawItems();recalc();
+if(st.date){$('#d0').value=st.date;$('#fd').value=st.date}
+setMonth(month);paintFl();paintPal();paintLikes();syncNeed();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
+$$('.fade').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
