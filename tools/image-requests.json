@@ -1,8 +1,26 @@
 {
  "pool": [
   {
-   "name": "ms-massage",
-   "q": "incategory:\"Quality_images\" massage",
+   "name": "kv-bouquet",
+   "q": "incategory:\"Quality_images\" bridal bouquet",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
+   "w": 1280
+  },
+  {
+   "name": "kv-bouquet2",
+   "q": "wedding bouquet bride flowers",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
+   "w": 1280
+  },
+  {
+   "name": "kv-arch",
+   "q": "wedding arch flowers",
    "src": [
     "commons"
    ],
@@ -10,17 +28,53 @@
    "w": 1920
   },
   {
-   "name": "ms-massage2",
-   "q": "massage therapy hands back",
+   "name": "kv-ceremony",
+   "q": "wedding ceremony floral decoration",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
+   "w": 1920
+  },
+  {
+   "name": "kv-table",
+   "q": "wedding table centerpiece flowers",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
+   "w": 1280
+  },
+  {
+   "name": "kv-table2",
+   "q": "incategory:\"Quality_images\" table setting flowers",
    "src": [
     "commons"
    ],
    "n": 6,
-   "w": 1920
+   "w": 1280
   },
   {
-   "name": "ms-spa",
-   "q": "incategory:\"Quality_images\" spa wellness",
+   "name": "kv-arrangement",
+   "q": "incategory:\"Quality_images\" flower arrangement",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
+   "w": 1280
+  },
+  {
+   "name": "kv-florist",
+   "q": "florist arranging flowers",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
+   "w": 1280
+  },
+  {
+   "name": "kv-shop",
+   "q": "incategory:\"Quality_images\" flower shop",
    "src": [
     "commons"
    ],
@@ -28,40 +82,94 @@
    "w": 1280
   },
   {
-   "name": "ms-face",
-   "q": "facial massage",
+   "name": "kv-boutonniere",
+   "q": "boutonniere wedding",
    "src": [
     "commons"
    ],
-   "n": 5,
+   "n": 6,
+   "w": 960
+  },
+  {
+   "name": "kv-peony",
+   "q": "incategory:\"Quality_images\" peonies",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
    "w": 1280
   },
   {
-   "name": "ms-stones",
-   "q": "incategory:\"Quality_images\" stones towel spa",
+   "name": "kv-rose",
+   "q": "incategory:\"Quality_images\" roses bouquet",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 1280
+  },
+  {
+   "name": "kv-ranunc",
+   "q": "incategory:\"Quality_images\" ranunculus",
    "src": [
     "commons"
    ],
    "n": 4,
-   "w": 1280
+   "w": 960
   },
   {
-   "name": "ms-wroclaw",
-   "q": "incategory:\"Quality_images\" Wroc\u0142aw Ostr\u00f3w Tumski",
+   "name": "kv-hydr",
+   "q": "incategory:\"Quality_images\" hydrangea",
    "src": [
     "commons"
    ],
    "n": 4,
-   "w": 1920
+   "w": 960
   },
   {
-   "name": "ms-plants",
+   "name": "kv-dahlia",
+   "q": "incategory:\"Quality_images\" dahlia",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "kv-tulip",
+   "q": "incategory:\"Quality_images\" tulips",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "kv-gypso",
+   "q": "incategory:\"Quality_images\" gypsophila",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 960
+  },
+  {
+   "name": "kv-euca",
    "q": "incategory:\"Quality_images\" eucalyptus leaves",
    "src": [
     "commons"
    ],
    "n": 4,
-   "w": 1280
+   "w": 960
+  },
+  {
+   "name": "kv-wedding",
+   "q": "incategory:\"Quality_images\" wedding",
+   "src": [
+    "commons"
+   ],
+   "n": 8,
+   "w": 1920
   }
  ]
 }
