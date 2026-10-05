@@ -1,0 +1,19 @@
+{"pool": [
+ {"name": "pisa-tower", "q": "leaning tower of pisa", "src": ["unsplash"], "n": 10},
+ {"name": "pisa-miracoli", "q": "piazza dei miracoli pisa", "src": ["unsplash"], "n": 6},
+ {"name": "pisa-arno", "q": "pisa arno river", "src": ["unsplash"], "n": 6},
+ {"name": "lucca", "q": "lucca italy", "src": ["unsplash"], "n": 12},
+ {"name": "lucca-walls", "q": "lucca walls", "src": ["unsplash", "commons"], "n": 6},
+ {"name": "lucca-guinigi", "q": "torre guinigi lucca", "src": ["unsplash", "commons"], "n": 5},
+ {"name": "lucca-anfiteatro", "q": "piazza anfiteatro lucca", "src": ["unsplash"], "n": 6},
+ {"name": "tuscany", "q": "tuscany landscape cypress", "src": ["unsplash"], "n": 8},
+ {"name": "guide", "q": "tour guide group walking old town", "src": ["unsplash"], "n": 6},
+ {"name": "food", "q": "tuscan food wine cheese", "src": ["unsplash"], "n": 6},
+ {"name": "lodz", "q": "lodz poland", "src": ["unsplash", "commons"], "n": 12},
+ {"name": "lodz-piotrkowska", "q": "piotrkowska lodz", "src": ["unsplash", "commons"], "n": 6},
+ {"name": "docs", "q": "documents desk signing", "src": ["unsplash"], "n": 8},
+ {"name": "stamp", "q": "official stamp document", "src": ["unsplash"], "n": 8},
+ {"name": "translator", "q": "woman working desk documents laptop", "src": ["unsplash"], "n": 6},
+ {"name": "passport", "q": "passport documents", "src": ["unsplash"], "n": 6},
+ {"name": "books", "q": "dictionary books library", "src": ["unsplash"], "n": 6}
+]}
