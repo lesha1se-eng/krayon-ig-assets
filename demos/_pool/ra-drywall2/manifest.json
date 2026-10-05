@@ -1,0 +1,70 @@
+[
+ {
+  "src": "commons",
+  "id": "File:Trockenbau in München.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Trockenbau_in_M%C3%BCnchen.jpg/960px-Trockenbau_in_M%C3%BCnchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/8/82/Trockenbau_in_M%C3%BCnchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 2448,
+  "h": 2448,
+  "alt": "File:Trockenbau in München.jpg",
+  "author": "Casey Hugelfink",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Trockenbau_in_M%C3%BCnchen.jpg",
+  "file": "demos/_pool/ra-drywall2/00-commons.jpg",
+  "saved": [
+   960,
+   960
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Trockenbau.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Trockenbau.jpg/960px-Trockenbau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Trockenbau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 2988,
+  "h": 5312,
+  "alt": "File:Trockenbau.jpg",
+  "author": "NK Bau Montageservice",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Trockenbau.jpg",
+  "file": "demos/_pool/ra-drywall2/01-commons.jpg",
+  "saved": [
+   960,
+   1707
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Gipsväggar.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Gipsv%C3%A4ggar.jpg/960px-Gipsv%C3%A4ggar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Gipsv%C3%A4ggar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 1704,
+  "h": 2272,
+  "alt": "File:Gipsväggar.jpg",
+  "author": "Jorchr",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gipsv%C3%A4ggar.jpg",
+  "file": "demos/_pool/ra-drywall2/02-commons.jpg",
+  "saved": [
+   960,
+   1280
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Gipsskivor.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Gipsskivor.jpg/960px-Gipsskivor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/2/23/Gipsskivor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 2272,
+  "h": 1704,
+  "alt": "File:Gipsskivor.jpg",
+  "author": "Jorchr",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gipsskivor.jpg",
+  "file": "demos/_pool/ra-drywall2/03-commons.jpg",
+  "saved": [
+   960,
+   720
+  ]
+ }
+]

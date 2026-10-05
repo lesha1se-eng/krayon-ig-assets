@@ -1,0 +1,70 @@
+[
+ {
+  "src": "commons",
+  "id": "File:Eisenhuettenstadt asv2020-09 img18 Dokumentationszentrum.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Eisenhuettenstadt_asv2020-09_img18_Dokumentationszentrum.jpg/960px-Eisenhuettenstadt_asv2020-09_img18_Dokumentationszentrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/8/86/Eisenhuettenstadt_asv2020-09_img18_Dokumentationszentrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4232,
+  "h": 3174,
+  "alt": "File:Eisenhuettenstadt asv2020-09 img18 Dokumentationszentrum.jpg",
+  "author": "A.Savin",
+  "license": "FAL",
+  "page": "https://commons.wikimedia.org/wiki/File:Eisenhuettenstadt_asv2020-09_img18_Dokumentationszentrum.jpg",
+  "file": "demos/_pool/ra-elec3/00-commons.jpg",
+  "saved": [
+   960,
+   720
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Valingu siire.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Valingu_siire.jpg/960px-Valingu_siire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Valingu_siire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4200,
+  "h": 2363,
+  "alt": "File:Valingu siire.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Valingu_siire.jpg",
+  "file": "demos/_pool/ra-elec3/01-commons.jpg",
+  "saved": [
+   960,
+   540
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Elektroinstallation Kranichfeld.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Elektroinstallation_Kranichfeld.jpg/960px-Elektroinstallation_Kranichfeld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/9/90/Elektroinstallation_Kranichfeld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3072,
+  "h": 2304,
+  "alt": "File:Elektroinstallation Kranichfeld.jpg",
+  "author": "Giorno2",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Elektroinstallation_Kranichfeld.jpg",
+  "file": "demos/_pool/ra-elec3/02-commons.jpg",
+  "saved": [
+   960,
+   720
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:San Juan Bautista Tuxtepec- electrical wiring inside of Hotel Mirador.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/San_Juan_Bautista_Tuxtepec-_electrical_wiring_inside_of_Hotel_Mirador.jpg/960px-San_Juan_Bautista_Tuxtepec-_electrical_wiring_inside_of_Hotel_Mirador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/9/9e/San_Juan_Bautista_Tuxtepec-_electrical_wiring_inside_of_Hotel_Mirador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 2448,
+  "h": 3264,
+  "alt": "File:San Juan Bautista Tuxtepec- electrical wiring inside of Hotel Mirador.jpg",
+  "author": "Thayne Tuason",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:San_Juan_Bautista_Tuxtepec-_electrical_wiring_inside_of_Hotel_Mirador.jpg",
+  "file": "demos/_pool/ra-elec3/03-commons.jpg",
+  "saved": [
+   960,
+   1280
+  ]
+ }
+]

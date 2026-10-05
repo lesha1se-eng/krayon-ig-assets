@@ -1,12 +1,22 @@
-[get] demos/gaiseniuk/img/hero.jpg (1920, 1440)
-[get] demos/gaiseniuk/img/piotrkowska-night.jpg (1280, 857)
-[get] demos/gaiseniuk/img/pen.jpg (1280, 939)
-[get] demos/gaiseniuk/img/chernivtsi.jpg (1280, 857)
-[get] demos/gaiseniuk/img/chernivtsi-aerial.jpg (1280, 774)
-[get] demos/gaiseniuk/img/library.jpg (1280, 853)
-[get] demos/gaiseniuk/img/poznanski.jpg (1280, 851)
-[get] demos/gaiseniuk/img/manufaktura.jpg (1280, 851)
-[get] demos/gaiseniuk/img/piotrkowska-lights.jpg (1280, 857)
-[get] demos/gaiseniuk/img/fabryczna.jpg (1280, 854)
-[get] demos/baskova/img/miracoli-aerial.jpg (1920, 1080)
-[get] demos/baskova/img/cypress.jpg (1920, 1280)
+[ra-hero-int] saved 5
+[ra-kitchen] saved 5
+[ra-alicante] saved 8
+[ra-bath] saved 2
+[ra-bath-q] saved 5
+[ra-reno] saved 6
+[ra-reno2] saved 4
+[ra-parquet] saved 0
+[ra-parquet2] saved 0
+[ra-parquet-q] saved 5
+[ra-tiles] saved 6
+[ra-tiles2] saved 4
+[ra-azulejos] saved 5
+[ra-drywall] saved 6
+[ra-drywall2] saved 4
+[ra-drywall3] saved 2
+[ra-weld-q] saved 8
+[ra-weld2] saved 4
+[ra-elec] saved 6
+[ra-elec-q] saved 5
+[ra-elec3] saved 4
+[ra-paint] saved 4
