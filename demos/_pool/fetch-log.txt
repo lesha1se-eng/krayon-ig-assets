@@ -1,25 +1,12 @@
-[o-chernivtsi] saved 4
-[o-residence] saved 8
-[o-pen] saved 8
-[o-library] saved 10
-[o-ksiezy] saved 0
-[o-manufaktura] saved 2
-[o-lodz-night] saved 8
-[o-stamp] saved 8
-[o-docs] saved 8
-[o-ul] saved 6
-[get] demos/baskova/img/hero.jpg (1920, 1201)
-[get] FAILED demos/baskova/img/miracoli-aerial.jpg: HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai
-[get] demos/baskova/img/pisa.jpg (1280, 767)
-[get] demos/baskova/img/lucca-guinigi.jpg (1280, 853)
-[get] demos/baskova/img/lucca-roofs.jpg (1280, 908)
-[get] demos/baskova/img/anfiteatro-day.jpg (1280, 579)
-[get] demos/baskova/img/anfiteatro-sunset.jpg (1280, 790)
-[get] demos/baskova/img/battistero.jpg (1280, 892)
-[get] demos/baskova/img/arno.jpg (1280, 853)
-[get] demos/baskova/img/san-michele.jpg (960, 801)
-[get] FAILED demos/baskova/img/cypress.jpg: HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai
-[get] demos/baskova/img/tower-night.jpg (960, 1610)
-[get] demos/baskova/img/window.jpg (960, 1180)
-[get] demos/baskova/img/lucca-duomo.jpg (1280, 850)
-[get] demos/baskova/img/walls.jpg (1280, 853)
+[get] demos/gaiseniuk/img/hero.jpg (1920, 1440)
+[get] demos/gaiseniuk/img/piotrkowska-night.jpg (1280, 857)
+[get] demos/gaiseniuk/img/pen.jpg (1280, 939)
+[get] demos/gaiseniuk/img/chernivtsi.jpg (1280, 857)
+[get] demos/gaiseniuk/img/chernivtsi-aerial.jpg (1280, 774)
+[get] demos/gaiseniuk/img/library.jpg (1280, 853)
+[get] demos/gaiseniuk/img/poznanski.jpg (1280, 851)
+[get] demos/gaiseniuk/img/manufaktura.jpg (1280, 851)
+[get] demos/gaiseniuk/img/piotrkowska-lights.jpg (1280, 857)
+[get] demos/gaiseniuk/img/fabryczna.jpg (1280, 854)
+[get] demos/baskova/img/miracoli-aerial.jpg (1920, 1080)
+[get] demos/baskova/img/cypress.jpg (1920, 1280)
