@@ -1,0 +1,53 @@
+[
+ {
+  "src": "commons",
+  "id": "File:Lviv Old Town 2015 G01.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Lviv_Old_Town_2015_G01.jpg/1280px-Lviv_Old_Town_2015_G01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/59/Lviv_Old_Town_2015_G01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4880,
+  "h": 3200,
+  "alt": "File:Lviv Old Town 2015 G01.jpg",
+  "author": "George Chernilevsky",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Lviv_Old_Town_2015_G01.jpg",
+  "file": "demos/_pool/lv-street/00-commons.jpg",
+  "saved": [
+   1280,
+   839
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Lwów - Widok z wieży ratuszowej 01.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Lw%C3%B3w_-_Widok_z_wie%C5%BCy_ratuszowej_01.jpg/1280px-Lw%C3%B3w_-_Widok_z_wie%C5%BCy_ratuszowej_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lw%C3%B3w_-_Widok_z_wie%C5%BCy_ratuszowej_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3782,
+  "h": 2338,
+  "alt": "File:Lwów - Widok z wieży ratuszowej 01.jpg",
+  "author": "Lestat (Jan Mehlich)",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lw%C3%B3w_-_Widok_z_wie%C5%BCy_ratuszowej_01.jpg",
+  "file": "demos/_pool/lv-street/01-commons.jpg",
+  "saved": [
+   1280,
+   791
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Lublin 17.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Lublin_17.jpg/1280px-Lublin_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/2/22/Lublin_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3658,
+  "h": 5047,
+  "alt": "File:Lublin 17.jpg",
+  "author": "Scotch Mist",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lublin_17.jpg",
+  "file": "demos/_pool/lv-street/02-commons.jpg",
+  "saved": [
+   1280,
+   1766
+  ]
+ }
+]
