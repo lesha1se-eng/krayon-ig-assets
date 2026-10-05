@@ -1,8 +1,5 @@
-[kr-rynek] saved 6
-[kr-wawel] saved 6
-[kr-kazimierz] saved 6
-[kr-wieliczka] saved 5
-[kr-mariacki] saved 4
-[kr-sukiennice] saved 4
-[kr-vistula] saved 4
-[kr-night] saved 4
+[lk-reading] saved 2
+[lk-books] saved 6
+[lk-cafe] saved 0
+[lk-fabric] saved 0
+[lk-library] saved 4
