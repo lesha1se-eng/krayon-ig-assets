@@ -1,0 +1,36 @@
+[
+ {
+  "src": "commons",
+  "id": "File:Łódź 2023 01.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/%C5%81%C3%B3d%C5%BA_2023_01.jpg/960px-%C5%81%C3%B3d%C5%BA_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/5e/%C5%81%C3%B3d%C5%BA_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4135,
+  "h": 2750,
+  "alt": "File:Łódź 2023 01.jpg",
+  "author": "Scotch Mist",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%C5%81%C3%B3d%C5%BA_2023_01.jpg",
+  "file": "demos/_pool/o-manufaktura/00-commons.jpg",
+  "saved": [
+   900,
+   598
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Nieborów 2023 07 Manufaktura Plates.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Niebor%C3%B3w_2023_07_Manufaktura_Plates.jpg/960px-Niebor%C3%B3w_2023_07_Manufaktura_Plates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/2/21/Niebor%C3%B3w_2023_07_Manufaktura_Plates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 2739,
+  "h": 2739,
+  "alt": "File:Nieborów 2023 07 Manufaktura Plates.jpg",
+  "author": "Scotch Mist",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Niebor%C3%B3w_2023_07_Manufaktura_Plates.jpg",
+  "file": "demos/_pool/o-manufaktura/01-commons.jpg",
+  "saved": [
+   900,
+   900
+  ]
+ }
+]
