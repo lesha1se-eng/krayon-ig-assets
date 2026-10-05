@@ -1,8 +1,8 @@
 {
  "pool": [
   {
-   "name": "kr-rynek",
-   "q": "incategory:\"Quality_images\" Kraków Main Market Square",
+   "name": "lk-reading",
+   "q": "incategory:\"Quality_images\" woman reading book",
    "src": [
     "commons"
    ],
@@ -10,17 +10,8 @@
    "w": 1920
   },
   {
-   "name": "kr-wawel",
-   "q": "incategory:\"Quality_images\" Wawel Castle",
-   "src": [
-    "commons"
-   ],
-   "n": 6,
-   "w": 1920
-  },
-  {
-   "name": "kr-kazimierz",
-   "q": "incategory:\"Quality_images\" Kazimierz Kraków",
+   "name": "lk-books",
+   "q": "incategory:\"Quality_images\" books stack",
    "src": [
     "commons"
    ],
@@ -28,8 +19,8 @@
    "w": 1280
   },
   {
-   "name": "kr-wieliczka",
-   "q": "incategory:\"Quality_images\" Wieliczka Salt Mine",
+   "name": "lk-cafe",
+   "q": "incategory:\"Quality_images\" coffee cup book",
    "src": [
     "commons"
    ],
@@ -37,35 +28,17 @@
    "w": 1280
   },
   {
-   "name": "kr-mariacki",
-   "q": "incategory:\"Quality_images\" St. Mary's Basilica Kraków",
+   "name": "lk-fabric",
+   "q": "incategory:\"Quality_images\" linen fabric texture",
    "src": [
     "commons"
    ],
-   "n": 4,
+   "n": 5,
    "w": 1280
   },
   {
-   "name": "kr-sukiennice",
-   "q": "incategory:\"Quality_images\" Sukiennice",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 1280
-  },
-  {
-   "name": "kr-vistula",
-   "q": "incategory:\"Quality_images\" Kraków Vistula",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 1280
-  },
-  {
-   "name": "kr-night",
-   "q": "incategory:\"Quality_images\" Kraków night",
+   "name": "lk-library",
+   "q": "incategory:\"Quality_images\" bookshelf",
    "src": [
     "commons"
    ],
