@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Marina Shpak · Masaż i kursy masażu we Wrocławiu</title>
+<meta name="description" content="Masaż klasyczny, drenaż limfatyczny, japoński masaż twarzy Kobido i Endosfera we Wrocławiu. Kursy masażu ręcznego, limfatycznego i aparaturowego.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Marina Shpak Massage · wersja demo">
+<meta property="og:image" content="https://lesha1se-eng.github.io/krayon-ig-assets/demos/shpak/img/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf8f5;--stone:#f1ede6;--sand:#e3dbcf;--ink:#1b1916;--ink2:#4a453e;--mute:#8a8277;--line:#e6e0d6;--acc:#8b7760;--r:2px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;font-weight:400;background:var(--bg);color:var(--ink);font-size:15.5px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+.wrap{max-width:1280px;margin:0 auto;padding:0 40px}
+.disp{font-family:Cormorant,Georgia,serif;font-weight:300;letter-spacing:-.01em;line-height:1}
+.disp i{font-style:italic;font-weight:300}
+.micro{font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--mute)}
+.ph{background:var(--sand);overflow:hidden}
+.ph img,.ph video{width:100%;height:100%;object-fit:cover;filter:saturate(.82) contrast(.97)}
+
+.demo{background:var(--ink);color:#cfc8bd;font-size:12px;letter-spacing:.02em;text-align:center;padding:8px 16px}
+.demo a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+nav{position:sticky;top:0;z-index:50;background:rgba(250,248,245,.88);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+nav .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:72px}
+.logo{display:flex;flex-direction:column;line-height:1}
+.logo b{font-family:Cormorant,serif;font-weight:400;font-size:26px;letter-spacing:.04em}
+.logo span{font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--mute);margin-top:4px}
+.menu{display:flex;gap:34px;font-size:13px;letter-spacing:.04em}
+.menu a{color:var(--ink2);position:relative}
+.menu a::after{content:"";position:absolute;left:0;right:100%;bottom:-6px;height:1px;background:var(--ink);transition:right .35s}
+.menu a:hover::after{right:0}
+.navr{justify-self:end;display:flex;gap:14px;align-items:center}
+.lang{display:flex;gap:2px;font-size:12px;letter-spacing:.08em}
+.lang button{border:0;background:none;cursor:pointer;color:var(--mute);padding:4px 6px}
+.lang button.on{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:48px;padding:0 26px;border:1px solid var(--ink);background:var(--ink);color:#fff;font-size:12.5px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:background .25s,color .25s}
+.btn:hover{background:transparent;color:var(--ink)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:#fff}
+.btn.sm{height:40px;padding:0 18px;font-size:11.5px}
+.arrow::after{content:"→";font-size:15px;letter-spacing:0;transition:transform .3s}
+.arrow:hover::after{transform:translateX(4px)}
+
+/* hero */
+.hero{padding:64px 0 0}
+.hero .wrap{display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:stretch}
+.hero h1{font-size:clamp(56px,8vw,128px);margin:26px 0 30px}
+.hero p.lead{font-size:17px;color:var(--ink2);max-width:470px;font-weight:300}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:36px}
+.paths{display:grid;grid-template-columns:1fr 1fr;margin-top:64px;border-top:1px solid var(--line)}
+.paths a{padding:26px 24px 30px 0;display:block;transition:padding .3s}
+.paths a+a{padding-left:24px;border-left:1px solid var(--line)}
+.paths a:hover h3{font-style:italic}
+.paths h3{font-family:Cormorant,serif;font-weight:400;font-size:30px;line-height:1.1;margin:8px 0 6px}
+.paths span.d{font-size:13.5px;color:var(--mute)}
+.reel{position:relative;min-height:640px}
+.reel .ph{position:absolute;inset:0}
+.reel .ph img{animation:kb 22s ease-in-out infinite alternate}
+@keyframes kb{to{transform:scale(1.07)}}
+.reel .tag{position:absolute;left:20px;bottom:20px;display:flex;align-items:center;gap:12px;color:#fff;font-size:12px;letter-spacing:.14em;text-transform:uppercase;text-shadow:0 1px 10px rgba(0,0,0,.4)}
+.play{width:52px;height:52px;border-radius:50%;border:1px solid rgba(255,255,255,.8);display:grid;place-items:center;backdrop-filter:blur(6px);background:rgba(255,255,255,.12)}
+.play::before{content:"";border-left:12px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent;margin-left:3px}
+.reel .cap{position:absolute;right:20px;bottom:24px;color:rgba(255,255,255,.75);font-size:11px}
+
+/* treatments ticker */
+.ticker{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:80px;overflow:hidden;white-space:nowrap}
+.ticker div{display:inline-block;padding:22px 0;animation:tk 40s linear infinite;font-family:Cormorant,serif;font-size:28px;font-weight:300;color:var(--ink2)}
+.ticker span{margin:0 28px}
+.ticker em{font-style:normal;color:var(--acc);font-size:16px;vertical-align:middle}
+@keyframes tk{to{transform:translateX(-50%)}}
+
+section{padding:120px 0}
+.shead{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;margin-bottom:56px;align-items:end}
+.shead h2{font-size:clamp(46px,6vw,88px);margin-top:16px}
+.shead p{color:var(--ink2);font-weight:300;font-size:16.5px;max-width:520px}
+.note{font-size:12px;color:var(--mute);margin-top:22px}
+
+/* menu (treatments) */
+.tmenu{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:start}
+.tphoto{position:sticky;top:110px;aspect-ratio:4/5}
+.tphoto img{transition:opacity .5s}
+.list{border-top:1px solid var(--ink)}
+.li{display:grid;grid-template-columns:1fr auto;gap:8px 24px;padding:26px 0;border-bottom:1px solid var(--line);cursor:default}
+.li h3{font-family:Cormorant,serif;font-weight:400;font-size:32px;line-height:1.05}
+.li .meta{text-align:right;font-size:13px;color:var(--mute);white-space:nowrap}
+.li .meta b{display:block;font-family:Cormorant,serif;font-weight:400;font-size:26px;color:var(--ink);line-height:1.1}
+.li p{grid-column:1/-1;color:var(--ink2);font-weight:300;max-width:560px}
+.li a{grid-column:1/-1;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;display:inline-flex;gap:8px;width:max-content;border-bottom:1px solid var(--ink);padding-bottom:3px}
+.li:hover h3{font-style:italic}
+
+/* visit */
+.visit{background:var(--stone)}
+.vsteps{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink)}
+.vsteps div{padding:28px 28px 0 0}
+.vsteps div+div{padding-left:28px;border-left:1px solid var(--line)}
+.vsteps b{font-family:Cormorant,serif;font-weight:300;font-size:56px;line-height:1;color:var(--acc)}
+.vsteps h3{font-size:15px;font-weight:600;margin:16px 0 6px;letter-spacing:.01em}
+.vsteps p{color:var(--ink2);font-weight:300;font-size:14.5px}
+
+/* courses */
+.courses{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.course{display:flex;flex-direction:column}
+.course .ph{aspect-ratio:4/5}
+.course .ph img{filter:grayscale(1) contrast(1.04)}
+.course .num{margin-top:22px}
+.course h3{font-family:Cormorant,serif;font-weight:400;font-size:34px;line-height:1.05;margin:8px 0 10px}
+.course p{color:var(--ink2);font-weight:300;font-size:14.5px}
+.course ul{list-style:none;margin:16px 0 20px;border-top:1px solid var(--line)}
+.course li{display:flex;justify-content:space-between;font-size:13.5px;padding:10px 0;border-bottom:1px solid var(--line)}
+.course li span{color:var(--mute)}
+.course .btn{margin-top:auto;align-self:flex-start}
+.ask{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;margin-top:96px;padding-top:56px;border-top:1px solid var(--ink)}
+.ask h3{font-family:Cormorant,serif;font-weight:300;font-size:clamp(40px,4.6vw,64px);line-height:1}
+.ask p{color:var(--ink2);font-weight:300;margin-top:16px;max-width:420px}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px}
+.form label{display:grid;gap:8px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+.form .full{grid-column:1/-1}
+.form input,.form select{height:46px;border:0;border-bottom:1px solid var(--ink2);background:transparent;font:inherit;font-size:16px;color:var(--ink);padding:0 2px;border-radius:0;-webkit-appearance:none;appearance:none}
+.form input:focus,.form select:focus{outline:none;border-bottom-color:var(--acc)}
+.form .btn{grid-column:1/-1;justify-self:start;margin-top:8px}
+.pv{grid-column:1/-1;display:none;background:var(--stone);padding:16px;font-size:14px;white-space:pre-wrap;color:var(--ink2)}
+.pv.show{display:block}
+
+/* about */
+.about{background:var(--ink);color:#efe9e0}
+.about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.about .ph{aspect-ratio:4/5}
+.about .micro{color:#a59c8f}
+.about h2{font-size:clamp(46px,6vw,88px);margin:16px 0 28px}
+.about p{color:#cfc7bb;font-weight:300;font-size:16.5px;margin-bottom:16px;max-width:520px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #3a3631;margin-top:36px}
+.facts div{padding:20px 16px 0 0}
+.facts b{display:block;font-family:Cormorant,serif;font-weight:300;font-size:40px;line-height:1;color:#fff}
+.facts span{font-size:12.5px;color:#a59c8f}
+.about .note{color:#8f877c}
+
+/* reviews */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:56px}
+.revs q{display:block;font-family:Cormorant,serif;font-weight:300;font-style:italic;font-size:28px;line-height:1.22;quotes:"„" "”"}
+.revs span{display:block;margin-top:20px;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+
+/* contact */
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:stretch}
+.contact h2{font-size:clamp(46px,6vw,88px);margin:16px 0 28px}
+.crow{display:grid;grid-template-columns:120px 1fr;padding:18px 0;border-bottom:1px solid var(--line);font-size:15px}
+.crow span{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);padding-top:3px}
+.map{min-height:440px;filter:grayscale(1) contrast(.95);border:1px solid var(--line)}
+.map iframe{width:100%;height:100%;border:0;min-height:440px}
+
+/* value */
+.value{background:var(--stone);border-top:1px solid var(--line)}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
+.vgrid div{padding:30px 30px 34px 0;border-bottom:1px solid var(--line)}
+.vgrid div:not(:nth-child(3n+1)){padding-left:30px;border-left:1px solid var(--line)}
+.vgrid i{font-style:normal;font-family:Cormorant,serif;font-size:22px;color:var(--acc)}
+.vgrid h3{font-size:16px;font-weight:600;margin:10px 0 8px}
+.vgrid p{color:var(--ink2);font-weight:300;font-size:14.5px}
+
+footer{padding:36px 0;font-size:12px;color:var(--mute);border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+details.credits{max-width:640px}
+details.credits summary{cursor:pointer;list-style:none}
+details.credits summary::-webkit-details-marker{display:none}
+details.credits p{margin-top:8px;font-size:11px}
+
+.fade{opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1)}
+.fade.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fade{opacity:1;transform:none}.reel .ph img,.ticker div{animation:none}}
+
+@media (max-width:1020px){
+  .wrap{padding:0 24px}
+  .menu{display:none}
+  nav .wrap{grid-template-columns:1fr auto}
+  .hero .wrap,.shead,.tmenu,.ask,.about .wrap,.contact{grid-template-columns:1fr;gap:40px}
+  .reel{min-height:520px}
+  .tphoto{position:relative;top:0;aspect-ratio:16/10}
+  .courses,.revs{grid-template-columns:1fr 1fr}
+  .vsteps{grid-template-columns:1fr 1fr}
+  .vsteps div:nth-child(3){padding-left:0;border-left:0}
+  .vgrid{grid-template-columns:1fr 1fr}
+  .vgrid div:not(:nth-child(3n+1)){padding-left:0;border-left:0}
+  .vgrid div:nth-child(2n){padding-left:24px;border-left:1px solid var(--line)}
+  section{padding:88px 0}
+}
+@media (max-width:640px){
+  .wrap{padding:0 18px}
+  .hero{padding-top:36px}
+  .paths{grid-template-columns:1fr}
+  .paths a+a{padding-left:0;border-left:0;border-top:1px solid var(--line)}
+  .reel{min-height:440px}
+  .courses,.revs,.vgrid,.vsteps,.form{grid-template-columns:1fr}
+  .vsteps div+div{padding-left:0;border-left:0}
+  .vgrid div:nth-child(2n){padding-left:0;border-left:0}
+  .facts b{font-size:32px}
+  .navr .btn{display:none}
+  .li h3{font-size:27px}
+  .crow{grid-template-columns:96px 1fr}
+  .hero .ctas .btn{flex:1}
+}
+</style>
+</head>
+<body>
+
+<div class="demo">Wersja demo strony dla Marina Shpak Massage od Krayon · <a href="#value">co da Pani ta strona</a></div>
+
+<nav><div class="wrap">
+  <a href="#" class="logo"><b>ANIRAM</b><span>Marina Shpak</span></a>
+  <div class="menu"><a href="#masaze" data-i="n1">Masaże</a><a href="#kursy" data-i="n2">Kursy</a><a href="#o-mnie" data-i="n3">O mnie</a><a href="#kontakt" data-i="n4">Kontakt</a></div>
+  <div class="navr"><div class="lang"><button class="on" data-l="pl">PL</button><button data-l="uk">UA</button></div><a class="btn sm" href="https://booksy.com/pl-pl/285211_marina-shpak_masaz_13750_wroclaw" target="_blank" rel="noopener" data-i="nb">Rezerwacja</a></div>
+</div></nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="fade">
+      <span class="micro" data-i="k">Gabinet masażu · Wrocław</span>
+      <h1 class="disp" data-i="h1">Dotyk, który <i>przywraca</i> lekkość</h1>
+      <p class="lead" data-i="lead">Masaże lecznicze i relaksacyjne oraz kursy dla przyszłych masażystów. Gabinet Mariny Shpak przy ulicy Biskupiej we Wrocławiu.</p>
+      <div class="ctas"><a class="btn arrow" href="https://booksy.com/pl-pl/285211_marina-shpak_masaz_13750_wroclaw" target="_blank" rel="noopener" data-i="c1">Zarezerwuj wizytę</a><a class="btn ghost" href="#kursy" data-i="c2">Kursy masażu</a></div>
+      <div class="paths">
+        <a href="#masaze"><span class="micro" data-i="p1k">Dla klientów</span><h3 data-i="p1">Masaże ciała i twarzy</h3><span class="d" data-i="p1d">Drenaż, Kobido, Endosfera, masaż klasyczny</span></a>
+        <a href="#kursy"><span class="micro" data-i="p2k">Dla kursantów</span><h3 data-i="p2">Kursy masażu</h3><span class="d" data-i="p2d">Ręczny, limfatyczny i aparaturowy</span></a>
+      </div>
+    </div>
+    <div class="reel fade">
+      <figure class="ph"><img src="img/hero.jpg" alt="" fetchpriority="high"></figure>
+      <div class="tag"><span class="play"></span><span data-i="reel">Zobacz gabinet</span></div>
+      <span class="cap" data-i="cap">Tu będzie Pani wideo z gabinetu</span>
+    </div>
+  </div>
+  <div class="ticker" aria-hidden="true"><div>
+    <span>Drenaż limfatyczny</span><em>✦</em><span>Japoński masaż twarzy Kobido</span><em>✦</em><span>Endosfera Terapia</span><em>✦</em><span>Masaż klasyczny</span><em>✦</em><span>Masaż antycellulitowy</span><em>✦</em><span>Kursy masażu</span><em>✦</em>
+    <span>Drenaż limfatyczny</span><em>✦</em><span>Japoński masaż twarzy Kobido</span><em>✦</em><span>Endosfera Terapia</span><em>✦</em><span>Masaż klasyczny</span><em>✦</em><span>Masaż antycellulitowy</span><em>✦</em><span>Kursy masażu</span><em>✦</em>
+  </div></div>
+</header>
+
+<section id="masaze">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro" data-i="m-k">01 · Masaże</span><h2 class="disp" data-i="m-h">Zabiegi</h2></div><p data-i="m-p">Każdy masaż zaczyna się od krótkiej rozmowy. Dobieram technikę i nacisk do Pani lub Pana ciała, a nie do szablonu.</p></div>
+    <div class="tmenu">
+      <figure class="tphoto ph fade"><img id="tphoto" src="img/t1.jpg" alt=""></figure>
+      <div class="list fade" id="list"></div>
+    </div>
+    <p class="note" data-i="m-n">Ceny z Booksy, do potwierdzenia. Rezerwacja odbywa się w Pani kalendarzu Booksy.</p>
+  </div>
+</section>
+
+<section class="visit">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro" data-i="v-k">02 · Wizyta</span><h2 class="disp" data-i="v-h">Jak wygląda wizyta</h2></div><p data-i="v-p">Spokojnie, bez pośpiechu i z uwagą na to, jak się Pani lub Pan czuje.</p></div>
+    <div class="vsteps">
+      <div class="fade"><b>01</b><h3 data-i="s1">Rezerwacja</h3><p data-i="s1p">Online w Booksy, w kilka sekund, o wygodnej porze.</p></div>
+      <div class="fade"><b>02</b><h3 data-i="s2">Rozmowa</h3><p data-i="s2p">Pytam o samopoczucie, cel masażu i przeciwwskazania.</p></div>
+      <div class="fade"><b>03</b><h3 data-i="s3">Masaż</h3><p data-i="s3p">W ciepłym, cichym gabinecie, w Twoim tempie.</p></div>
+      <div class="fade"><b>04</b><h3 data-i="s4">Zalecenia</h3><p data-i="s4p">Podpowiadam, jak przedłużyć efekt w domu.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="kursy">
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro" data-i="k-k">03 · Kursy</span><h2 class="disp" data-i="k-h">Kursy masażu</h2></div><p data-i="k-p">Praktyczne kursy w małych grupach we Wrocławiu. Uczę tego, co sama robię na co dzień w gabinecie.</p></div>
+    <div class="courses" id="courses"></div>
+    <div class="ask">
+      <div class="fade"><span class="micro" data-i="a-k">Zapisy</span><h3 data-i="a-h">Zapytaj o najbliższy termin</h3><p data-i="a-p">Wybierz kurs i miesiąc. Odpiszę z dostępnymi terminami i szczegółami programu.</p></div>
+      <form class="form fade" id="f">
+        <label class="full"><span data-i="f1">Kurs</span><select id="fc"></select></label>
+        <label><span data-i="f2">Preferowany miesiąc</span><select id="fm"></select></label>
+        <label><span data-i="f3">Doświadczenie</span><select id="fe"><option data-i="e1">Zaczynam od zera</option><option data-i="e2">Mam podstawy</option><option data-i="e3">Pracuję jako masażystka</option></select></label>
+        <label><span data-i="f4">Imię</span><input id="fn"></label>
+        <label><span data-i="f5">Telefon</span><input id="fp" inputmode="tel"></label>
+        <button class="btn arrow" type="submit" data-i="fs">Wyślij zapytanie</button>
+        <div class="pv" id="pv"></div>
+      </form>
+    </div>
+    <p class="note" data-i="k-n">Programy kursów, terminy i ceny uzupełnimy razem z Panią.</p>
+  </div>
+</section>
+
+<section id="o-mnie" class="about">
+  <div class="wrap">
+    <figure class="ph fade"><img loading="lazy" src="img/about.jpg" alt=""></figure>
+    <div class="fade">
+      <span class="micro" data-i="o-k">04 · O mnie</span>
+      <h2 class="disp">Marina <i>Shpak</i></h2>
+      <p data-i="o-p1">Jestem dyplomowaną masażystką. Łączę wiedzę o ciele z wyczuciem dotyku, dlatego każdy masaż dopasowuję do konkretnej osoby i jej potrzeb.</p>
+      <p data-i="o-p2">W gabinecie ANIRAM przy ulicy Biskupiej pracuję z klientami, a na kursach uczę masażu ręcznego, limfatycznego i aparaturowego.</p>
+      <div class="facts"><div><b>5</b><span data-i="o-f1">technik masażu</span></div><div><b>3</b><span data-i="o-f2">kierunki kursów</span></div><div><b>PL · UA</b><span data-i="o-f3">języki</span></div></div>
+      <p class="note" data-i="o-n">Tekst o Pani i zdjęcie portretowe przygotujemy razem.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="shead fade"><div><span class="micro" data-i="r-k">05 · Opinie</span><h2 class="disp" data-i="r-h">Co mówią klienci</h2></div></div>
+    <div class="revs">
+      <div class="fade"><q data-i="r1">Po drenażu nogi są lekkie jak nigdy. Wracam co miesiąc.</q><span>Agnieszka</span></div>
+      <div class="fade"><q data-i="r2">Kobido to mój mały rytuał. Twarz wygląda świeżo, a ja wychodzę wypoczęta.</q><span>Olena</span></div>
+      <div class="fade"><q data-i="r3">Kurs prowadzony konkretnie i z sercem. Pierwszych klientów miałam po miesiącu.</q><span>Katarzyna</span></div>
+    </div>
+    <p class="note" data-i="r-n">Przykładowe opinie. Na stronie pokażemy prawdziwe opinie z Booksy.</p>
+  </div>
+</section>
+
+<section id="kontakt" style="padding-top:0">
+  <div class="wrap contact">
+    <div class="fade">
+      <span class="micro" data-i="c-k">06 · Kontakt</span>
+      <h2 class="disp" data-i="c-h">Do zobaczenia w gabinecie</h2>
+      <div class="crow"><span data-i="c-a">Adres</span><div>ul. Biskupia 7a, 50-438 Wrocław</div></div>
+      <div class="crow"><span data-i="c-r">Rezerwacja</span><a href="https://booksy.com/pl-pl/285211_marina-shpak_masaz_13750_wroclaw" target="_blank" rel="noopener">Booksy →</a></div>
+      <div class="crow"><span>Instagram</span><a href="https://instagram.com/marina__shpak" target="_blank" rel="noopener">@marina__shpak</a></div>
+      <div style="margin-top:32px"><a class="btn arrow" href="https://booksy.com/pl-pl/285211_marina-shpak_masaz_13750_wroclaw" target="_blank" rel="noopener" data-i="c1">Zarezerwuj wizytę</a></div>
+    </div>
+    <div class="map fade"><iframe title="Mapa" loading="lazy" src="https://maps.google.com/maps?q=Biskupia%207a%2C%20Wroc%C5%82aw&z=16&output=embed"></iframe></div>
+  </div>
+</section>
+
+<section id="value" class="value">
+  <div class="wrap">
+    <div class="shead"><div><span class="micro">Dla Pani · nie jest częścią strony</span><h2 class="disp">Co da Pani ta strona</h2></div><p>To wersja demo: zdjęcia, wideo, teksty i ceny zastąpimy Pani materiałami. Oto, dlaczego strona będzie pracować na Panią.</p></div>
+    <div class="vgrid">
+      <div><i>01</i><h3>Klienci z Google</h3><p>Ludzie wpisują „drenaż limfatyczny Wrocław”, „Kobido Wrocław”, „kurs masażu Wrocław”. Strona sprawia, że znajdują Panią, a nie tylko listę gabinetów w Booksy.</p></div>
+      <div><i>02</i><h3>Dwa kierunki, jedna strona</h3><p>Masaże dla klientów i kursy dla kursantów są wyraźnie rozdzielone. Każdy od razu trafia tam, gdzie powinien.</p></div>
+      <div><i>03</i><h3>Kursanci bez pisania w Direct</h3><p>Program, format i zapytanie o termin w jednym miejscu. Dostaje Pani gotowe zgłoszenie z kursem, miesiącem i doświadczeniem.</p></div>
+      <div><i>04</i><h3>Booksy zostaje</h3><p>Przyciski rezerwacji prowadzą do Pani kalendarza w Booksy. Nic nie zmieniamy w tym, co już działa.</p></div>
+      <div><i>05</i><h3>Wizerunek premium</h3><p>Spokojny, elegancki design jak w najlepszych gabinetach. Łatwiej obronić wyższe ceny masaży i kursów.</p></div>
+      <div><i>06</i><h3>Bez kłopotu</h3><p>Domena, hosting na pierwszy rok i ustawienia Google po naszej stronie. Zmiany wprowadzamy na Pani wiadomość.</p></div>
+    </div>
+    <p class="note">Wersję demo przygotował zespół Krayon · krayon.site</p>
+  </div>
+</section>
+
+<footer><div class="wrap"><span>© ANIRAM · Marina Shpak · Wrocław</span><details class="credits"><summary>Zdjęcia przykładowe: Wikimedia Commons ↓</summary><p><a href="https://commons.wikimedia.org/wiki/File:Spa_massage_parlor_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg" target="_blank" rel="noopener">Basile Morin</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Spa_massage_parlor_panoramic_view_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg" target="_blank" rel="noopener">Basile Morin</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:M%C3%A9lange_du_Beurre_de_karit%C3%A9_et_huiles_essentielles_dans_une_boite_pour_massage_02.jpg" target="_blank" rel="noopener">Adoscam</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Spa_bathrobes_and_massage_parlor_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg" target="_blank" rel="noopener">Basile Morin</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:A_manual_of_therapeutic_exercise_and_massage,_designed_for_the_use_of_physicians,_students_and_masseurs_(1917)_(14781992914).jpg" target="_blank" rel="noopener">Internet Archive Book Images</a> (No restrictions) · <a href="https://commons.wikimedia.org/wiki/File:A_manual_of_therapeutic_exercise_and_massage,_designed_for_the_use_of_physicians,_students_and_masseurs_(1917)_(14597665670).jpg" target="_blank" rel="noopener">Internet Archive Book Images</a> (No restrictions) · <a href="https://commons.wikimedia.org/wiki/File:Rational_therapy_(1919)_(14772963231).jpg" target="_blank" rel="noopener">Internet Archive Book Images</a> (No restrictions) · <a href="https://commons.wikimedia.org/wiki/File:A_manual_of_therapeutic_exercise_and_massage,_designed_for_the_use_of_physicians,_students_and_masseurs_(1917)_(14781203591).jpg" target="_blank" rel="noopener">Internet Archive Book Images</a> (No restrictions) · <a href="https://commons.wikimedia.org/wiki/File:Ostentrop_Germany_Chanchai-Thaimassage-10.jpg" target="_blank" rel="noopener">CEphoto, Uwe Aranas</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Eucalyptus_%26_Jacobaea_maritima20150224_2310.jpg" target="_blank" rel="noopener">Bff</a> (CC BY-SA 4.0)</p></details><span>Demo · Krayon</span></div></footer>
+
+<script>
+const T=[ // [pl, uk, minutes, price, img]
+ {pl:['Drenaż limfatyczny','Delikatna technika manualna, która zmniejsza obrzęki i uczucie ciężkich nóg.'],uk:['Лімфодренаж','Делікатна мануальна техніка, яка зменшує набряки і відчуття важких ніг.'],t:'',p:'225 zł',img:'img/t1.jpg'},
+ {pl:['Japoński masaż twarzy Kobido','Liftingujący masaż twarzy, który poprawia owal, napięcie i koloryt skóry.'],uk:['Японський масаж обличчя Kobido','Ліфтинговий масаж, який покращує овал, тонус і колір шкіри.'],t:'',p:'od 150 zł',img:'img/t2.jpg'},
+ {pl:['Endosfera Terapia','Zabieg aparaturowy z mikrowibracją i kompresją. Wspiera drenaż i modelowanie sylwetki.'],uk:['Endosfera Терапія','Апаратна процедура з мікровібрацією і компресією. Підтримує дренаж і моделювання силуету.'],t:'',p:'Booksy',img:'img/t3.jpg'},
+ {pl:['Masaż klasyczny','Rozluźnia napięte mięśnie karku, pleców i nóg. Dla osób pracujących przy biurku.'],uk:['Класичний масаж','Розслабляє напружені м\'язи шиї, спини і ніг. Для тих, хто багато сидить.'],t:'60 min',p:'170 zł',img:'img/t4.jpg'},
+ {pl:['Masaż antycellulitowy','Intensywna praca na udach i pośladkach. Wygładza skórę i poprawia krążenie.'],uk:['Антицелюлітний масаж','Інтенсивна робота зі стегнами і сідницями. Вирівнює шкіру і покращує кровообіг.'],t:'',p:'Booksy',img:'img/t5.jpg'}];
+const C=[
+ {pl:['Masaż ręczny','Dla początkujących. Anatomia w praktyce, techniki klasyczne i praca z klientem od pierwszej wizyty.'],uk:['Ручний масаж','Для початківців. Анатомія на практиці, класичні техніки і робота з клієнтом з першого візиту.'],img:'img/c1.jpg'},
+ {pl:['Masaż limfatyczny','Manualny drenaż limfatyczny ciała i twarzy krok po kroku, z przeciwwskazaniami i protokołami.'],uk:['Лімфатичний масаж','Мануальний лімфодренаж тіла й обличчя крок за кроком, з протипоказаннями і протоколами.'],img:'img/c2.jpg'},
+ {pl:['Masaż aparaturowy','Praca z urządzeniami do drenażu i modelowania sylwetki. Ustawienia, bezpieczeństwo, efekty.'],uk:['Апаратний масаж','Робота з апаратами для дренажу і моделювання силуету. Налаштування, безпека, результат.'],img:'img/c3.jpg'}];
+const UA={n1:'Масажі',n2:'Курси',n3:'Про мене',n4:'Контакти',nb:'Запис',k:'Кабінет масажу · Вроцлав',h1:'Дотик, що <i>повертає</i> легкість',lead:'Лікувальні й релаксаційні масажі та курси для майбутніх масажистів. Кабінет Марини Шпак на вулиці Біскупій у Вроцлаві.',c1:'Записатися',c2:'Курси масажу',p1k:'Для клієнтів',p1:'Масажі тіла й обличчя',p1d:'Лімфодренаж, Kobido, Endosfera, класичний масаж',p2k:'Для учнів',p2:'Курси масажу',p2d:'Ручний, лімфатичний і апаратний',reel:'Подивитися кабінет',cap:'Тут буде ваше відео з кабінету',
+'m-k':'01 · Масажі','m-h':'Процедури','m-p':'Кожен масаж починається з короткої розмови. Підбираю техніку і силу натиску під ваше тіло, а не під шаблон.','m-n':'Ціни з Booksy, уточнимо. Запис іде у ваш календар Booksy.',
+'v-k':'02 · Візит','v-h':'Як проходить візит','v-p':'Спокійно, без поспіху і з увагою до вашого самопочуття.',s1:'Запис',s1p:'Онлайн у Booksy, за кілька секунд, у зручний час.',s2:'Розмова',s2p:'Питаю про самопочуття, мету масажу і протипоказання.',s3:'Масаж',s3p:'У теплому, тихому кабінеті, у вашому темпі.',s4:'Поради',s4p:'Підказую, як продовжити ефект удома.',
+'k-k':'03 · Курси','k-h':'Курси масажу','k-p':'Практичні курси в малих групах у Вроцлаві. Вчу того, що сама щодня роблю в кабінеті.','a-k':'Запис','a-h':'Дізнайтеся найближчу дату','a-p':'Оберіть курс і місяць. Я відповім з датами і деталями програми.',f1:'Курс',f2:'Бажаний місяць',f3:'Досвід',e1:'Починаю з нуля',e2:'Маю базу',e3:'Працюю масажисткою',f4:'Ім\'я',f5:'Телефон',fs:'Надіслати запит','k-n':'Програми, дати і ціни курсів заповнимо разом з вами.',
+'o-k':'04 · Про мене','o-p1':'Я дипломована масажистка. Поєдную знання тіла з чуттям дотику, тому кожен масаж підбираю під конкретну людину.','o-p2':'У кабінеті ANIRAM на вулиці Біскупій працюю з клієнтами, а на курсах навчаю ручного, лімфатичного і апаратного масажу.','o-f1':'технік масажу','o-f2':'напрями курсів','o-f3':'мови','o-n':'Текст про вас і портрет підготуємо разом.',
+'r-k':'05 · Відгуки','r-h':'Що кажуть клієнти',r1:'Після дренажу ноги легкі як ніколи. Повертаюся щомісяця.',r2:'Kobido мій маленький ритуал. Обличчя свіже, а я виходжу відпочилою.',r3:'Курс конкретний і з душею. Перших клієнтів мала вже за місяць.','r-n':'Приклади відгуків. На сайті покажемо справжні відгуки з Booksy.','c-k':'06 · Контакти','c-h':'До зустрічі в кабінеті','c-a':'Адреса','c-r':'Запис'};
+const PL={};document.querySelectorAll('[data-i]').forEach(e=>{if(!(e.dataset.i in PL))PL[e.dataset.i]=e.innerHTML});
+let L='pl';const $=id=>document.getElementById(id);
+const MONTHS={pl:['styczeń','luty','marzec','kwiecień','maj','czerwiec','lipiec','sierpień','wrzesień','październik','listopad','grudzień'],uk:['січень','лютий','березень','квітень','травень','червень','липень','серпень','вересень','жовтень','листопад','грудень']};
+function render(){
+ document.documentElement.lang=L==='pl'?'pl':'uk';
+ document.querySelectorAll('[data-i]').forEach(e=>{const v=(L==='pl'?PL:UA)[e.dataset.i];if(v!=null)e.innerHTML=v});
+ document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('on',b.dataset.l===L));
+ $('list').innerHTML=T.map((t,i)=>`<div class="li" data-i="${i}"><h3>${t[L][0]}</h3><div class="meta">${t.t?t.t+'<br>':''}<b>${t.p==='Booksy'?(L==='pl'?'cena w Booksy':'ціна в Booksy'):t.p}</b></div><p>${t[L][1]}</p><a href="https://booksy.com/pl-pl/285211_marina-shpak_masaz_13750_wroclaw" target="_blank" rel="noopener">${L==='pl'?'Zarezerwuj':'Записатися'} →</a></div>`).join('');
+ document.querySelectorAll('.li').forEach(li=>li.addEventListener('mouseenter',()=>{const img=$('tphoto');img.style.opacity=.3;setTimeout(()=>{img.src=T[+li.dataset.i].img;img.style.opacity=1},180)}));
+ $('courses').innerHTML=C.map((c,i)=>`<article class="course fade in"><figure class="ph"><img loading="lazy" src="${c.img}" alt=""></figure><span class="micro num">${L==='pl'?'Kurs':'Курс'} 0${i+1}</span><h3>${c[L][0]}</h3><p>${c[L][1]}</p><ul><li>${L==='pl'?'Format':'Формат'}<span>${L==='pl'?'praktyka, mała grupa':'практика, мала група'}</span></li><li>${L==='pl'?'Miejsce':'Місце'}<span>Wrocław</span></li><li>${L==='pl'?'Na koniec':'Наприкінці'}<span>${L==='pl'?'zaświadczenie':'посвідчення'}</span></li></ul><a href="#f" class="btn ghost sm arrow" data-c="${i}">${L==='pl'?'Zapytaj o termin':'Дізнатися дату'}</a></article>`).join('');
+ document.querySelectorAll('[data-c]').forEach(a=>a.onclick=()=>{$('fc').selectedIndex=+a.dataset.c});
+ $('fc').innerHTML=C.map(c=>`<option>${c[L][0]}</option>`).join('');
+ const m0=new Date().getMonth();$('fm').innerHTML=Array.from({length:6},(_,k)=>`<option>${MONTHS[L][(m0+k+1)%12]}</option>`).join('');
+}
+document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>{L=b.dataset.l;render();obs()});
+$('f').addEventListener('submit',e=>{e.preventDefault();const pv=$('pv');
+ if(!$('fp').value.trim()){pv.textContent=L==='pl'?'Proszę podać numer telefonu.':'Вкажіть, будь ласка, телефон.';pv.classList.add('show');return}
+ const msg=(L==='pl'?'Dzień dobry! Chcę zapisać się na kurs:':'Вітаю! Хочу записатися на курс:')+`\n• ${$('fc').value}\n• ${$('fm').value}\n• ${$('fe').value}\n• ${$('fn').value||'—'}, ${$('fp').value}`;
+ window.open('https://ig.me/m/marina__shpak','_blank');
+ const done=ok=>{pv.textContent=(ok?(L==='pl'?'Zgłoszenie skopiowane. Wklej je w Direct:':'Заявку скопійовано. Вставте її в Direct:'):(L==='pl'?'Wyślij to zgłoszenie w Direct:':'Надішліть цю заявку в Direct:'))+'\n\n'+msg;pv.classList.add('show')};
+ try{navigator.clipboard.writeText(msg).then(()=>done(true),()=>done(false))}catch(e){done(false)}});
+render();
+document.querySelectorAll('.ph img').forEach(i=>i.addEventListener('error',()=>i.style.opacity=0));
+let io;function obs(){io&&io.disconnect();io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll('.fade:not(.in)').forEach(el=>io.observe(el))}obs();
+</script>
+</body>
+</html>
