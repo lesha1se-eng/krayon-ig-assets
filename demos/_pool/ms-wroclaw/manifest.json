@@ -1,0 +1,70 @@
+[
+ {
+  "src": "commons",
+  "id": "File:Ostrow Tumski, Wroclaw (P1180410).jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ostrow_Tumski%2C_Wroclaw_%28P1180410%29.jpg/1920px-Ostrow_Tumski%2C_Wroclaw_%28P1180410%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ostrow_Tumski%2C_Wroclaw_%28P1180410%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4608,
+  "h": 3456,
+  "alt": "File:Ostrow Tumski, Wroclaw (P1180410).jpg",
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ostrow_Tumski,_Wroclaw_(P1180410).jpg",
+  "file": "demos/_pool/ms-wroclaw/00-commons.jpg",
+  "saved": [
+   1920,
+   1440
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Wroclaw - Ostrow Tumski.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Wroclaw_-_Ostrow_Tumski.jpg/1920px-Wroclaw_-_Ostrow_Tumski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Wroclaw_-_Ostrow_Tumski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4441,
+  "h": 1791,
+  "alt": "File:Wroclaw - Ostrow Tumski.jpg",
+  "author": "Jar.ciurus",
+  "license": "CC BY-SA 3.0 pl",
+  "page": "https://commons.wikimedia.org/wiki/File:Wroclaw_-_Ostrow_Tumski.jpg",
+  "file": "demos/_pool/ms-wroclaw/01-commons.jpg",
+  "saved": [
+   1920,
+   774
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Wrocław (Breslau) - Dominsel.JPG",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Wroc%C5%82aw_%28Breslau%29_-_Dominsel.JPG/1920px-Wroc%C5%82aw_%28Breslau%29_-_Dominsel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Wroc%C5%82aw_%28Breslau%29_-_Dominsel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 2270,
+  "h": 3418,
+  "alt": "File:Wrocław (Breslau) - Dominsel.JPG",
+  "author": "Pudelek",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Wroc%C5%82aw_(Breslau)_-_Dominsel.JPG",
+  "file": "demos/_pool/ms-wroclaw/02-commons.jpg",
+  "saved": [
+   1920,
+   2891
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:PL - Wrocław - Archikatedra św Jana Chrzciciela - Kroton 001.JPG",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/PL_-_Wroc%C5%82aw_-_Archikatedra_%C5%9Bw_Jana_Chrzciciela_-_Kroton_001.JPG/1920px-PL_-_Wroc%C5%82aw_-_Archikatedra_%C5%9Bw_Jana_Chrzciciela_-_Kroton_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/4/47/PL_-_Wroc%C5%82aw_-_Archikatedra_%C5%9Bw_Jana_Chrzciciela_-_Kroton_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 2848,
+  "h": 4288,
+  "alt": "File:PL - Wrocław - Archikatedra św Jana Chrzciciela - Kroton 001.JPG",
+  "author": "Kroton",
+  "license": "CC BY-SA 3.0 pl",
+  "page": "https://commons.wikimedia.org/wiki/File:PL_-_Wroc%C5%82aw_-_Archikatedra_%C5%9Bw_Jana_Chrzciciela_-_Kroton_001.JPG",
+  "file": "demos/_pool/ms-wroclaw/03-commons.jpg",
+  "saved": [
+   1920,
+   2891
+  ]
+ }
+]

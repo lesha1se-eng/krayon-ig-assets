@@ -1,7 +1,7 @@
-[lk2-openbook] saved 8
-[lk2-bind] saved 6
-[lk2-bind2] saved 0
-[lk2-leather] saved 5
-[lk2-book] saved 6
-[lk2-textile] saved 5
-[lk2-hands] saved 5
+[ms-massage] saved 8
+[ms-massage2] saved 6
+[ms-spa] saved 6
+[ms-face] saved 5
+[ms-stones] saved 0
+[ms-wroclaw] saved 4
+[ms-plants] saved 1
