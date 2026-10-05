@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ремонт квартир і будинків в Аліканте · Reformas en Alicante</title>
+<meta name="description" content="Reformas en Alicante: parquet, alicatado, pladur, electricidad y soldadura. Calcula tu presupuesto online y envíalo por WhatsApp. Hablamos español y ucraniano.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0e4a5a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Reformas Alicante · демо сайту">
+<meta property="og:description" content="Ремонт квартир і будинків в Аліканте: послуги, калькулятор ціни і заявки у WhatsApp. Іспанською та українською.">
+<meta property="og:image" content="https://lesha1se-eng.github.io/krayon-ig-assets/demos/reformas-alicante/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--sand:#f7f3ec;--sand2:#efe6d8;--card:#fff;--ink:#191b20;--muted:#5d6370;--line:#e6ddcf;--sea:#0e4a5a;--sea2:#0a3946;--terra:#d1603a;--terra2:#b54f2b;--sun:#f3b443;--wa:#178f4f;--wa2:#11733e;
+--star:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.16' stroke-width='2'%3E%3Crect x='20' y='20' width='24' height='24'/%3E%3Crect x='20' y='20' width='24' height='24' transform='rotate(45 32 32)'/%3E%3Ccircle cx='32' cy='32' r='5'/%3E%3Ccircle cx='0' cy='0' r='10'/%3E%3Ccircle cx='64' cy='0' r='10'/%3E%3Ccircle cx='0' cy='64' r='10'/%3E%3Ccircle cx='64' cy='64' r='10'/%3E%3C/g%3E%3C/svg%3E")}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Manrope,system-ui,sans-serif;background:var(--sand);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:Unbounded,Manrope,sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.ph{background:linear-gradient(135deg,#2d5f6b,#0e4a5a)}
+.ph img{width:100%;height:100%;object-fit:cover}
+.wa-ic{width:18px;height:18px;flex:none}
+
+/* ribbon + nav */
+.ribbon{background:var(--sun);color:#3a2a06;font-size:13px;font-weight:700;text-align:center;padding:9px 16px;line-height:1.45}
+.ribbon a{font-weight:800;margin-left:4px;white-space:nowrap}
+nav{position:sticky;top:0;z-index:50;background:rgba(247,243,236,.93);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:14px}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none;min-width:0}
+.logo svg{width:38px;height:38px;flex:none}
+.logo b{display:block;font-family:Unbounded,sans-serif;font-weight:600;font-size:15px;line-height:1.15;letter-spacing:-.01em;white-space:nowrap}
+.logo small{display:block;color:var(--muted);font-size:12px;font-weight:600}
+.links{display:flex;gap:22px;font-size:14px;font-weight:700}
+.links a{text-decoration:none;color:var(--muted);transition:.2s}
+.links a:hover{color:var(--sea)}
+.right{display:flex;gap:10px;align-items:center}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;font-size:12px;font-weight:800;background:#fff}
+.lang button{border:0;background:none;padding:7px 12px;cursor:pointer;color:var(--muted);font:inherit}
+.lang button.on{background:var(--sea);color:#fff}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--terra);color:#fff;text-decoration:none;font-weight:800;padding:15px 24px;border-radius:14px;border:0;cursor:pointer;font-size:15px;transition:.2s;font-family:inherit;line-height:1.2;text-align:center}
+.btn:hover{background:var(--terra2);transform:translateY(-2px)}
+.btn.wa{background:var(--wa)}
+.btn.wa:hover{background:var(--wa2)}
+.btn.ghost{background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.6)}
+.btn.ghost:hover{background:#fff;color:var(--sea)}
+.btn.sm{padding:10px 15px;font-size:13.5px;border-radius:11px}
+
+/* hero */
+.hero{position:relative;color:#fff;min-height:min(88vh,820px);display:flex;align-items:center;overflow:hidden}
+.hero .bg{position:absolute;inset:0}
+.hero .bg img{width:100%;height:100%;object-fit:cover;object-position:62% 50%;transform:scale(1.04);animation:zoom 14s ease-out forwards}
+@keyframes zoom{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(95deg,rgba(7,30,38,.94) 0%,rgba(7,30,38,.8) 42%,rgba(7,30,38,.25) 78%,rgba(7,30,38,.1) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-top:70px;padding-bottom:130px}
+.hero .in{max-width:640px}
+.pill{display:inline-flex;gap:9px;align-items:center;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.24);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:700;backdrop-filter:blur(6px)}
+.pill i{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 4px rgba(74,222,128,.22);flex:none}
+.hero h1{font-size:clamp(34px,5.4vw,64px);margin:22px 0 18px}
+.hero h1 em{font-style:normal;color:var(--sun)}
+.hero .lead{font-size:clamp(16px,1.6vw,18.5px);opacity:.92;max-width:560px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.credit{position:absolute;right:12px;bottom:8px;z-index:3;font-size:10px;color:#fff;opacity:.5}
+
+.stats{position:relative;z-index:5;margin-top:-72px}
+.stats .box{background:#fff;border-radius:22px;box-shadow:0 30px 60px -34px rgba(10,57,70,.55);display:grid;grid-template-columns:repeat(4,1fr);overflow:hidden;border:1px solid var(--line)}
+.stats .box div{padding:22px 24px;border-right:1px solid var(--line)}
+.stats .box div:last-child{border-right:0}
+.stats b{display:block;font-family:Unbounded,sans-serif;font-size:26px;font-weight:600;color:var(--sea);line-height:1.1}
+.stats span{font-size:13.5px;color:var(--muted);font-weight:600}
+
+/* sections */
+section{padding:100px 0}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--terra);margin-bottom:14px}
+.eyebrow::before{content:"";width:22px;height:2px;background:currentColor}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:42px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(28px,3.8vw,46px);max-width:660px}
+.sec-head p{max-width:430px;color:var(--muted);font-size:16px}
+.demo-note{display:inline-flex;gap:8px;align-items:center;margin-top:18px;background:#fff6dd;border:1px dashed #e6b84a;color:#6b4d0b;border-radius:10px;padding:7px 12px;font-size:13px;font-weight:700}
+
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 24px 44px -30px rgba(10,57,70,.55);border-color:#d9cbb6}
+.card figure{aspect-ratio:16/11;overflow:hidden;position:relative}
+.card figure img{transition:transform .6s}
+.card:hover figure img{transform:scale(1.05)}
+.card .tag{position:absolute;left:12px;top:12px;background:rgba(255,255,255,.92);color:var(--sea);font-size:12px;font-weight:800;border-radius:999px;padding:5px 11px}
+.card .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:19px}
+.card p{font-size:14.5px;color:var(--muted)}
+.card .row{margin-top:auto;padding-top:14px;border-top:1px dashed var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.card .row b{font-family:Unbounded,sans-serif;font-size:16px;font-weight:600;color:var(--ink)}
+.card .row a{font-size:13.5px;font-weight:800;color:var(--terra);text-decoration:none;white-space:nowrap}
+.card .row a:hover{text-decoration:underline}
+
+/* before / after */
+.ba-sec{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ba-grid{display:grid;grid-template-columns:1.45fr 1fr;gap:34px;align-items:center}
+.ba{position:relative;aspect-ratio:16/10;border-radius:24px;overflow:hidden;box-shadow:0 30px 60px -36px rgba(10,57,70,.6);user-select:none;-webkit-user-select:none;touch-action:pan-y}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .b{position:absolute;inset:0;clip-path:inset(0 50% 0 0)}
+.ba .b img{filter:saturate(.75) brightness(.95)}
+.ba .h{position:absolute;top:0;bottom:0;left:50%;width:3px;background:#fff;transform:translateX(-50%);pointer-events:none;box-shadow:0 0 12px rgba(0,0,0,.35)}
+.ba .h::after{content:"⟷";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:50px;height:50px;border-radius:50%;background:#fff;color:var(--sea);display:grid;place-items:center;font-size:22px;font-weight:800;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0;z-index:3}
+.ba .lbl{position:absolute;top:14px;z-index:2;background:rgba(10,57,70,.82);color:#fff;font-size:11.5px;font-weight:800;letter-spacing:.12em;border-radius:999px;padding:6px 12px;pointer-events:none}
+.ba .lbl.l{left:14px}.ba .lbl.r{right:14px;background:var(--terra)}
+.proj{display:grid;gap:12px}
+.proj div{display:flex;gap:14px;align-items:center;background:var(--sand);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.proj i{font-style:normal;flex:none;width:44px;height:44px;border-radius:12px;background:#fff;display:grid;place-items:center;font-size:20px;border:1px solid var(--line)}
+.proj b{display:block;font-size:15.5px}
+.proj span{font-size:13.5px;color:var(--muted)}
+
+/* calculator */
+.calc-grid{display:grid;grid-template-columns:1.25fr .9fr;gap:30px;align-items:start}
+.calc{background:#fff;border:1px solid var(--line);border-radius:26px;padding:28px;box-shadow:0 30px 60px -44px rgba(10,57,70,.6)}
+.calc h4{font-size:14px;font-weight:800;margin:0 0 10px;color:var(--ink)}
+.calc .blk{margin-bottom:22px}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.chip{border:1.5px solid var(--line);background:var(--sand);border-radius:14px;padding:12px 10px;font:inherit;font-size:13.5px;font-weight:700;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px;transition:.15s;color:var(--ink)}
+.chip i{font-style:normal;font-size:22px;line-height:1}
+.chip:hover{border-color:#d4c3aa}
+.chip.on{border-color:var(--sea);background:#e8f1f3;box-shadow:inset 0 0 0 1px var(--sea)}
+.qty{display:flex;align-items:center;gap:16px}
+.qty input[type=range]{flex:1;accent-color:var(--terra);height:28px}
+.qty output{min-width:96px;text-align:center;font-family:Unbounded,sans-serif;font-weight:600;font-size:18px;background:var(--sand);border:1px solid var(--line);border-radius:12px;padding:8px 10px}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.seg button{border:1.5px solid var(--line);background:var(--sand);border-radius:12px;padding:11px;font:inherit;font-size:14px;font-weight:700;cursor:pointer;color:var(--ink)}
+.seg button.on{border-color:var(--sea);background:#e8f1f3;box-shadow:inset 0 0 0 1px var(--sea)}
+.calc select{width:100%;font:inherit;font-size:14.5px;font-weight:600;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--sand);color:var(--ink)}
+.result{display:flex;justify-content:space-between;align-items:center;gap:14px;background:linear-gradient(135deg,var(--sea),var(--sea2));color:#fff;border-radius:18px;padding:18px 20px;margin-bottom:14px}
+.result span{font-size:13px;opacity:.85;display:block}
+.result b{font-family:Unbounded,sans-serif;font-weight:600;font-size:clamp(22px,2.6vw,30px);white-space:nowrap}
+.result small{font-size:12.5px;opacity:.8;text-align:right}
+.calc .btn{width:100%}
+.calc .fine{font-size:12.5px;color:var(--muted);text-align:center;margin-top:10px}
+.phone{background:#0b141a;border-radius:34px;padding:12px;box-shadow:0 40px 70px -40px rgba(0,0,0,.7);max-width:360px;margin:0 auto;position:sticky;top:96px}
+.phone .top{display:flex;align-items:center;gap:10px;background:#1f2c34;color:#e9edef;border-radius:22px 22px 0 0;padding:12px 14px}
+.phone .av{width:34px;height:34px;border-radius:50%;background:var(--sun);display:grid;place-items:center;font-weight:800;font-size:12px;color:#3a2a06;flex:none}
+.phone .top b{display:block;font-size:14px}
+.phone .top span{font-size:11.5px;color:#8696a0}
+.phone .chat{background:#0b141a url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Ccircle cx='4' cy='4' r='1.2' fill='%23ffffff' fill-opacity='.05'/%3E%3C/svg%3E");border-radius:0 0 22px 22px;padding:18px 12px 22px;min-height:330px;display:flex;flex-direction:column;justify-content:flex-end;gap:8px}
+.bub{align-self:flex-end;max-width:88%;background:#005c4b;color:#e9edef;border-radius:12px 2px 12px 12px;padding:9px 11px 6px;font-size:13.5px;line-height:1.45;white-space:pre-wrap;word-wrap:break-word}
+.bub small{display:block;text-align:right;font-size:10.5px;color:#9fd3c4;margin-top:2px}
+.bub.in{align-self:flex-start;background:#202c33;border-radius:2px 12px 12px 12px}
+.bub.in small{color:#8696a0}
+.phone-cap{text-align:center;font-size:13px;color:var(--muted);font-weight:700;margin-bottom:12px}
+
+/* steps */
+.steps-sec{position:relative;color:#fff;background:linear-gradient(180deg,rgba(7,30,38,.9),rgba(7,30,38,.95)),url(img/sparks.jpg) center/cover}
+.steps-sec .sec-head p{color:#b9cad0}
+.steps-sec .eyebrow{color:var(--sun)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
+.step{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);border-radius:20px;padding:24px;backdrop-filter:blur(4px)}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:Unbounded,sans-serif;font-size:34px;color:var(--sun);display:block;line-height:1;margin-bottom:14px}
+.step h3{font-size:18px;margin-bottom:8px}
+.step p{color:#b9cad0;font-size:14.5px}
+
+/* gallery */
+.gal{columns:3 280px;column-gap:16px}
+.gal figure{break-inside:avoid;margin-bottom:16px;border-radius:18px;overflow:hidden;position:relative}
+.gal figure::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(0,0,0,.55))}
+.gal figcaption{position:absolute;left:14px;bottom:12px;color:#fff;font-weight:800;font-size:14px;z-index:2}
+
+/* zones */
+.zones{display:grid;grid-template-columns:1fr 1.15fr;gap:46px;align-items:center}
+.zones h2{font-size:clamp(28px,3.8vw,44px);margin-bottom:14px}
+.zones p{color:var(--muted);font-size:16px}
+.chipz{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chipz span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:13.5px;font-weight:700}
+.chipz span:first-child{background:var(--sea);color:#fff;border-color:var(--sea)}
+.zfig{border-radius:24px;overflow:hidden;position:relative;aspect-ratio:16/10;box-shadow:0 30px 60px -36px rgba(10,57,70,.6)}
+.zfig figcaption{position:absolute;left:16px;bottom:14px;color:#fff;font-weight:700;font-size:13.5px;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.zfig::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(0,0,0,.45))}
+
+/* reviews */
+.rv-tag{display:inline-block;background:#fff6dd;border:1px dashed #e6b84a;color:#6b4d0b;border-radius:999px;padding:6px 12px;font-size:12.5px;font-weight:800}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rev{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:12px}
+.rev .st{color:var(--sun);font-size:17px;letter-spacing:2px}
+.rev p{font-size:15px;color:#33363d}
+.rev b{margin-top:auto;font-size:14px}
+.rev b span{color:var(--muted);font-weight:600}
+
+/* faq */
+.faq{max-width:860px}
+.faq details{border-bottom:1px solid var(--line);padding:20px 0}
+.faq summary{cursor:pointer;font-family:Unbounded,sans-serif;font-size:17px;font-weight:500;list-style:none;display:flex;justify-content:space-between;gap:20px;line-height:1.35}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--terra);font-size:26px;line-height:1;flex:none}
+.faq details[open] summary::after{content:"–"}
+.faq details p{color:var(--muted);margin-top:10px}
+
+/* cta */
+.cta-band{background:var(--star),linear-gradient(135deg,var(--terra),#a9441f);background-size:64px 64px,auto;color:#fff;border-radius:30px;padding:56px;display:grid;grid-template-columns:1.3fr 1fr;gap:30px;align-items:center}
+.cta-band h2{font-size:clamp(28px,3.6vw,44px);margin-bottom:12px}
+.cta-band p{font-size:17px;opacity:.92}
+.cta-band .acts{display:grid;gap:12px}
+.cta-band .btn.wa{font-size:16px;padding:18px}
+.cta-band .btn.ghost{padding:16px}
+.cta-band .hrs{font-size:13.5px;opacity:.85;text-align:center}
+
+/* value */
+.value{background:linear-gradient(180deg,#fbf3e2,#f4e5c8);border-top:1px solid #ecdcbc}
+.badge{display:inline-block;background:var(--sea);color:#fff;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;border-radius:999px;padding:7px 14px;margin-bottom:16px}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.vcard{background:#fff;border:1px solid #ecdcbc;border-radius:22px;padding:24px}
+.vcard .n{font-family:Unbounded,sans-serif;font-size:32px;color:var(--terra);line-height:1}
+.vcard h3{font-size:18px;margin:12px 0 8px;line-height:1.25}
+.vcard p{color:var(--muted);font-size:14.5px}
+.serp{margin-top:30px;background:#fff;border-radius:20px;border:1px solid #ecdcbc;padding:24px;max-width:720px;font-family:Arial,sans-serif}
+.serp .q{border:1px solid #dfe1e5;border-radius:24px;padding:10px 18px;font-size:15px;margin-bottom:16px}
+.serp .u{font-size:13px;color:#202124}
+.serp .t{font-size:20px;color:#1a0dab;margin:4px 0;line-height:1.3}
+.serp .d{font-size:14px;color:#4d5156}
+.serp .sl{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:14px;color:#1a0dab}
+
+.tilestrip{height:46px;background:var(--star),var(--sea);background-size:46px 46px,auto}
+footer{background:var(--sea2);color:#a6bcc3;font-size:13px;padding:28px 0 96px}
+footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:flex-start}
+details.credits{font-size:11.5px;max-width:680px}
+details.credits summary{cursor:pointer;font-size:12px;font-weight:700;display:inline;list-style:none}
+details.credits summary::-webkit-details-marker{display:none}
+details.credits summary::after{content:" ▾"}
+details.credits p{margin-top:6px}
+.credits a{color:#cfe0e5}
+
+.fab{position:fixed;right:18px;bottom:18px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 12px 28px -8px rgba(0,0,0,.45);transition:.3s;opacity:0;pointer-events:none;transform:translateY(16px)}
+.fab.show{opacity:1;pointer-events:auto;transform:none}
+.fab:hover{transform:scale(1.07)}
+.fab svg{width:32px;height:32px;color:#fff}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:ping 2.4s infinite}
+@keyframes ping{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.6);opacity:0}}
+
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}.hero .bg img{animation:none;transform:none}.fab::before{animation:none}}
+
+@media (max-width:1020px){
+  .links{display:none}
+  .svc,.vgrid,.reviews{grid-template-columns:1fr 1fr}
+  .ba-grid,.calc-grid,.zones,.cta-band{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .stats .box{grid-template-columns:1fr 1fr}
+  .stats .box div:nth-child(2){border-right:0}
+  .stats .box div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .phone{position:static}
+  section{padding:76px 0}
+}
+@media (max-width:620px){
+  .wrap{padding:0 16px}
+  .svc,.vgrid,.reviews,.steps{grid-template-columns:1fr}
+  .chips{grid-template-columns:1fr 1fr}
+  .right .btn{display:none}
+  .logo small{display:none}
+  .logo b{font-size:14px}
+  .hero{min-height:auto}
+  .hero::after{background:linear-gradient(180deg,rgba(7,30,38,.55) 0%,rgba(7,30,38,.82) 45%,rgba(7,30,38,.94) 100%)}
+  .hero .wrap{padding-top:56px;padding-bottom:116px}
+  .hero .cta .btn{width:100%}
+  .stats b{font-size:21px}
+  .stats .box div{padding:16px}
+  .calc{padding:20px}
+  .result{flex-wrap:wrap}
+  .result small{text-align:left}
+  .cta-band{padding:34px 22px;border-radius:24px}
+  section{padding:64px 0}
+  .ribbon{font-size:12.5px}
+}
+</style>
+</head>
+<body>
+
+<div class="ribbon">✨ Демо-сайт для вас від Krayon. Перемкніть на <b>ES</b> угорі, і побачите, як його бачать іспанці. <a href="#value">Що дасть вам сайт ↓</a></div>
+
+<nav><div class="wrap">
+  <a href="#" class="logo" aria-label="Reformas Alicante">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="14" height="14" rx="3.5" fill="#d1603a"/><rect x="17" y="1" width="14" height="14" rx="3.5" fill="#0e4a5a"/><rect x="1" y="17" width="14" height="14" rx="3.5" fill="#0e4a5a"/><rect x="17" y="17" width="14" height="14" rx="3.5" fill="#f3b443"/></svg>
+    <span><b>Reformas Alicante</b><small data-i="bsub">Ремонт під ключ · ES · UA</small></span>
+  </a>
+  <div class="links">
+    <a href="#services" data-i="n1">Послуги</a><a href="#calc" data-i="n2">Калькулятор</a><a href="#works" data-i="n3">Роботи</a><a href="#reviews" data-i="n4">Відгуки</a><a href="#contact" data-i="n5">Контакти</a>
+  </div>
+  <div class="right">
+    <div class="lang" role="group" aria-label="Мова"><button class="on" data-l="uk">UA</button><button data-l="es">ES</button></div>
+    <a class="btn sm wa wa-link" href="https://wa.me/34644091967" target="_blank" rel="noopener"><svg class="wa-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.6 5.95L0 24l6.3-1.65a11.88 11.88 0 0 0 5.76 1.47h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.45-8.44zM12.07 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.89 7c0 5.45-4.44 9.88-9.9 9.88zm5.43-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg><span data-i="nwa">Написати</span></a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="bg ph"><img src="img/hero.jpg" alt="Світла вітальня з видом на море після ремонту" fetchpriority="high"></div>
+  <div class="wrap"><div class="in">
+    <span class="pill"><i></i><span data-i="pill">Аліканте і околиці · відповідаємо в день звернення</span></span>
+    <h1 data-i="h1">Ремонт квартир і будинків <em>в Аліканте</em></h1>
+    <p class="lead" data-i="lead">Паркет, плитка, гіпсокартон, електрика і зварювання. Один майстер на весь ремонт, тож не треба шукати п'ятьох різних. Понад 5 років в Іспанії.</p>
+    <div class="cta">
+      <a href="#calc" class="btn" data-i="c1">Розрахувати вартість</a>
+      <a href="https://wa.me/34644091967" target="_blank" rel="noopener" class="btn wa wa-link"><svg class="wa-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg><span data-i="c2">Написати в WhatsApp</span></a>
+    </div>
+  </div></div>
+  <span class="credit">Фото: Wikimedia Commons</span>
+</header>
+
+<div class="stats"><div class="wrap"><div class="box reveal">
+  <div><b>5+</b><span data-i="s1">років в Іспанії</span></div>
+  <div><b>5</b><span data-i="s2">видів робіт в одних руках</span></div>
+  <div><b data-i="s3n">24 год</b><span data-i="s3">оцінка по фото</span></div>
+  <div><b>ES · UA</b><span data-i="s4">говоримо вашою мовою</span></div>
+</div></div></div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="sv-e">Послуги</div><h2 data-i="sv-h">Усе для ремонту, від підлоги до проводки</h2></div><p data-i="sv-p">Ціни орієнтовні, за роботу. Точну суму називаємо після огляду або по фото.</p></div>
+    <div class="svc">
+      <article class="card reveal"><figure class="ph"><img loading="lazy" src="img/parquet.jpg" alt="Паркет ялинкою"></figure><div class="body"><h3 data-i="s1t">Паркет і ламінат</h3><p data-i="s1p">Ламінат, паркет і вініл, вирівнювання основи, плінтуси і пороги.</p><div class="row"><b data-i="s1r">від 12 €/м²</b><a href="#calc" data-calc="parquet" data-i="go">Розрахувати →</a></div></div></article>
+      <article class="card reveal"><figure class="ph"><img loading="lazy" src="img/tiles.jpg" alt="Укладання плитки"></figure><div class="body"><h3 data-i="s2t">Плитка</h3><p data-i="s2p">Підлога і стіни, ванні, кухні і тераси. Рівні шви та акуратні кути.</p><div class="row"><b data-i="s2r">від 25 €/м²</b><a href="#calc" data-calc="tiles" data-i="go">Розрахувати →</a></div></div></article>
+      <article class="card reveal"><figure class="ph"><img loading="lazy" src="img/drywall.jpg" alt="Ніші з гіпсокартону"></figure><div class="body"><h3 data-i="s3t">Гіпсокартон</h3><p data-i="s3p">Перегородки, стелі, ніші та короби під підсвітку. Готово під фарбування.</p><div class="row"><b data-i="s3r">від 28 €/м²</b><a href="#calc" data-calc="pladur" data-i="go">Розрахувати →</a></div></div></article>
+      <article class="card reveal"><figure class="ph"><img loading="lazy" src="img/electric.jpg" alt="Електрик за роботою"></figure><div class="body"><h3 data-i="s4t">Електрика</h3><p data-i="s4p">Розетки, вимикачі, світильники, заміна проводки і щитка.</p><div class="row"><b data-i="s4r">від 35 €/точка</b><a href="#calc" data-calc="elec" data-i="go">Розрахувати →</a></div></div></article>
+      <article class="card reveal"><figure class="ph"><img loading="lazy" src="img/welding.jpg" alt="Зварювальні роботи"></figure><div class="body"><h3 data-i="s5t">Зварювання</h3><p data-i="s5p">Решітки на вікна, перила, ворота та металеві конструкції на замовлення.</p><div class="row"><b data-i="s5r">від 60 €/м</b><a href="#calc" data-calc="weld" data-i="go">Розрахувати →</a></div></div></article>
+      <article class="card reveal"><figure class="ph"><img loading="lazy" src="img/bathroom.jpg" alt="Ванна кімната після ремонту"><span class="tag" data-i="s6tag">Під ключ</span></figure><div class="body"><h3 data-i="s6t">Ванна під ключ</h3><p data-i="s6p">Від демонтажу до здачі: плитка, гіпсокартон, світло і підлога в одних руках.</p><div class="row"><b data-i="s6r">від 2 500 €</b><a href="#calc" data-calc="bath" data-i="go">Розрахувати →</a></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="works" class="ba-sec">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="ba-e">До і після</div><h2 data-i="ba-h">Потягніть повзунок і подивіться різницю</h2></div><p data-i="ba-p">Кожен об'єкт фотографуємо до і після. Так ви бачите реальний результат, а не обіцянки.</p></div>
+    <div class="ba-grid">
+      <div class="reveal">
+        <div class="ba" id="ba">
+          <img src="img/after.jpg" alt="Після ремонту" loading="lazy">
+          <div class="b"><img src="img/before.jpg" alt="До ремонту" loading="lazy"></div>
+          <div class="h"></div>
+          <span class="lbl l" data-i="bal">ДО</span><span class="lbl r" data-i="bar">ПІСЛЯ</span>
+          <input type="range" min="0" max="100" value="50" aria-label="До / після">
+        </div>
+        <div class="demo-note">✏️ Демо: тут будуть ваші фото до/після і ваші об'єкти</div>
+      </div>
+      <div class="proj reveal">
+        <div><i>🛋️</i><span><b data-i="p1">Вітальня 24 м²</b><span data-i="p1s">Alicante · гіпсокартон, світло, ламінат · 8 днів</span></span></div>
+        <div><i>🛁</i><span><b data-i="p2">Ванна 5 м²</b><span data-i="p2s">San Vicente del Raspeig · плитка під ключ · 9 днів</span></span></div>
+        <div><i>🔥</i><span><b data-i="p3">Перила на терасі</b><span data-i="p3s">El Campello · зварювання і фарбування · 2 дні</span></span></div>
+        <a href="#calc" class="btn" style="margin-top:6px" data-i="p-c">Хочу так само →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="calc">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="ca-e">Калькулятор</div><h2 data-i="ca-h">Орієнтовна ціна за 30 секунд</h2></div><p data-i="ca-p">Оберіть роботу і площу. Розрахунок прийде нам у WhatsApp, і ми назвемо точну ціну того ж дня.</p></div>
+    <div class="calc-grid">
+      <div class="calc reveal">
+        <div class="blk"><h4 data-i="q1">1. Що потрібно зробити?</h4>
+          <div class="chips" id="chips">
+            <button type="button" class="chip on" data-w="parquet"><i>🪵</i><span data-i="w-parquet">Паркет</span></button>
+            <button type="button" class="chip" data-w="tiles"><i>🔲</i><span data-i="w-tiles">Плитка</span></button>
+            <button type="button" class="chip" data-w="pladur"><i>📐</i><span data-i="w-pladur">Гіпсокартон</span></button>
+            <button type="button" class="chip" data-w="elec"><i>💡</i><span data-i="w-elec">Електрика</span></button>
+            <button type="button" class="chip" data-w="weld"><i>🔥</i><span data-i="w-weld">Зварювання</span></button>
+            <button type="button" class="chip" data-w="bath"><i>🛁</i><span data-i="w-bath">Ванна під ключ</span></button>
+          </div>
+        </div>
+        <div class="blk"><h4 id="qlab">2. Площа, м²</h4>
+          <div class="qty"><input type="range" id="qty" min="5" max="200" value="40"><output id="qout">40 м²</output></div>
+        </div>
+        <div class="blk"><h4 data-i="q3">3. Матеріал</h4>
+          <div class="seg" id="mat"><button type="button" class="on" data-m="ours" data-i="m1">Купуємо ми</button><button type="button" data-m="mine" data-i="m2">У мене свій</button></div>
+        </div>
+        <div class="blk"><h4 data-i="q4">4. Район</h4>
+          <select id="zone">
+            <option>Alicante centro</option><option>Playa de San Juan</option><option>San Vicente del Raspeig</option><option>Sant Joan d'Alacant</option><option>El Campello</option><option>Mutxamel</option><option>Elche</option><option>Santa Pola</option><option value="other" data-i="zo-o">Інше місто</option>
+          </select>
+        </div>
+        <div class="result"><div><span data-i="res">Орієнтовно</span><b id="price">480 – 800 €</b></div><small id="incl">робота і матеріали</small></div>
+        <a class="btn wa" id="send" href="https://wa.me/34644091967" target="_blank" rel="noopener"><svg class="wa-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg><span data-i="send">Надіслати розрахунок у WhatsApp</span></a>
+        <p class="fine" data-i="fine">Остаточна ціна після огляду. Без зобов'язань.</p>
+        <div class="demo-note">✏️ Демо: ціни в калькуляторі умовні, налаштуємо під ваш прайс</div>
+      </div>
+      <div class="reveal">
+        <p class="phone-cap" data-i="prev">Так прийде ваше повідомлення 👇</p>
+        <div class="phone">
+          <div class="top"><span class="av">RA</span><span><b>Reformas Alicante</b><span>online</span></span></div>
+          <div class="chat"><div class="bub" id="bub"></div><div class="bub in" id="rep"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="steps-sec" id="how">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="st-e">Як ми працюємо</div><h2 data-i="st-h">Від повідомлення до готового ремонту</h2></div><p data-i="st-p">Без зайвих зустрічей і дзвінків. Усе, що можна, вирішуємо у WhatsApp.</p></div>
+    <div class="steps">
+      <div class="step reveal"><h3 data-i="st1">Пишете в WhatsApp</h3><p data-i="st1p">Надсилаєте кілька фото і пару слів про роботу. Відповідаємо того ж дня.</p></div>
+      <div class="step reveal"><h3 data-i="st2">Огляд і точна ціна</h3><p data-i="st2p">Приїжджаємо, міряємо і письмово фіксуємо ціну та терміни.</p></div>
+      <div class="step reveal"><h3 data-i="st3">Робота за графіком</h3><p data-i="st3p">Працюємо в узгоджені дні і надсилаємо фото прогресу у WhatsApp.</p></div>
+      <div class="step reveal"><h3 data-i="st4">Прибирання і здача</h3><p data-i="st4p">Виносимо сміття, прибираємо і разом перевіряємо результат.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="ga-e">Роботи</div><h2 data-i="ga-h">Кожна деталь має значення</h2></div><p data-i="ga-p">Шви, кути, примикання. Саме по них видно майстра.</p></div>
+    <div class="gal">
+      <figure class="ph reveal"><img loading="lazy" src="img/g-lobby.jpg" alt=""><figcaption data-i="gc1">Фігурна стеля і паркет</figcaption></figure>
+      <figure class="ph reveal"><img loading="lazy" src="img/g-shower.jpg" alt=""><figcaption data-i="gc2">Душова зона</figcaption></figure>
+      <figure class="ph reveal"><img loading="lazy" src="img/g-tiling.jpg" alt=""><figcaption data-i="gc3">Укладання плитки</figcaption></figure>
+      <figure class="ph reveal"><img loading="lazy" src="img/g-kitchen.jpg" alt=""><figcaption data-i="gc4">Кухня після ремонту</figcaption></figure>
+      <figure class="ph reveal"><img loading="lazy" src="img/g-frame.jpg" alt=""><figcaption data-i="gc5">Зварювання каркаса</figcaption></figure>
+      <figure class="ph reveal"><img loading="lazy" src="img/g-sockets.jpg" alt=""><figcaption data-i="gc6">Розетки і вимикачі</figcaption></figure>
+    </div>
+    <div class="demo-note">✏️ Демо: фото-приклади, на вашому сайті будуть ваші роботи</div>
+  </div>
+</section>
+
+<section id="zones" style="padding-top:0">
+  <div class="wrap zones">
+    <div class="reveal">
+      <div class="eyebrow" data-i="zo-e">Де працюємо</div>
+      <h2 data-i="zo-h">Аліканте і все узбережжя поруч</h2>
+      <p data-i="zo-p">Приїжджаємо на огляд, щоб назвати точну ціну. Працюємо в місті та найближчих муніципалітетах.</p>
+      <div class="chipz"><span>Alicante</span><span>Playa de San Juan</span><span>San Vicente del Raspeig</span><span>Sant Joan d'Alacant</span><span>El Campello</span><span>Mutxamel</span><span>Elche</span><span>Santa Pola</span></div>
+    </div>
+    <figure class="zfig ph reveal"><img loading="lazy" src="img/alicante.jpg" alt="Аліканте"><figcaption data-i="zo-c">Аліканте, вид із замку Санта-Барбара</figcaption></figure>
+  </div>
+</section>
+
+<section id="reviews" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="rv-e">Відгуки</div><h2 data-i="rv-h">Що кажуть клієнти</h2></div><span class="rv-tag">✏️ Приклад відгуків · Ejemplo de reseñas</span></div>
+    <div class="reviews">
+      <div class="rev reveal"><div class="st">★★★★★</div><p data-i="r1">Зробили ванну за 9 днів, як і обіцяли. Дуже акуратно, а ціна не змінилась ні на євро.</p><b>María José <span>· San Vicente</span></b></div>
+      <div class="rev reveal"><div class="st">★★★★★</div><p data-i="r2">Поклали ламінат у всій квартирі і зробили стелю з підсвіткою. Сусіди вже питають контакт.</p><b>Javier <span>· Alicante</span></b></div>
+      <div class="rev reveal"><div class="st">★★★★★</div><p data-i="r3">Нарешті майстер, з яким можна говорити українською. Поміняли проводку і поклали плитку на кухні.</p><b>Оксана <span>· El Campello</span></b></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="fq-e">Питання</div><h2 data-i="fq-h">Часті питання</h2></div></div>
+    <div class="faq reveal">
+      <details open><summary data-i="q-1">Скільки коштує розрахунок?</summary><p data-i="a-1">Нічого. Розрахунок по фото безкоштовний, а точну ціну називаємо після огляду.</p></details>
+      <details><summary data-i="q-2">Чи працюєте з моїми матеріалами?</summary><p data-i="a-2">Так. Можемо працювати з вашими матеріалами або самі закупимо все потрібне і привеземо на об'єкт.</p></details>
+      <details><summary data-i="q-3">Скільки триває ремонт ванної?</summary><p data-i="a-3">Зазвичай 7–12 робочих днів, залежно від площі та матеріалів.</p></details>
+      <details><summary data-i="q-4">Хто вивозить будівельне сміття?</summary><p data-i="a-4">Ми. Вивіз сміття і прибирання після робіт входять у ціну.</p></details>
+      <details><summary data-i="q-5">Якою мовою можна спілкуватися?</summary><p data-i="a-5">Іспанською та українською, як вам зручніше.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top:0">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div><h2 data-i="ct-h">Обговоримо ваш ремонт?</h2><p data-i="ct-p">Надішліть кілька фото у WhatsApp, і ми назвемо ціну сьогодні.</p></div>
+      <div class="acts">
+        <a class="btn wa wa-link" href="https://wa.me/34644091967" target="_blank" rel="noopener"><svg class="wa-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg><span data-i="ct-b">Написати в WhatsApp</span></a>
+        <a class="btn ghost" href="tel:+34644091967">📞 +34 644 09 19 67</a>
+        <span class="hrs" data-i="ct-hrs">Пн–Сб, 8:00–20:00</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="value" class="value">
+  <div class="wrap">
+    <span class="badge">Для вас · не частина сайту</span>
+    <div class="sec-head" style="margin-bottom:26px"><div><h2>Що цей сайт дасть вам</h2></div><p>Це демо: назву, фото, ціни і тексти підставимо ваші. Ось чому такий сайт приводитиме замовлення.</p></div>
+    <div class="vgrid">
+      <div class="vcard"><div class="n">01</div><h3>Іспанські клієнти з Google</h3><p>Іспанці шукають «reformas Alicante», «alicatador Alicante», «instalar tarima». Оголошення на espanaua бачать лише українці, а сайт бачать усі.</p></div>
+      <div class="vcard"><div class="n">02</div><h3>Заявки без посередників</h3><p>На Habitissimo чи Cronoshare за доступ до заявок треба платити, а ту саму заявку бачать ще кілька майстрів. Зі свого сайту клієнт пише тільки вам.</p></div>
+      <div class="vcard"><div class="n">03</div><h3>Калькулятор відсіює «просто спитати»</h3><p>Клієнт одразу бачить порядок цін і пише вже з площею, районом і фото. Менше пустих дзвінків і поїздок на огляд.</p></div>
+      <div class="vcard"><div class="n">04</div><h3>Довіра з першого екрану</h3><p>Фото до/після, відгуки, 5+ років в Іспанії. Людина бачить реального майстра, а не анонімне оголошення.</p></div>
+      <div class="vcard"><div class="n">05</div><h3>Іспанська та українська</h3><p>Одна кнопка перемикає мову. За бажання додамо англійську: на узбережжі багато британців і скандинавів з власним житлом.</p></div>
+      <div class="vcard"><div class="n">06</div><h3>Без клопоту для вас</h3><p>Домен, хостинг на перший рік і Google Карти налаштовуємо ми. Нові фото робіт додаємо за вашим повідомленням у WhatsApp.</p></div>
+    </div>
+    <div class="serp">
+      <div class="q">🔍 reformas Alicante</div>
+      <div class="u">tu-reforma-alicante.es</div>
+      <div class="t">Reformas en Alicante · Parquet, alicatado, pladur y electricidad</div>
+      <div class="d">Reformas de pisos y casas en Alicante. Calcula tu presupuesto online y envíalo por WhatsApp. Respondemos el mismo día. Hablamos español y ucraniano.</div>
+      <div class="sl"><span>Calcular presupuesto</span><span>Antes y después</span><span>Contacto</span></div>
+    </div>
+    <p style="margin-top:20px;color:var(--muted);font-size:14px">Так ваш сайт може виглядати в Google (адреса для прикладу). Демо підготувала команда <b>Krayon</b> · krayon.site</p>
+  </div>
+</section>
+
+<div class="tilestrip" aria-hidden="true"></div>
+<footer><div class="wrap"><span data-i="ft">© Reformas Alicante · Аліканте, Іспанія</span><details class="credits"><summary>Фото: Wikimedia Commons</summary><p><a href="https://commons.wikimedia.org/wiki/File:Living_room_of_34988_Crows_Nest_Drive,_Sea_Ranch-1397.jpg" target="_blank" rel="noopener">Frank Schulenburg</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Vista_de_Alicante,_Espa%C3%B1a,_2014-07-04,_DD_49.JPG" target="_blank" rel="noopener">Diego Delso</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Heiligengrabe,_Kloster_Stift_zum_Heiligengrabe,_Abtei,_Bibliothek_--_2017_--_0128.jpg" target="_blank" rel="noopener">Dietmar Rabich</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Tiler.jpg" target="_blank" rel="noopener">Lahoucine Boukhanchouch</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Trockenbau.jpg" target="_blank" rel="noopener">NK Bau Montageservice</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Sparks_fly_at_metal_tech_150623-F-CB366-073.jpg" target="_blank" rel="noopener">Airman 1st Class David Owsianka</a> (Public domain) · <a href="https://commons.wikimedia.org/wiki/File:Electrician_at_work_(2).jpg" target="_blank" rel="noopener">Sid Mbog</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Bathroom_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg" target="_blank" rel="noopener">Basile Morin</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Gipsskivor.jpg" target="_blank" rel="noopener">Jorchr</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Star%C3%BD_most_Bratislava_odstranovanie.jpg" target="_blank" rel="noopener">Izzino25</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Lounge_InterContinental_Singapore.jpg" target="_blank" rel="noopener">Basile Morin</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Interior_view_of_the_Wangz_hotel_lounge_with_shining_parquet_curved_ceiling_and_round_table_Singapore.jpg" target="_blank" rel="noopener">Basile Morin</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Using_a_trowel_to_lay_floor_tiles.jpg" target="_blank" rel="noopener">Francisco Gonzalez</a> (CC BY 2.0) · <a href="https://commons.wikimedia.org/wiki/File:Hallwylska_Palatset_2012-kitchen_02.jpg" target="_blank" rel="noopener">Arild Vågen</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Let_the_sparks_fly_(13313009905).jpg" target="_blank" rel="noopener">US Air Force from USA</a> (Public domain) · <a href="https://commons.wikimedia.org/wiki/File:Electrician_at_work,_Goa,_India.jpg" target="_blank" rel="noopener">Fredericknoronha</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Heiligengrabe,_Kloster_Stift_zum_Heiligengrabe,_Abtei,_Appartement_im_Dormitorium_--_2017_--_7270.jpg" target="_blank" rel="noopener">Dietmar Rabich</a> (CC BY-SA 4.0)</p></details><span>Демо від Krayon · krayon.site</span></div></footer>
+
+<a class="fab wa-link" href="https://wa.me/34644091967" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#wa"/></svg></a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.6 5.95L0 24l6.3-1.65a11.88 11.88 0 0 0 5.76 1.47h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.45-8.44zM12.07 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.89 7c0 5.45-4.44 9.88-9.9 9.88zm5.43-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></symbol></svg>
+
+<script>
+const WA='34644091967';
+document.querySelectorAll('.ph img').forEach(i=>i.addEventListener('error',()=>i.style.opacity=0));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* ---------- i18n ---------- */
+const ES={bsub:'Reformas integrales · ES · UA',n1:'Servicios',n2:'Presupuesto',n3:'Trabajos',n4:'Opiniones',n5:'Contacto',nwa:'Escribir',
+pill:'Alicante y alrededores · respondemos el mismo día',h1:'Reformas de pisos y casas <em>en Alicante</em>',lead:'Parquet, alicatado, pladur, electricidad y soldadura. Un solo profesional para toda la reforma, sin buscar a cinco distintos. Más de 5 años en España.',c1:'Calcular presupuesto',c2:'Escribir por WhatsApp',
+s1:'años en España',s2:'oficios en una sola mano',s3n:'24 h',s3:'presupuesto por fotos',s4:'hablamos tu idioma',
+'sv-e':'Servicios','sv-h':'Todo para tu reforma, del suelo a la instalación eléctrica','sv-p':'Precios orientativos de mano de obra. El precio exacto, tras ver la obra o unas fotos.',
+s1t:'Parquet y tarima',s1p:'Laminado, parquet y vinilo, nivelación del suelo, rodapiés y remates.',s1r:'desde 12 €/m²',
+s2t:'Alicatado y solado',s2p:'Suelos y paredes, baños, cocinas y terrazas. Juntas rectas y esquinas limpias.',s2r:'desde 25 €/m²',
+s3t:'Pladur',s3p:'Tabiques, falsos techos, nichos y foseados para iluminación. Listo para pintar.',s3r:'desde 28 €/m²',
+s4t:'Electricidad',s4p:'Enchufes, interruptores, iluminación, cambio de cableado y cuadro eléctrico.',s4r:'desde 35 €/punto',
+s5t:'Soldadura',s5p:'Rejas, barandillas, puertas y estructuras metálicas a medida.',s5r:'desde 60 €/m',
+s6tag:'Llave en mano',s6t:'Baño completo',s6p:'Del derribo a la entrega: alicatado, pladur, iluminación y suelo en una sola mano.',s6r:'desde 2.500 €',go:'Calcular →',
+'ba-e':'Antes y después','ba-h':'Desliza y mira la diferencia','ba-p':'Fotografiamos cada obra antes y después. Así ves resultados reales, no promesas.',bal:'ANTES',bar:'DESPUÉS',
+p1:'Salón de 24 m²',p1s:'Alicante · pladur, iluminación, laminado · 8 días',p2:'Baño de 5 m²',p2s:'San Vicente del Raspeig · alicatado completo · 9 días',p3:'Barandilla de terraza',p3s:'El Campello · soldadura y pintura · 2 días','p-c':'Quiero algo así →',
+'ca-e':'Presupuesto online','ca-h':'Precio orientativo en 30 segundos','ca-p':'Elige el trabajo y la superficie. El cálculo nos llega por WhatsApp y te damos el precio exacto el mismo día.',
+q1:'1. ¿Qué necesitas?','w-parquet':'Parquet','w-tiles':'Alicatado','w-pladur':'Pladur','w-elec':'Electricidad','w-weld':'Soldadura','w-bath':'Baño completo',
+q3:'3. Material',m1:'Lo ponemos nosotros',m2:'Ya tengo material',q4:'4. Zona','zo-o':'Otra localidad',res:'Aproximadamente',send:'Enviar cálculo por WhatsApp',fine:'Precio final tras la visita. Sin compromiso.',prev:'Así llegará tu mensaje 👇',
+'st-e':'Cómo trabajamos','st-h':'Del primer mensaje a la obra terminada','st-p':'Sin reuniones ni llamadas de más. Todo lo posible, por WhatsApp.',
+st1:'Nos escribes por WhatsApp',st1p:'Envías unas fotos y dos líneas sobre el trabajo. Respondemos el mismo día.',st2:'Visita y precio cerrado',st2p:'Vamos, medimos y te damos precio y plazos por escrito.',st3:'Obra según calendario',st3p:'Trabajamos en las fechas acordadas y te enviamos fotos del avance.',st4:'Limpieza y entrega',st4p:'Retiramos escombros, limpiamos y revisamos el resultado contigo.',
+'ga-e':'Trabajos','ga-h':'Cada detalle cuenta','ga-p':'Juntas, esquinas, remates. Ahí se ve a un buen profesional.',gc1:'Techo con formas y parquet',gc2:'Zona de ducha',gc3:'Colocación de baldosas',gc4:'Cocina reformada',gc5:'Soldadura de estructura',gc6:'Enchufes e interruptores',
+'zo-e':'Dónde trabajamos','zo-h':'Alicante y toda la costa cercana','zo-p':'Visitamos la obra para darte un precio exacto. Trabajamos en la ciudad y en los municipios cercanos.','zo-c':'Alicante desde el castillo de Santa Bárbara',
+'rv-e':'Opiniones','rv-h':'Lo que dicen los clientes',r1:'Nos reformaron el baño en 9 días, como prometieron. Muy limpios y el precio no cambió ni un euro.',r2:'Pusieron tarima en todo el piso y un techo de pladur con luz indirecta. Los vecinos ya piden el contacto.',r3:'Por fin un profesional con quien hablar en ucraniano. Cambiaron el cableado y alicataron la cocina.',
+'fq-e':'Preguntas','fq-h':'Preguntas frecuentes','q-1':'¿Cuánto cuesta el presupuesto?','a-1':'Nada. El presupuesto por fotos es gratuito y el precio exacto te lo damos tras la visita.','q-2':'¿Trabajáis con mi material?','a-2':'Sí. Podemos trabajar con tu material o comprarlo nosotros y llevarlo a la obra.','q-3':'¿Cuánto tarda la reforma de un baño?','a-3':'Normalmente entre 7 y 12 días laborables, según la superficie y los materiales.','q-4':'¿Quién retira los escombros?','a-4':'Nosotros. La retirada de escombros y la limpieza final están incluidas.','q-5':'¿En qué idioma podemos hablar?','a-5':'En español o en ucraniano, como prefieras.',
+'ct-h':'¿Hablamos de tu reforma?','ct-p':'Envíanos unas fotos por WhatsApp y hoy mismo te damos precio.','ct-b':'Escribir por WhatsApp','ct-hrs':'Lun–Sáb, 8:00–20:00',ft:'© Reformas Alicante · Alicante, España'};
+const UA={};document.querySelectorAll('[data-i]').forEach(el=>{if(!(el.dataset.i in UA))UA[el.dataset.i]=el.innerHTML});
+let lang='uk';
+function setLang(l){lang=l;document.documentElement.lang=l==='es'?'es':'uk';
+  document.querySelectorAll('.lang button').forEach(x=>x.classList.toggle('on',x.dataset.l===l));
+  document.querySelectorAll('[data-i]').forEach(el=>{const t=(l==='es'?ES:UA)[el.dataset.i];if(t!=null)el.innerHTML=t});
+  calc();}
+document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.l)));
+
+/* ---------- calculator ---------- */
+const W={
+ parquet:{u:'m2',min:5,max:200,def:40,lab:[12,20],mat:[35,60],n:{uk:'Паркет і ламінат',es:'Parquet y tarima'}},
+ tiles:{u:'m2',min:2,max:150,def:20,lab:[25,40],mat:[45,75],n:{uk:'Плитка',es:'Alicatado y solado'}},
+ pladur:{u:'m2',min:2,max:150,def:15,lab:[28,40],mat:[38,55],n:{uk:'Гіпсокартон',es:'Pladur'}},
+ elec:{u:'pt',min:1,max:60,def:10,lab:[35,55],mat:[45,80],n:{uk:'Електрика',es:'Electricidad'}},
+ weld:{u:'ml',min:1,max:40,def:6,lab:[60,90],mat:[90,160],n:{uk:'Зварювання',es:'Soldadura'}},
+ bath:{u:'m2',min:2,max:15,def:5,lab:[450,700],mat:[800,1300],n:{uk:'Ванна під ключ',es:'Baño completo'}}};
+const U={m2:{l:{uk:'2. Площа, м²',es:'2. Superficie, m²'},s:{uk:'м²',es:'m²'},k:{uk:'Площа',es:'Superficie'}},
+ pt:{l:{uk:'2. Кількість точок (розетки, світло)',es:'2. Número de puntos (enchufes, luz)'},s:{uk:'точок',es:'puntos'},k:{uk:'Кількість',es:'Cantidad'}},
+ ml:{l:{uk:'2. Довжина, метрів',es:'2. Longitud, metros'},s:{uk:'м',es:'m'},k:{uk:'Довжина',es:'Longitud'}}};
+let work='parquet',mat='ours';
+const qty=document.getElementById('qty'),qout=document.getElementById('qout'),zone=document.getElementById('zone');
+const fmt=n=>{const s=Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g,lang==='es'?'.':' ');return s};
+const rnd=n=>n<1000?Math.round(n/5)*5:n<5000?Math.round(n/10)*10:Math.round(n/50)*50;
+function calc(){
+  const w=W[work],u=U[w.u],q=+qty.value,r=mat==='ours'?w.mat:w.lab;
+  const lo=Math.max(rnd(q*r[0]),120),hi=Math.max(rnd(q*r[1]),lo+30);
+  const range=fmt(lo)+' – '+fmt(hi)+' €';
+  document.getElementById('qlab').textContent=u.l[lang];
+  qout.textContent=q+' '+u.s[lang];
+  document.getElementById('price').textContent=range;
+  document.getElementById('incl').textContent=mat==='ours'?(lang==='es'?'mano de obra y material':'робота і матеріали'):(lang==='es'?'solo mano de obra':'тільки робота');
+  const z=zone.value==='other'?(lang==='es'?'otra localidad':'інше місто'):zone.value;
+  const m=mat==='ours'?(lang==='es'?'lo ponéis vosotros':'купуєте ви'):(lang==='es'?'ya tengo el material':'у мене свій');
+  const msg=lang==='es'
+   ?`¡Hola! Quiero un presupuesto 🙂\n• Trabajo: ${w.n.es}\n• ${u.k.es}: ${q} ${u.s.es}\n• Material: ${m}\n• Zona: ${z}\n• Estimación web: ${range}\nAhora te envío fotos.`
+   :`Вітаю! Хочу розрахунок ремонту 🙂\n• Робота: ${w.n.uk}\n• ${u.k.uk}: ${q} ${u.s.uk}\n• Матеріал: ${m}\n• Район: ${z}\n• Оцінка з сайту: ${range}\nЗараз надішлю фото.`;
+  const t=new Date(),hm=String(t.getHours()).padStart(2,'0')+':'+String(t.getMinutes()).padStart(2,'0');
+  document.getElementById('bub').innerHTML=msg.replace(/&/g,'&amp;').replace(/</g,'&lt;')+`<small>${hm} ✓✓</small>`;
+  document.getElementById('rep').innerHTML=(lang==='es'?'¡Hola! Gracias por el cálculo. Mándanos fotos y hoy te damos el precio exacto 👍':'Вітаю! Дякуємо за розрахунок. Надішліть фото, і сьогодні назвемо точну ціну 👍')+`<small>${hm}</small>`;
+  document.getElementById('send').href='https://wa.me/'+WA+'?text='+encodeURIComponent(msg);
+}
+function setWork(k,keep){work=k;const w=W[k];qty.min=w.min;qty.max=w.max;if(!keep)qty.value=w.def;
+  document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c.dataset.w===k));calc();}
+document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>setWork(c.dataset.w)));
+document.querySelectorAll('#mat button').forEach(b=>b.addEventListener('click',()=>{mat=b.dataset.m;document.querySelectorAll('#mat button').forEach(x=>x.classList.toggle('on',x===b));calc();}));
+qty.addEventListener('input',calc);zone.addEventListener('change',calc);
+document.querySelectorAll('[data-calc]').forEach(a=>a.addEventListener('click',()=>setWork(a.dataset.calc)));
+
+/* ---------- before / after ---------- */
+const ba=document.getElementById('ba'),bai=ba.querySelector('input'),bb=ba.querySelector('.b'),bh=ba.querySelector('.h');
+const setBA=v=>{bb.style.clipPath=`inset(0 ${100-v}% 0 0)`;bh.style.left=v+'%'};
+bai.addEventListener('input',()=>setBA(bai.value));
+const hint=new IntersectionObserver(es=>{if(es[0].isIntersecting){hint.disconnect();let t0=null;
+  const run=ts=>{if(!t0)t0=ts;const p=(ts-t0)/1800;if(p>=1){setBA(50);bai.value=50;return}
+    const v=50+Math.sin(p*Math.PI*2)*22*(1-p);setBA(v);requestAnimationFrame(run)};requestAnimationFrame(run)}},{threshold:.5});
+hint.observe(ba);
+
+const fab=document.querySelector('.fab'),fabT=()=>fab.classList.toggle('show',scrollY>innerHeight*.7);addEventListener('scroll',fabT,{passive:true});fabT();
+if(new URLSearchParams(location.search).get('lang')==='es')setLang('es');else calc();
+</script>
+</body>
+</html>
