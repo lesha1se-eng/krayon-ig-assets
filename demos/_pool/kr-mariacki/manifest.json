@@ -1,0 +1,70 @@
+[
+ {
+  "src": "commons",
+  "id": "File:Krakow - Kosciol Mariacki.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Krakow_-_Kosciol_Mariacki.jpg/1280px-Krakow_-_Kosciol_Mariacki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Krakow_-_Kosciol_Mariacki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 2911,
+  "h": 4314,
+  "alt": "File:Krakow - Kosciol Mariacki.jpg",
+  "author": "Jar.ciurus",
+  "license": "CC BY-SA 3.0 pl",
+  "page": "https://commons.wikimedia.org/wiki/File:Krakow_-_Kosciol_Mariacki.jpg",
+  "file": "demos/_pool/kr-mariacki/00-commons.jpg",
+  "saved": [
+   1280,
+   1897
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Doors at the St. Mary's Basilica in Kraków 07.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_07.jpg/1280px-Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3648,
+  "h": 5472,
+  "alt": "File:Doors at the St. Mary's Basilica in Kraków 07.jpg",
+  "author": "Kritzolina",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_07.jpg",
+  "file": "demos/_pool/kr-mariacki/01-commons.jpg",
+  "saved": [
+   1280,
+   1920
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Doors at the St. Mary's Basilica in Kraków 04.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_04.jpg/1280px-Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3648,
+  "h": 5472,
+  "alt": "File:Doors at the St. Mary's Basilica in Kraków 04.jpg",
+  "author": "Kritzolina",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_04.jpg",
+  "file": "demos/_pool/kr-mariacki/02-commons.jpg",
+  "saved": [
+   1280,
+   1920
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Doors at the St. Mary's Basilica in Kraków 08.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_08.jpg/1280px-Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/0/07/Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3648,
+  "h": 5472,
+  "alt": "File:Doors at the St. Mary's Basilica in Kraków 08.jpg",
+  "author": "Kritzolina",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Doors_at_the_St._Mary%27s_Basilica_in_Krak%C3%B3w_08.jpg",
+  "file": "demos/_pool/kr-mariacki/03-commons.jpg",
+  "saved": [
+   1280,
+   1920
+  ]
+ }
+]

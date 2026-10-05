@@ -1,0 +1,70 @@
+[
+ {
+  "src": "commons",
+  "id": "File:Krakow - Wawel from Vistula - 4.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Krakow_-_Wawel_from_Vistula_-_4.jpg/1280px-Krakow_-_Wawel_from_Vistula_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Krakow_-_Wawel_from_Vistula_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 10175,
+  "h": 3058,
+  "alt": "File:Krakow - Wawel from Vistula - 4.jpg",
+  "author": "Ingo Mehling",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Krakow_-_Wawel_from_Vistula_-_4.jpg",
+  "file": "demos/_pool/kr-vistula/00-commons.jpg",
+  "saved": [
+   1280,
+   385
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Krakow - Vistula from Bulwar Podolski.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Krakow_-_Vistula_from_Bulwar_Podolski.jpg/1280px-Krakow_-_Vistula_from_Bulwar_Podolski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Krakow_-_Vistula_from_Bulwar_Podolski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 5469,
+  "h": 2211,
+  "alt": "File:Krakow - Vistula from Bulwar Podolski.jpg",
+  "author": "Ingo Mehling",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Krakow_-_Vistula_from_Bulwar_Podolski.jpg",
+  "file": "demos/_pool/kr-vistula/01-commons.jpg",
+  "saved": [
+   1280,
+   517
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Krakow - Wawel from Vistula - 3.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Krakow_-_Wawel_from_Vistula_-_3.jpg/1280px-Krakow_-_Wawel_from_Vistula_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Krakow_-_Wawel_from_Vistula_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 7063,
+  "h": 1991,
+  "alt": "File:Krakow - Wawel from Vistula - 3.jpg",
+  "author": "Ingo Mehling",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Krakow_-_Wawel_from_Vistula_-_3.jpg",
+  "file": "demos/_pool/kr-vistula/02-commons.jpg",
+  "saved": [
+   1280,
+   361
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Krakow - Wawel from Vistula - 2.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Krakow_-_Wawel_from_Vistula_-_2.jpg/1280px-Krakow_-_Wawel_from_Vistula_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Krakow_-_Wawel_from_Vistula_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 9997,
+  "h": 3650,
+  "alt": "File:Krakow - Wawel from Vistula - 2.jpg",
+  "author": "Ingo Mehling",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Krakow_-_Wawel_from_Vistula_-_2.jpg",
+  "file": "demos/_pool/kr-vistula/03-commons.jpg",
+  "saved": [
+   1280,
+   467
+  ]
+ }
+]
