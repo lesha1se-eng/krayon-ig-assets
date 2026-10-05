@@ -1,0 +1,104 @@
+[
+ {
+  "src": "commons",
+  "id": "File:2011 lucca 065.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2011_lucca_065.jpg/960px-2011_lucca_065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2011_lucca_065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4320,
+  "h": 3240,
+  "alt": "File:2011 lucca 065.jpg",
+  "author": "Stefano Sansavini",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2011_lucca_065.jpg",
+  "file": "demos/_pool/lucca-walls/00-commons.jpg",
+  "saved": [
+   900,
+   675
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:2011 lucca 060.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/2011_lucca_060.jpg/960px-2011_lucca_060.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/e/eb/2011_lucca_060.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4320,
+  "h": 3240,
+  "alt": "File:2011 lucca 060.jpg",
+  "author": "Stefano Sansavini",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2011_lucca_060.jpg",
+  "file": "demos/_pool/lucca-walls/01-commons.jpg",
+  "saved": [
+   900,
+   675
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:The walls of Lucca.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/The_walls_of_Lucca.jpg/960px-The_walls_of_Lucca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/8/89/The_walls_of_Lucca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3872,
+  "h": 2592,
+  "alt": "File:The walls of Lucca.jpg",
+  "author": "Ian McKellar",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_walls_of_Lucca.jpg",
+  "file": "demos/_pool/lucca-walls/02-commons.jpg",
+  "saved": [
+   900,
+   603
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Walls of Lucca, May 2013 (02).JPG",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Walls_of_Lucca%2C_May_2013_%2802%29.JPG/960px-Walls_of_Lucca%2C_May_2013_%2802%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/4/49/Walls_of_Lucca%2C_May_2013_%2802%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 5184,
+  "h": 3456,
+  "alt": "File:Walls of Lucca, May 2013 (02).JPG",
+  "author": "Ardfern",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Walls_of_Lucca,_May_2013_(02).JPG",
+  "file": "demos/_pool/lucca-walls/03-commons.jpg",
+  "saved": [
+   900,
+   600
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:2015 lucca 241.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2015_lucca_241.jpg/960px-2015_lucca_241.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/a/a4/2015_lucca_241.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4912,
+  "h": 3264,
+  "alt": "File:2015 lucca 241.jpg",
+  "author": "Stefano Sansavini",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2015_lucca_241.jpg",
+  "file": "demos/_pool/lucca-walls/04-commons.jpg",
+  "saved": [
+   900,
+   598
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Mura di Lucca, Particolare.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Mura_di_Lucca%2C_Particolare.jpg/960px-Mura_di_Lucca%2C_Particolare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Mura_di_Lucca%2C_Particolare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3648,
+  "h": 2736,
+  "alt": "File:Mura di Lucca, Particolare.jpg",
+  "author": "Giulia Trevisanello",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mura_di_Lucca,_Particolare.jpg",
+  "file": "demos/_pool/lucca-walls/05-commons.jpg",
+  "saved": [
+   900,
+   675
+  ]
+ }
+]
