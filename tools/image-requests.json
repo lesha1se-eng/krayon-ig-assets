@@ -1,8 +1,8 @@
 {
  "pool": [
   {
-   "name": "lk-reading",
-   "q": "incategory:\"Quality_images\" woman reading book",
+   "name": "ct-house",
+   "q": "incategory:\"Quality_images\" modern house exterior",
    "src": [
     "commons"
    ],
@@ -10,17 +10,17 @@
    "w": 1920
   },
   {
-   "name": "lk-books",
-   "q": "incategory:\"Quality_images\" books stack",
+   "name": "ct-cottage",
+   "q": "incategory:\"Quality_images\" cottage village houses",
    "src": [
     "commons"
    ],
-   "n": 6,
-   "w": 1280
+   "n": 5,
+   "w": 1920
   },
   {
-   "name": "lk-cafe",
-   "q": "incategory:\"Quality_images\" coffee cup book",
+   "name": "ct-living",
+   "q": "incategory:\"Quality_images\" living room interior modern",
    "src": [
     "commons"
    ],
@@ -28,17 +28,35 @@
    "w": 1280
   },
   {
-   "name": "lk-fabric",
-   "q": "incategory:\"Quality_images\" linen fabric texture",
+   "name": "ct-kitchen",
+   "q": "incategory:\"Quality_images\" kitchen interior",
    "src": [
     "commons"
    ],
-   "n": 5,
+   "n": 4,
    "w": 1280
   },
   {
-   "name": "lk-library",
-   "q": "incategory:\"Quality_images\" bookshelf",
+   "name": "ct-construction",
+   "q": "incategory:\"Quality_images\" house under construction",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 1280
+  },
+  {
+   "name": "ct-lviv",
+   "q": "incategory:\"Quality_images\" Lviv panorama",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 1920
+  },
+  {
+   "name": "ct-field",
+   "q": "incategory:\"Quality_images\" Ukraine countryside village",
    "src": [
     "commons"
    ],
