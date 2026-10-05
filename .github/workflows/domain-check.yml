@@ -1,0 +1,29 @@
+name: domain-check
+on:
+  push:
+    branches: [claude/projects-memory-qam8bz]
+    paths: ['tools/domains.txt']
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: RDAP lookup
+        run: |
+          : > tools/domains-result.txt
+          while read -r d; do
+            [ -z "$d" ] && continue
+            code=$(curl -s -o /tmp/r.json -w "%{http_code}" "https://rdap.verisign.com/com/v1/domain/$d")
+            if [ "$code" = "404" ]; then echo "$d FREE" >> tools/domains-result.txt
+            else echo "$d TAKEN (http $code) $(grep -o '"eventAction":"expiration","eventDate":"[^"]*"' /tmp/r.json | head -1)" >> tools/domains-result.txt; fi
+          done < tools/domains.txt
+          cat tools/domains-result.txt
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/domains-result.txt
+          git commit -m "Domain check result" || exit 0
+          for i in 1 2 3; do git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && break; sleep 5; done
