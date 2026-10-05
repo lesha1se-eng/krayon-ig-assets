@@ -1,26 +1,26 @@
 {
  "pool": [
   {
-   "name": "lv-rynok",
-   "q": "incategory:\"Quality_images\" Lviv Market Square",
+   "name": "ul-food",
+   "q": "incategory:\"Quality_images\" salad bowl healthy food",
    "src": [
     "commons"
    ],
    "n": 6,
-   "w": 1920
-  },
-  {
-   "name": "lv-opera",
-   "q": "incategory:\"Quality_images\" Lviv Opera",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
    "w": 1280
   },
   {
-   "name": "lv-panorama",
-   "q": "incategory:\"Quality_images\" Lviv panorama High Castle",
+   "name": "ul-fruit",
+   "q": "incategory:\"Quality_images\" fruit breakfast",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 1280
+  },
+  {
+   "name": "ul-lemon",
+   "q": "incategory:\"Quality_images\" lemons",
    "src": [
     "commons"
    ],
@@ -28,48 +28,21 @@
    "w": 1920
   },
   {
-   "name": "lv-church",
-   "q": "incategory:\"Quality_images\" Lviv cathedral",
+   "name": "ul-tea",
+   "q": "incategory:\"Quality_images\" herbal tea cup",
    "src": [
     "commons"
    ],
-   "n": 6,
+   "n": 4,
    "w": 1280
   },
   {
-   "name": "lv-street",
-   "q": "incategory:\"Quality_images\" Lviv street old town",
-   "src": [
-    "commons"
-   ],
-   "n": 6,
-   "w": 1280
-  },
-  {
-   "name": "lv-night",
-   "q": "incategory:\"Quality_images\" Lviv night",
+   "name": "ul-veg",
+   "q": "incategory:\"Quality_images\" vegetables market colorful",
    "src": [
     "commons"
    ],
    "n": 5,
-   "w": 1280
-  },
-  {
-   "name": "lv-lychakiv",
-   "q": "incategory:\"Quality_images\" Lychakiv Cemetery",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 1280
-  },
-  {
-   "name": "lv-coffee",
-   "q": "Lviv coffee house interior",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
    "w": 1280
   }
  ]
