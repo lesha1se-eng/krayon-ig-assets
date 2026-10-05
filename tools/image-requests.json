@@ -1,8 +1,26 @@
 {
  "pool": [
   {
-   "name": "ul-food",
-   "q": "incategory:\"Quality_images\" salad bowl healthy food",
+   "name": "kr-rynek",
+   "q": "incategory:\"Quality_images\" Kraków Main Market Square",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 1920
+  },
+  {
+   "name": "kr-wawel",
+   "q": "incategory:\"Quality_images\" Wawel Castle",
+   "src": [
+    "commons"
+   ],
+   "n": 6,
+   "w": 1920
+  },
+  {
+   "name": "kr-kazimierz",
+   "q": "incategory:\"Quality_images\" Kazimierz Kraków",
    "src": [
     "commons"
    ],
@@ -10,26 +28,17 @@
    "w": 1280
   },
   {
-   "name": "ul-fruit",
-   "q": "incategory:\"Quality_images\" fruit breakfast",
-   "src": [
-    "commons"
-   ],
-   "n": 6,
-   "w": 1280
-  },
-  {
-   "name": "ul-lemon",
-   "q": "incategory:\"Quality_images\" lemons",
+   "name": "kr-wieliczka",
+   "q": "incategory:\"Quality_images\" Wieliczka Salt Mine",
    "src": [
     "commons"
    ],
    "n": 5,
-   "w": 1920
+   "w": 1280
   },
   {
-   "name": "ul-tea",
-   "q": "incategory:\"Quality_images\" herbal tea cup",
+   "name": "kr-mariacki",
+   "q": "incategory:\"Quality_images\" St. Mary's Basilica Kraków",
    "src": [
     "commons"
    ],
@@ -37,12 +46,30 @@
    "w": 1280
   },
   {
-   "name": "ul-veg",
-   "q": "incategory:\"Quality_images\" vegetables market colorful",
+   "name": "kr-sukiennice",
+   "q": "incategory:\"Quality_images\" Sukiennice",
    "src": [
     "commons"
    ],
-   "n": 5,
+   "n": 4,
+   "w": 1280
+  },
+  {
+   "name": "kr-vistula",
+   "q": "incategory:\"Quality_images\" Kraków Vistula",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 1280
+  },
+  {
+   "name": "kr-night",
+   "q": "incategory:\"Quality_images\" Kraków night",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
    "w": 1280
   }
  ]
