@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Присяжний перекладач української мови в Лодзі · др Ольга Гайсенюк</title>
+<meta name="description" content="Присяжні переклади з української та на українську в Лодзі. Tłumacz przysięgły języka ukraińskiego Łódź. Документи для ужонду, USC, ZUS, університету.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14213d;--navy2:#1f2f55;--paper:#f7f5f0;--card:#fff;--gold:#c79a3b;--gold2:#e9d3a3;--ink:#17181c;--muted:#5d6370;--line:#e4e1d8;--blue:#2c4b8f;--yellow:#f2c230}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.1;letter-spacing:-.01em}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.ph{background:linear-gradient(135deg,#3b4f7d,#14213d)}
+.ph img{width:100%;height:100%;object-fit:cover}
+.ribbon{background:var(--gold);color:var(--navy);font-size:13px;font-weight:600;text-align:center;padding:9px 16px}
+.ribbon a{font-weight:800;margin-left:6px}
+nav{position:sticky;top:0;z-index:40;background:rgba(247,245,240,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:70px;gap:16px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.seal{width:42px;height:42px;border-radius:50%;background:var(--navy);color:var(--gold2);display:grid;place-items:center;font-family:Fraunces,serif;font-weight:700;font-size:15px;border:2px solid var(--gold)}
+.logo b{display:block;font-size:16px;line-height:1.2}
+.logo small{color:var(--muted);font-size:12px}
+.links{display:flex;gap:24px;font-size:14px;font-weight:600}
+.links a{text-decoration:none;color:var(--muted)}
+.links a:hover{color:var(--navy)}
+.right{display:flex;gap:10px;align-items:center}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;font-size:12px;font-weight:800;background:#fff}
+.lang button{border:0;background:none;padding:7px 12px;cursor:pointer;color:var(--muted);font:inherit}
+.lang button.on{background:var(--navy);color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--navy);color:#fff;text-decoration:none;font-weight:700;padding:15px 24px;border-radius:12px;border:0;cursor:pointer;font-size:15px;transition:.2s;font-family:inherit}
+.btn:hover{background:var(--navy2);transform:translateY(-2px)}
+.btn.gold{background:var(--gold);color:var(--navy)}
+.btn.gold:hover{background:#b8892d}
+.btn.out{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.6)}
+.btn.out:hover{background:#fff;color:var(--navy)}
+.btn.sm{padding:10px 16px;font-size:13px;border-radius:10px}
+
+/* hero */
+.hero{position:relative;color:#fff;overflow:hidden}
+.hero .bg{position:absolute;inset:0}
+.hero .bg img{width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(14,22,42,.94) 0%,rgba(14,22,42,.82) 45%,rgba(14,22,42,.35) 100%)}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;padding-top:90px;padding-bottom:90px}
+.pill{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:700;letter-spacing:.04em}
+.pill i{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 4px rgba(74,222,128,.2)}
+.hero h1{font-size:clamp(38px,5.6vw,66px);margin:20px 0 18px}
+.hero h1 em{font-style:italic;color:var(--gold2);font-weight:500}
+.hero .lead{font-size:18px;opacity:.9;max-width:560px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.trust{display:flex;gap:26px;flex-wrap:wrap;margin-top:34px;font-size:13px;opacity:.9}
+.trust span{display:flex;gap:8px;align-items:center}
+.quote-card{background:#fff;color:var(--ink);border-radius:22px;padding:26px;box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.quote-card h3{font-size:24px;margin-bottom:4px}
+.quote-card p.s{color:var(--muted);font-size:14px;margin-bottom:16px}
+.drop{display:block;border:2px dashed #c9cfdd;border-radius:16px;padding:22px;text-align:center;cursor:pointer;transition:.2s;background:#f8f9fc}
+.drop:hover,.drop.over{border-color:var(--blue);background:#eef2fb}
+.drop b{display:block;font-size:15px;margin-top:6px}
+.drop span{font-size:13px;color:var(--muted)}
+.qrow{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.quote-card select,.quote-card input{width:100%;font:inherit;font-size:14px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.est{margin-top:14px;display:flex;justify-content:space-between;align-items:center;background:#f6f1e4;border-radius:12px;padding:12px 14px;font-size:14px}
+.est b{font-family:Fraunces,serif;font-size:24px;color:var(--navy)}
+.quote-card .btn{width:100%;margin-top:12px}
+.ok{display:none;margin-top:12px;background:#e9f8ec;color:#11331a;border-radius:12px;padding:12px;font-size:13.5px;white-space:pre-wrap}
+.ok.show{display:block}
+
+/* sections */
+section{padding:96px 0}
+.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--gold);margin-bottom:12px}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:40px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(34px,4.6vw,54px);max-width:620px}
+.sec-head p{max-width:440px;color:var(--muted)}
+
+/* creds strip */
+.creds{background:#fff;border-bottom:1px solid var(--line);padding:34px 0}
+.creds .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.creds div{border-left:3px solid var(--gold);padding-left:14px}
+.creds b{display:block;font-family:Fraunces,serif;font-size:22px;color:var(--navy);line-height:1.2}
+.creds span{font-size:13.5px;color:var(--muted)}
+
+/* docs / prices */
+.docs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.doc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:8px;transition:.2s}
+.doc:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:0 18px 36px -24px rgba(20,33,61,.5)}
+.doc .ic{font-size:26px}
+.doc h3{font-size:21px}
+.doc p{font-size:14px;color:var(--muted)}
+.doc .pr{margin-top:auto;padding-top:10px;display:flex;justify-content:space-between;align-items:center;border-top:1px dashed var(--line);font-size:13px;color:var(--muted)}
+.doc .pr b{font-family:Fraunces,serif;font-size:22px;color:var(--navy)}
+.where{margin-top:26px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:var(--muted);font-size:14px}
+.where span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-weight:600;color:var(--ink);font-size:13px}
+
+/* steps */
+.steps-sec{background:var(--navy);color:#fff}
+.steps-sec .sec-head p{color:#c3cbe0}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
+.step{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:24px}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:Fraunces,serif;font-size:40px;color:var(--gold2);display:block;line-height:1;margin-bottom:12px}
+.step h3{font-size:22px;margin-bottom:6px}
+.step p{color:#c3cbe0;font-size:14.5px}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:60px;align-items:center}
+.about-photo{position:relative;border-radius:24px;overflow:hidden;aspect-ratio:4/5}
+.about-photo .note{position:absolute;left:18px;right:18px;bottom:18px;background:rgba(255,255,255,.95);border-radius:14px;padding:14px;font-size:13px;color:var(--muted);text-align:center}
+.about-photo .note b{display:block;color:var(--ink)}
+.about h2{font-size:clamp(34px,4.6vw,52px);margin-bottom:18px}
+.about p{color:#3d424d;margin-bottom:14px;font-size:16.5px}
+.tl{margin-top:22px;display:grid;gap:12px}
+.tl div{display:flex;gap:14px;align-items:flex-start}
+.tl b{flex:none;width:92px;font-family:Fraunces,serif;color:var(--gold);font-size:18px}
+.tl span{color:var(--muted);font-size:15px}
+
+/* city strip */
+.city{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px;height:300px}
+.city figure{border-radius:20px;overflow:hidden;position:relative}
+.city figcaption{position:absolute;left:14px;bottom:12px;color:#fff;font-weight:700;font-size:14px;z-index:2;text-shadow:0 1px 10px rgba(0,0,0,.6)}
+.city figure::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.5))}
+
+/* faq */
+.faq{max-width:840px}
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{cursor:pointer;font-family:Fraunces,serif;font-size:22px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::after{content:"+";color:var(--gold);font-size:28px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{color:var(--muted);margin-top:10px}
+
+/* contact */
+.contact{background:#fff;border-top:1px solid var(--line)}
+.c-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cbox{border:1px solid var(--line);border-radius:18px;padding:24px;background:var(--paper)}
+.cbox h3{font-size:22px;margin-bottom:6px}
+.cbox p{color:var(--muted);font-size:15px}
+.cbox .btn{margin-top:14px}
+
+/* value */
+.value{background:linear-gradient(180deg,#fbf6ea,#f3e8cf)}
+.badge{display:inline-block;background:var(--navy);color:#fff;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;border-radius:999px;padding:7px 14px;margin-bottom:16px}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.vcard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}
+.vcard .n{font-family:Fraunces,serif;font-size:42px;color:var(--gold);line-height:1}
+.vcard h3{font-size:23px;margin:10px 0 6px}
+.vcard p{color:var(--muted);font-size:14.5px}
+.serp{margin-top:30px;background:#fff;border-radius:20px;border:1px solid var(--line);padding:24px;max-width:700px;font-family:Arial,sans-serif}
+.serp .q{border:1px solid #dfe1e5;border-radius:24px;padding:10px 18px;font-size:15px;margin-bottom:16px}
+.serp .u{font-size:13px}
+.serp .t{font-size:20px;color:#1a0dab;margin:4px 0}
+.serp .s{color:#e7711b;font-size:13px}
+.serp .d{font-size:14px;color:#4d5156}
+footer{background:var(--navy);color:#a9b3cc;font-size:13px;padding:28px 0}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+.credit{position:absolute;right:12px;bottom:8px;z-index:3;font-size:10px;opacity:.55}
+
+@media (max-width:980px){
+  .links{display:none}
+  .hero .wrap,.about-grid{grid-template-columns:1fr}
+  .creds .wrap{grid-template-columns:1fr 1fr}
+  .docs,.vgrid,.c-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .city{grid-template-columns:1fr 1fr;height:auto;grid-auto-rows:180px}
+  .city figure:first-child{grid-column:span 2}
+  section{padding:70px 0}
+}
+@media (max-width:560px){
+  .docs,.vgrid,.c-grid,.steps,.creds .wrap{grid-template-columns:1fr}
+  .qrow{grid-template-columns:1fr}
+  .right .btn{display:none}
+  .logo small{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="ribbon">✨ Демо-версія сайту для пані Ольги Гайсенюк від Krayon <a href="#value">Що дасть вам цей сайт ↓</a></div>
+
+<nav><div class="wrap">
+  <a href="#" class="logo"><span class="seal">OG</span><span><b>др Ольга Гайсенюк</b><small data-i="sub">Присяжний перекладач · Лодзь</small></span></a>
+  <div class="links">
+    <a href="#docs" data-i="n1">Документи і ціни</a><a href="#how" data-i="n2">Як це працює</a><a href="#about" data-i="n3">Про мене</a><a href="#faq" data-i="n4">Питання</a>
+  </div>
+  <div class="right">
+    <div class="lang"><button class="on" data-l="uk">UA</button><button data-l="pl">PL</button></div>
+    <a href="#top-quote" class="btn sm gold" data-i="nb">Оцінити переклад</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="bg ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Piotrkowska_Street-_%C5%81%C3%B3d%C5%BA.jpg?width=2000" alt="вул. Пйотрковська, Лодзь"></div>
+  <div class="wrap">
+    <div>
+      <span class="pill"><i></i><span data-i="pill">Приймаю замовлення · відповідаю за 1 годину</span></span>
+      <h1 data-i="h1">Присяжний перекладач української мови <em>в Лодзі</em></h1>
+      <p class="lead" data-i="lead">Переклади документів з печаткою присяжного перекладача, які приймають ужонд, USC, ZUS, суди, університети і роботодавці по всій Польщі.</p>
+      <div class="cta">
+        <a href="#top-quote" class="btn gold" data-i="c1">Надіслати документ на оцінку</a>
+        <a href="#docs" class="btn out" data-i="c2">Ціни на переклад</a>
+      </div>
+      <div class="trust">
+        <span>⚖️ <span data-i="t1">Присяжна з 2022 року</span></span>
+        <span>🎓 <span data-i="t2">Доктор наук, Лодзинський університет</span></span>
+        <span>📦 <span data-i="t3">Відправка по всій Польщі</span></span>
+      </div>
+    </div>
+    <form class="quote-card" id="top-quote">
+      <h3 data-i="q-h">Дізнайтеся ціну за 1 годину</h3>
+      <p class="s" data-i="q-s">Сфотографуйте документ і надішліть. Без зобов'язань.</p>
+      <label class="drop" id="drop"><input type="file" id="file" hidden multiple accept="image/*,.pdf">
+        <div style="font-size:30px">📎</div><b data-i="d1">Перетягніть файл або натисніть</b><span data-i="d2">Фото з телефону, скан або PDF</span></label>
+      <div class="qrow">
+        <select id="dtype">
+          <option value="80" data-i="o1">Свідоцтво (народження, шлюб)</option>
+          <option value="90" data-i="o2">Диплом / атестат з додатком</option>
+          <option value="70" data-i="o3">Довідка, виписка</option>
+          <option value="80" data-i="o4">Водійське посвідчення</option>
+          <option value="60" data-i="o5">Інше, за сторінку</option>
+        </select>
+        <select id="speed"><option value="1" data-i="sp1">Звичайно, 2–3 дні</option><option value="1.5" data-i="sp2">Терміново, 24 год</option></select>
+      </div>
+      <div class="est"><span data-i="est">Орієнтовна ціна</span><b id="price">від 80 zł</b></div>
+      <button class="btn" type="submit" data-i="qs">Отримати точну ціну</button>
+      <div class="ok" id="ok"></div>
+    </form>
+  </div>
+  <span class="credit">Фото: Wikimedia Commons</span>
+</header>
+
+<div class="creds"><div class="wrap">
+  <div><b data-i="cr1">TP · 2022</b><span data-i="cr1p">Присяжний перекладач у реєстрі Міністерства юстиції</span></div>
+  <div><b data-i="cr2">др наук</b><span data-i="cr2p">Лодзинський університет</span></div>
+  <div><b data-i="cr3">Чернівці</b><span data-i="cr3p">Магістратура, Чернівецький національний університет</span></div>
+  <div><b>UA ↔ PL</b><span data-i="cr4p">Носій української, щоденна практика польською</span></div>
+</div></div>
+
+<section id="docs">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="dk-e">Документи і ціни</div><h2 data-i="dk-h">Що я перекладаю найчастіше</h2></div><p data-i="dk-p">Ціни орієнтовні, точну назву після того, як побачу документ. Сторінка присяжного перекладу рахується за 1125 знаків.</p></div>
+    <div class="docs">
+      <div class="doc reveal"><div class="ic">👶</div><h3 data-i="x1">Свідоцтва</h3><p data-i="x1p">Народження, шлюб, розлучення, зміна імені. Для USC, Karta Pobytu, 800+.</p><div class="pr"><span data-i="from">від</span><b>80 zł</b></div></div>
+      <div class="doc reveal"><div class="ic">🎓</div><h3 data-i="x2">Освіта</h3><p data-i="x2p">Дипломи, атестати, додатки з оцінками. Для вступу, нострифікації і роботи.</p><div class="pr"><span data-i="from">від</span><b>90 zł</b></div></div>
+      <div class="doc reveal"><div class="ic">🚗</div><h3 data-i="x3">Авто і права</h3><p data-i="x3p">Водійське посвідчення, техпаспорт, договір купівлі авто для реєстрації.</p><div class="pr"><span data-i="from">від</span><b>80 zł</b></div></div>
+      <div class="doc reveal"><div class="ic">🏥</div><h3 data-i="x4">Медичні документи</h3><p data-i="x4p">Виписки, висновки, щеплення, довідки для лікаря або ZUS.</p><div class="pr"><span data-i="from">від</span><b>70 zł</b></div></div>
+      <div class="doc reveal"><div class="ic">⚖️</div><h3 data-i="x5">Юридичні документи</h3><p data-i="x5p">Довіреності, рішення суду, договори, витяги з реєстрів.</p><div class="pr"><span data-i="from">від</span><b>60 zł/стор.</b></div></div>
+      <div class="doc reveal"><div class="ic">🗣️</div><h3 data-i="x6">Усний переклад</h3><p data-i="x6p">У нотаріуса, в суді, ужонді, на весіллі в USC.</p><div class="pr"><span data-i="from">від</span><b>150 zł/год</b></div></div>
+    </div>
+    <div class="where reveal"><span data-i="wh">Переклади приймають:</span><span>Urząd Wojewódzki</span><span>USC</span><span>ZUS</span><span>Sąd</span><span>Uczelnie</span><span>Notariusz</span><span>Pracodawcy</span></div>
+  </div>
+</section>
+
+<section id="how" class="steps-sec">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="h-e">Як це працює</div><h2 data-i="h-h">Без черг і зайвих поїздок</h2></div><p data-i="h-p">Більшість клієнтів жодного разу не приїжджають особисто. Усе через телефон.</p></div>
+    <div class="steps">
+      <div class="step reveal"><h3 data-i="st1">Надсилаєте фото</h3><p data-i="st1p">Через форму на сайті, WhatsApp або email. Підійде фото з телефону.</p></div>
+      <div class="step reveal"><h3 data-i="st2">Отримуєте ціну</h3><p data-i="st2p">Протягом години називаю точну ціну і термін.</p></div>
+      <div class="step reveal"><h3 data-i="st3">Я перекладаю</h3><p data-i="st3p">Звичайно 2–3 робочі дні, терміново за 24 години.</p></div>
+      <div class="step reveal"><h3 data-i="st4">Забираєте зручно</h3><p data-i="st4p">Особисто в Лодзі або поштою чи InPost по всій Польщі.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap about-grid">
+    <div class="about-photo ph reveal"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/%C5%81%C3%B3d%C5%BA,_Uniwersytet_%C5%81%C3%B3dzki_Rektorat_Uniwersytetu_%C5%81%C3%B3dzkiego_-_nowy_-_panoramio_(1).jpg?width=900" alt="Лодзинський університет"><div class="note"><b data-i="pn1">Тут буде ваше фото</b><span data-i="pn2">професійний портрет додає довіри</span></div></div>
+    <div class="reveal">
+      <div class="eyebrow" data-i="a-e">Про мене</div>
+      <h2 data-i="a-h">Ольга Гайсенюк, доктор наук і присяжний перекладач</h2>
+      <p data-i="a-p1">Я українка, живу і працюю в Лодзі. Знаю, як важливо, щоб переклад документа прийняли з першого разу, без повторних візитів і нервів.</p>
+      <p data-i="a-p2">Мовою і текстом я займаюся професійно: магістратура в Чернівцях, доктор наук Лодзинського університету, а з 2022 року присяжний перекладач, внесений до реєстру Міністерства юстиції Польщі.</p>
+      <div class="tl">
+        <div><b>Чернівці</b><span data-i="tl1">Магістратура, Чернівецький національний університет</span></div>
+        <div><b>Лодзь</b><span data-i="tl2">Ступінь доктора наук, Лодзинський університет</span></div>
+        <div><b>2022</b><span data-i="tl3">Присяга присяжного перекладача, Міністерство юстиції</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap city reveal">
+    <figure class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Panoramic_photo_Piotrkowska_Street_in_Lodz.jpg?width=1300" alt="Пйотрковська"><figcaption data-i="cg1">Лодзь, вул. Пйотрковська</figcaption></figure>
+    <figure class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Manufaktura,_%C5%81%C3%B3d%C5%BA,_Poland.jpg?width=700" alt="Мануфактура"><figcaption>Manufaktura</figcaption></figure>
+    <figure class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Palac_Poznanskiego.JPG?width=700" alt="Палац Познанського"><figcaption data-i="cg3">Палац Познанського</figcaption></figure>
+  </div>
+</section>
+
+<section id="faq" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="f-e">Питання</div><h2 data-i="f-h">Часті питання</h2></div></div>
+    <div class="faq reveal">
+      <details open><summary data-i="fq1">Чим присяжний переклад відрізняється від звичайного?</summary><p data-i="fa1">Присяжний переклад засвідчений печаткою і підписом перекладача з реєстру Міністерства юстиції. Лише такий переклад приймають державні установи Польщі.</p></details>
+      <details><summary data-i="fq2">Чи потрібен оригінал документа?</summary><p data-i="fa2">Для оцінки досить фото. Для самого перекладу часто теж, але в перекладі буде позначка, що він зроблений з копії. Підкажу, що потрібно саме у вашій установі.</p></details>
+      <details><summary data-i="fq3">Чи можна отримати переклад електронно?</summary><p data-i="fa3">Так, якщо установа приймає електронні документи, переклад можна оформити з кваліфікованим електронним підписом. Підкажу, чи підійде цей варіант саме вам.</p></details>
+      <details><summary data-i="fq4">Чи потрібен апостиль?</summary><p data-i="fa4">Для частини документів так. Підкажу, чи він потрібен, ще до перекладу, щоб ви не платили двічі.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><div class="eyebrow" data-i="k-e">Контакти</div><h2 data-i="k-h">Напишіть, і я відповім протягом години</h2></div></div>
+    <div class="c-grid">
+      <div class="cbox reveal"><h3>WhatsApp · Viber</h3><p>+48 534 267 034</p><a class="btn sm" style="background:#25d366" href="#top-quote" data-i="kb1">Написати</a></div>
+      <div class="cbox reveal"><h3>Email</h3><p>olgaiseniuk@gmail.com</p><a class="btn sm" href="#top-quote" data-i="kb2">Надіслати документ</a></div>
+      <div class="cbox reveal"><h3 data-i="kh3">Особисто</h3><p data-i="kp3">Лодзь, за попереднім записом. Адресу надішлю після підтвердження.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="value" class="value">
+  <div class="wrap">
+    <span class="badge">Для пані Ольги</span>
+    <div class="sec-head" style="margin-bottom:24px"><div><h2>Що цей сайт дасть вам</h2></div><p>Це демо, тексти, ціни і фото можна змінити як завгодно. Ось чому сайт працюватиме на вас щодня.</p></div>
+    <div class="vgrid">
+      <div class="vcard"><div class="n">01</div><h3>Клієнти з Google</h3><p>Люди шукають «tłumacz przysięgły ukraiński Łódź» і «перекладач Лодзь». Зараз вони бачать каталоги і бюро. Сайт налаштуємо так, щоб бачили вас.</p></div>
+      <div class="vcard"><div class="n">02</div><h3>Менше дзвінків з тими самими питаннями</h3><p>Ціни, терміни, що потрібно від клієнта і як забрати переклад: усе вже написано. Вам приходять готові замовлення.</p></div>
+      <div class="vcard"><div class="n">03</div><h3>Документ одразу у формі</h3><p>Клієнт фотографує документ і надсилає з телефону. Ви бачите, що перекладати, і одразу називаєте ціну.</p></div>
+      <div class="vcard"><div class="n">04</div><h3>Довіра, яку видно</h3><p>Ступінь доктора, реєстр Міністерства юстиції, Чернівці і Лодзь. Людина обирає фахівця, а не найдешевше бюро.</p></div>
+      <div class="vcard"><div class="n">05</div><h3>Українська та польська</h3><p>Одна кнопка перемикає мову. Поляки і фірми, яким потрібен перекладач, теж знаходять вас.</p></div>
+      <div class="vcard"><div class="n">06</div><h3>Без клопоту для вас</h3><p>Власний домен, хостинг на перший рік, налаштування Google. Зміни вносимо ми, вам не треба нічого вчити.</p></div>
+    </div>
+    <div class="serp">
+      <div class="q">🔍 tłumacz przysięgły ukraiński Łódź</div>
+      <div class="u">tlumacz-ukrainski-lodz.pl</div>
+      <div class="t">dr Olga Gaiseniuk · Tłumacz przysięgły języka ukraińskiego Łódź</div>
+      <div class="s">★★★★★ 5,0 · Google</div>
+      <div class="d">Tłumaczenia przysięgłe z i na język ukraiński. Akty USC, dyplomy, prawo jazdy. Wycena w 1 godzinę, odbiór osobisty, pocztą lub z podpisem elektronicznym.</div>
+    </div>
+    <p style="margin-top:20px;color:var(--muted);font-size:14px">Так ваш сайт може виглядати в Google. Демо підготував <b>Олексій, Krayon</b> · krayon.site</p>
+  </div>
+</section>
+
+<footer><div class="wrap"><span>© др Ольга Гайсенюк · Tłumacz przysięgły języka ukraińskiego · Łódź</span><span>Фото: Wikimedia Commons · Демо від Krayon</span></div></footer>
+
+<script>
+document.querySelectorAll('.ph img').forEach(i=>i.addEventListener('error',()=>i.style.opacity=0));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// estimate
+const dt=document.getElementById('dtype'),sp=document.getElementById('speed'),pr=document.getElementById('price');
+const upd=()=>{pr.textContent=(lang==='pl'?'od ':'від ')+Math.round(dt.value*sp.value)+' zł'};dt.onchange=upd;sp.onchange=upd;
+// file drop
+const drop=document.getElementById('drop'),file=document.getElementById('file');let files=[];
+['dragover','dragenter'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.add('over')}));
+['dragleave','drop'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.remove('over')}));
+drop.addEventListener('drop',e=>{files=[...e.dataTransfer.files];show()});
+file.addEventListener('change',()=>{files=[...file.files];show()});
+function show(){if(files.length)drop.querySelector('b').textContent='📄 '+files.map(f=>f.name).join(', ')}
+document.getElementById('top-quote').addEventListener('submit',e=>{e.preventDefault();const ok=document.getElementById('ok');
+ok.textContent=(lang==='pl'?'✅ Wysłano! Olga otrzyma:\n':'✅ Надіслано! Ольга отримає:\n')+`📄 ${dt.options[dt.selectedIndex].text}\n⏱ ${sp.options[sp.selectedIndex].text}\n📎 ${files.length?files.map(f=>f.name).join(', '):(lang==='pl'?'zdjęcie dokumentu':'фото документа')}\n💬 ${lang==='pl'?'Odpowiedź w ciągu godziny':'Відповідь протягом години'}`;ok.classList.add('show')});
+// UA/PL
+const PL={sub:'Tłumacz przysięgły · Łódź',n1:'Dokumenty i ceny',n2:'Jak to działa',n3:'O mnie',n4:'FAQ',nb:'Wycena',
+pill:'Przyjmuję zlecenia · odpowiadam w 1 godzinę',h1:'Tłumacz przysięgły języka ukraińskiego <em>w Łodzi</em>',lead:'Tłumaczenia dokumentów z pieczęcią tłumacza przysięgłego, akceptowane przez urzędy, USC, ZUS, sądy, uczelnie i pracodawców w całej Polsce.',
+c1:'Wyślij dokument do wyceny',c2:'Cennik',t1:'Tłumacz przysięgły od 2022',t2:'Doktor, Uniwersytet Łódzki',t3:"Wysyłka w całej Polsce",
+'q-h':'Wycena w 1 godzinę','q-s':'Zrób zdjęcie dokumentu i wyślij. Bez zobowiązań.',d1:'Przeciągnij plik lub kliknij',d2:'Zdjęcie, skan lub PDF',
+o1:'Akt (urodzenia, małżeństwa)',o2:'Dyplom / świadectwo z suplementem',o3:'Zaświadczenie, wypis',o4:'Prawo jazdy',o5:'Inne, za stronę',sp1:'Standard, 2–3 dni',sp2:'Ekspres, 24 h',est:'Cena orientacyjna',qs:'Poproś o dokładną wycenę',
+cr1p:'Tłumacz przysięgły na liście Ministerstwa Sprawiedliwości',cr2:'dr',cr2p:'Uniwersytet Łódzki',cr3:'Czerniowce',cr3p:'Studia magisterskie, Uniwersytet w Czerniowcach',cr4p:'Native speaker ukraińskiego',
+'dk-e':'Dokumenty i ceny','dk-h':'Co tłumaczę najczęściej','dk-p':'Ceny orientacyjne. Strona tłumaczenia przysięgłego to 1125 znaków.',
+x1:'Akty stanu cywilnego',x1p:'Urodzenia, małżeństwa, rozwodu. Do USC, karty pobytu, 800+.',x2:'Edukacja',x2p:'Dyplomy, świadectwa, suplementy.',x3:'Samochód i prawo jazdy',x3p:'Prawo jazdy, dowód rejestracyjny, umowa kupna.',x4:'Dokumentacja medyczna',x4p:'Wypisy, zaświadczenia, szczepienia.',x5:'Dokumenty prawne',x5p:'Pełnomocnictwa, wyroki, umowy.',x6:'Tłumaczenia ustne',x6p:'U notariusza, w sądzie, urzędzie, USC.',from:'od',wh:'Tłumaczenia akceptują:',
+'h-e':'Jak to działa','h-h':'Bez kolejek i dojazdów','h-p':'Większość klientów ani razu nie przyjeżdża osobiście.',st1:'Wysyłasz zdjęcie',st1p:'Przez formularz, WhatsApp lub e-mail.',st2:'Dostajesz wycenę',st2p:'W ciągu godziny.',st3:'Tłumaczę',st3p:'Standard 2–3 dni robocze, ekspres 24 h.',st4:'Odbierasz wygodnie',st4p:'Osobiście, pocztą, InPost lub z podpisem elektronicznym.',
+pn1:'Tu będzie Twoje zdjęcie',pn2:'profesjonalny portret buduje zaufanie','a-e':'O mnie','a-h':'Olga Gaiseniuk, doktor i tłumacz przysięgły','a-p1':'Jestem Ukrainką, mieszkam i pracuję w Łodzi.','a-p2':'Studia w Czerniowcach, doktorat na Uniwersytecie Łódzkim, od 2022 tłumacz przysięgły.',tl1:'Studia magisterskie',tl2:'Doktorat, Uniwersytet Łódzki',tl3:'Ślubowanie tłumacza przysięgłego',
+cg1:'Łódź, ul. Piotrkowska',cg3:'Pałac Poznańskiego','f-e':'FAQ','f-h':'Najczęstsze pytania',fq1:'Czym różni się tłumaczenie przysięgłe od zwykłego?',fa1:'Jest poświadczone pieczęcią i podpisem tłumacza z listy Ministerstwa Sprawiedliwości.',fq2:'Czy potrzebny jest oryginał?',fa2:'Do wyceny wystarczy zdjęcie.',fq3:'Czy mogę dostać tłumaczenie elektronicznie?',fa3:'Tak, z kwalifikowanym podpisem elektronicznym.',fq4:'Czy potrzebny jest apostille?',fa4:'Dla części dokumentów tak. Podpowiem przed tłumaczeniem.',
+'k-e':'Kontakt','k-h':'Napisz, odpowiem w ciągu godziny',kb1:'Napisz',kb2:'Wyślij dokument',kh3:'Osobiście',kp3:'Łódź, po wcześniejszym umówieniu.'};
+const UA={};document.querySelectorAll('[data-i]').forEach(el=>UA[el.dataset.i]=el.innerHTML);
+let lang='uk';
+document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>{lang=b.dataset.l;
+document.querySelectorAll('.lang button').forEach(x=>x.classList.toggle('on',x===b));document.documentElement.lang=lang==='pl'?'pl':'uk';
+document.querySelectorAll('[data-i]').forEach(el=>{const t=(lang==='pl'?PL:UA)[el.dataset.i];if(t)el.innerHTML=t});upd();}));
+</script>
+</body>
+</html>
