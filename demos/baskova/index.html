@@ -50,7 +50,7 @@ nav.solid .lang button.on{background:var(--ink);color:#fff!important}
 /* hero */
 .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:flex-end;color:#fff;overflow:hidden}
 .hero .bg{position:absolute;inset:0}
-.hero .bg img{width:100%;height:100%;object-fit:cover;object-position:center 40%;transform:scale(1.06);animation:zoom 18s ease-out forwards}
+.hero .bg img{width:100%;height:100%;object-fit:cover;object-position:62% 45%;transform:scale(1.06);animation:zoom 18s ease-out forwards}
 @keyframes zoom{to{transform:scale(1)}}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,14,10,.55) 0%,rgba(20,14,10,.15) 35%,rgba(20,14,10,.75) 100%)}
 .hero .wrap{position:relative;z-index:2;padding-top:150px;padding-bottom:70px;width:100%}
@@ -150,7 +150,7 @@ details[open] summary::after{content:"–"}
 details p{color:var(--muted);margin-top:10px}
 
 /* booking */
-.book{background:var(--ink);color:#f3e7d4;position:relative;overflow:hidden}
+.book{background:linear-gradient(180deg,rgba(26,20,16,.88),rgba(26,20,16,.94)),url(img/cypress.jpg) center/cover;color:#f3e7d4;position:relative;overflow:hidden}
 .book .sec-head p{color:#cdbfae}
 .book-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px}
 form{background:#332a24;border-radius:26px;padding:30px;display:grid;gap:14px}
@@ -184,6 +184,7 @@ textarea{min-height:90px;resize:vertical}
 
 footer{background:#17120f;color:#9c8d7e;font-size:13px;padding:30px 0}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.credits{font-size:11.5px;max-width:640px}.credits summary{cursor:pointer}.credits a{color:#c9b8a6}
 .wa-float{position:fixed;right:18px;bottom:18px;z-index:50;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 12px 26px -8px rgba(0,0,0,.45);text-decoration:none;transition:.2s}
 .wa-float:hover{transform:scale(1.08)}
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
@@ -229,7 +230,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 </div></nav>
 
 <header class="hero">
-  <div class="bg ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Italy_-_Pisa_-_Leaning_Tower_of_Pisa.jpg?width=2000" alt="Площа Чудес у Пізі" fetchpriority="high"></div>
+  <div class="bg ph"><img src="img/hero.jpg" alt="Собор і вежа Пізи на світанку" fetchpriority="high"></div>
   <div class="wrap">
     <span class="kicker">📍 <span data-i="kick">Піза · Лукка · Тоскана</span></span>
     <h1 data-i="h1">Тоскана, яку вам розкажуть <em>українською</em></h1>
@@ -262,7 +263,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
     </div>
     <div class="tours">
       <article class="tour reveal">
-        <div class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Leaning_Tower_of_Pisa_(41024213530).jpg?width=1000" alt="Падаюча вежа"><span class="tag" data-i="tag1">⭐ Найпопулярніша</span><span class="dur"><span>⏱ 2,5 год</span><span>👣 3 км</span></span></div>
+        <div class="ph"><img loading="lazy" src="img/pisa.jpg" alt="Площа Чудес"><span class="tag" data-i="tag1">⭐ Найпопулярніша</span><span class="dur"><span>⏱ 2,5 год</span><span>👣 3 км</span></span></div>
         <div class="body">
           <h3 data-i="tr1">Піза: Площа Чудес і не тільки</h3>
           <p data-i="tr1p">Вежа, Собор і Баптистерій з їхніми легендами, а потім місто, яке туристи пропускають: набережні Арно, студентські квартали і найсмачніша чечина.</p>
@@ -271,7 +272,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
         </div>
       </article>
       <article class="tour reveal">
-        <div class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Piazza_dell'Anfiteatro_(Lucca)_01.jpg?width=1000" alt="Площа Амфітеатру, Лукка"><span class="tag" data-i="tag2">🌿 Для неспішних</span><span class="dur"><span>⏱ 3 год</span><span>👣 4 км</span></span></div>
+        <div class="ph"><img loading="lazy" src="img/lucca-guinigi.jpg" alt="Вежа Гвініджі, Лукка"><span class="tag" data-i="tag2">🌿 Для неспішних</span><span class="dur"><span>⏱ 3 год</span><span>👣 4 км</span></span></div>
         <div class="body">
           <h3 data-i="tr2">Лукка: стіни, вежі й Пуччіні</h3>
           <p data-i="tr2p">Прогулянка ренесансними стінами, вежа Гвініджі з дубами на даху, овальна Площа Амфітеатру і будинок, де народився Пуччіні.</p>
@@ -280,7 +281,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
         </div>
       </article>
       <article class="tour reveal">
-        <div class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Stadtmauer_um_Lucca_-_Mura_di_Lucca_-_panoramio.jpg?width=1000" alt="Стіни Лукки"><span class="tag" data-i="tag3">🚆 Два міста за день</span><span class="dur"><span>⏱ 6–7 год</span><span>🍝 обід</span></span></div>
+        <div class="ph"><img loading="lazy" src="img/lucca-roofs.jpg" alt="Дахи Лукки"><span class="tag" data-i="tag3">🚆 Два міста за день</span><span class="dur"><span>⏱ 6–7 год</span><span>🍝 обід</span></span></div>
         <div class="body">
           <h3 data-i="tr3">Піза + Лукка за один день</h3>
           <p data-i="tr3p">Зранку Площа Чудес, обід у справжній тосканській тратторії, а ввечері стіни Лукки на заході сонця. Ідеально, якщо у вас лише один день.</p>
@@ -289,7 +290,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
         </div>
       </article>
       <article class="tour reveal">
-        <div class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Buccellato_di_Lucca_Taddeucci_01.jpg?width=1000" alt="Бучелато з Лукки"><span class="tag" data-i="tag4">🍷 Смак Тоскани</span><span class="dur"><span>⏱ 2,5 год</span><span>🧀 4 зупинки</span></span></div>
+        <div class="ph"><img loading="lazy" src="img/anfiteatro-day.jpg" alt="Кафе на Площі Амфітеатру"><span class="tag" data-i="tag4">🍷 Смак Тоскани</span><span class="dur"><span>⏱ 2,5 год</span><span>🧀 4 зупинки</span></span></div>
         <div class="body">
           <h3 data-i="tr4">Гастро-прогулянка Луккою</h3>
           <p data-i="tr4p">Бучелато з пекарні, якій понад 140 років, тосканські сири, оливкова олія і келих місцевого вина. Плюс список місць, куди піти повечеряти.</p>
@@ -302,17 +303,17 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 </section>
 
 <div class="gallery"><div class="wrap gal reveal">
-  <figure class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/02_Lucca_seen_from_Torre_Guinigi.jpg?width=1200" alt="Лукка з вежі Гвініджі"><figcaption data-i="g1">Лукка з вежі Гвініджі</figcaption></figure>
-  <figure class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Torre_Guinigi.jpg?width=700" alt="Вежа Гвініджі"><figcaption data-i="g2">Дуби на вежі</figcaption></figure>
-  <figure class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Pisa_lungarno_Antonio_Pacinotti.jpg?width=700" alt="Набережна Арно в Пізі"><figcaption data-i="g3">Набережні Арно</figcaption></figure>
-  <figure class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Italy_-_Pisa_-_Leaning_Tower.jpg?width=700" alt="Вежа Пізи"><figcaption data-i="g4">Падаюча вежа</figcaption></figure>
-  <figure class="ph"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/I_cipressi_della_Val_D'Orcia.jpg?width=700" alt="Кипариси Тоскани"><figcaption data-i="g5">Тосканські пейзажі</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/miracoli-aerial.jpg" alt="Площа Чудес з висоти"><figcaption data-i="g1">Площа Чудес з висоти</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/battistero.jpg" alt="Баптистерій Пізи"><figcaption data-i="g2">Баптистерій на заході сонця</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/anfiteatro-sunset.jpg" alt="Площа Амфітеатру"><figcaption data-i="g3">Площа Амфітеатру ввечері</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/arno.jpg" alt="Арно в Пізі"><figcaption data-i="g4">Набережні Арно</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/tower-night.jpg" alt="Вежа вночі"><figcaption data-i="g5">Вежа вночі</figcaption></figure>
 </div></div>
 
 <section id="about" class="about">
   <div class="wrap about-grid">
     <div class="portrait ph reveal">
-      <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lucca_-_Piazza_Anfiteatro_View.jpg?width=900" alt="Лукка">
+      <img loading="lazy" src="img/window.jpg" alt="Лукка">
       <div class="note"><b data-i="ph1">Тут буде ваше фото</b><span data-i="ph2">найкраще на стінах Лукки або біля вежі</span></div>
     </div>
     <div class="reveal">
@@ -335,7 +336,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
       <p data-i="tl-p">Для українців і чехів у Тоскані: допомагаю з документами і супроводжую там, де потрібен перекладач.</p>
     </div>
     <div class="tr-grid">
-      <div class="tr-photo ph reveal"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lucca.city_walls01.jpg?width=1100" alt="Лукка"><div class="over"><h3 data-i="tr-o">Документи, суд, лікар, оренда</h3><p data-i="tr-op">Спокійно, зрозуміло і вашою мовою.</p></div></div>
+      <div class="tr-photo ph reveal"><img loading="lazy" src="img/lucca-duomo.jpg" alt="Лукка"><div class="over"><h3 data-i="tr-o">Документи, суд, лікар, оренда</h3><p data-i="tr-op">Спокійно, зрозуміло і вашою мовою.</p></div></div>
       <div class="tr-list">
         <div class="tcard reveal"><div class="ic">📄</div><div><h3 data-i="s1">Переклад документів</h3><p data-i="s1p">Свідоцтва, дипломи, довідки, договори. Українська, чеська та італійська.</p></div></div>
         <div class="tcard reveal"><div class="ic">🏛️</div><div><h3 data-i="s2">Суд і установи</h3><p data-i="s2p">Усний переклад у суді, квестурі, комуні та під час нотаріальних дій.</p></div></div>
@@ -419,7 +420,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   </div>
 </section>
 
-<footer><div class="wrap"><span>© Олена Баскова · Гід і перекладач у Пізі та Луцці</span><span>Фото: Wikimedia Commons · Демо від Krayon</span></div></footer>
+<footer><div class="wrap"><span>© Олена Баскова · Гід і перекладач у Пізі та Луцці</span><details class="credits"><summary>Фото: Wikimedia Commons</summary><p><a href="https://commons.wikimedia.org/wiki/File:The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg" target="_blank" rel="noopener">MHoser</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_miracoli_-_aerial_panorama.jpg" target="_blank" rel="noopener">Guglielmo Giambartolomei</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_Miracoli_(Pisa)_2023.jpg" target="_blank" rel="noopener">PaestumPaestum</a> (CC BY 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Lucca_-_Torre_Guinigi_from_Campanile.jpg" target="_blank" rel="noopener">Ingo Mehling</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:02_Lucca_seen_from_Torre_Guinigi.jpg" target="_blank" rel="noopener">Myrabella</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Lucca_-_Piazza_Anfiteatro_View.jpg" target="_blank" rel="noopener">Ingo Mehling</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dell%27Anfiteatro_tramonto.jpg" target="_blank" rel="noopener">TeKappa</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo_Pisa_1.jpg" target="_blank" rel="noopener">kallerna</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Pisa_-_Chiesa_di_Santa_Maria_della_Spina_-_2025-09-07_21-59-42_001.jpg" target="_blank" rel="noopener">Pardi Marco</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Cypress_tree_alley_at_sunset_in_Asciano,_Tuscany.jpg" target="_blank" rel="noopener">Eric Kilby</a> (CC BY-SA 2.0) · <a href="https://commons.wikimedia.org/wiki/File:Exterior_of_the_Leaning_Tower_(Pisa)_at_night.jpg" target="_blank" rel="noopener">PaestumPaestum</a> (CC BY 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Window_in_a_cafe_in_San_Gimignano_(02182)2.jpg" target="_blank" rel="noopener">Rhododendrites</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Duomo_di_Lucca_vom_Torre_Guinigi_2009-07.jpg" target="_blank" rel="noopener">H005</a> (CC BY-SA 3.0)</p></details><span>Демо від Krayon</span></div></footer>
 
 <a class="wa-float" href="#book" aria-label="WhatsApp"><svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.9-1.1-4.7-4-4.9-4.2-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg></a>
 
@@ -453,7 +454,7 @@ tr2:'Lucca: mura, torri e Puccini',tr2p:'Le mura rinascimentali, la Torre Guinig
 tr3:'Pisa + Lucca in un giorno',tr3p:'Mattina in Piazza dei Miracoli, pranzo in trattoria, tramonto sulle mura di Lucca.',
 tr4:'Passeggiata gastronomica a Lucca',tr4p:'Buccellato dal forno storico, formaggi toscani, olio e un calice di vino locale.',
 in1:'Piazza dei Miracoli',in2:'Lungarni',in3:'Piazza dei Cavalieri',in4:'Foto stop',in5:'Mura di Lucca',in6:'Torre Guinigi',in7:'Piazza Anfiteatro',in8:'Casa di Puccini',in9:'Due città',in10:'Trattoria',in11:'Tramonto',in12:'Degustazioni incluse',in13:'Buccellato',in14:'Vino',
-pg:'a gruppo',pp:'a persona',bk:'Scegli',g1:'Lucca dalla Torre Guinigi',g2:'I lecci sulla torre',g3:'Lungarni di Pisa',g4:'La Torre Pendente',g5:'Paesaggi toscani',
+pg:'a gruppo',pp:'a persona',bk:'Scegli',g1:'Piazza dei Miracoli dall\'alto',g2:'Il Battistero al tramonto',g3:'Piazza dell\'Anfiteatro',g4:'I lungarni',g5:'La Torre di notte',
 ph1:'Qui la tua foto',ph2:'meglio sulle mura di Lucca',
 'a-eye':'Chi sono','a-h':'Ciao, sono Olena','a-p1':'Vivo in Toscana e mostro Pisa e Lucca come le vedono i locali: storie, leggende e indirizzi buoni.','a-p2':'Sono anche interprete iscritta all\'albo del Tribunale di Lucca: posso aiutarti con documenti, medici e uffici.',b4:'⚖️ Interprete Tribunale di Lucca',
 'tl-eye':'Traduzioni','tl-h':'Un\'interprete di fiducia del tribunale','tl-p':'Per ucraini e cechi in Toscana: documenti, uffici e accompagnamento.','tr-o':'Documenti, tribunale, medico','tr-op':'Con calma e nella tua lingua.',

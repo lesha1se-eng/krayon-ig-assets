@@ -1,161 +1,64 @@
 {
- "pool": [
-  {
-   "name": "o-chernivtsi",
-   "q": "Chernivtsi University incategory:\"Quality_images\"",
-   "src": [
-    "commons"
-   ],
-   "n": 8
-  },
-  {
-   "name": "o-residence",
-   "q": "Residence of Bukovinian and Dalmatian Metropolitans",
-   "src": [
-    "commons"
-   ],
-   "n": 8
-  },
-  {
-   "name": "o-pen",
-   "q": "fountain pen incategory:\"Quality_images\"",
-   "src": [
-    "commons"
-   ],
-   "n": 8
-  },
-  {
-   "name": "o-library",
-   "q": "library interior books incategory:\"Featured_pictures_on_Wikimedia_Commons\"",
-   "src": [
-    "commons"
-   ],
-   "n": 10
-  },
-  {
-   "name": "o-ksiezy",
-   "q": "Księży Młyn incategory:\"Quality_images\"",
-   "src": [
-    "commons"
-   ],
-   "n": 8
-  },
-  {
-   "name": "o-manufaktura",
-   "q": "Manufaktura Łódź incategory:\"Quality_images\"",
-   "src": [
-    "commons"
-   ],
-   "n": 6
-  },
-  {
-   "name": "o-lodz-night",
-   "q": "Łódź Piotrkowska night",
-   "src": [
-    "commons"
-   ],
-   "n": 8
-  },
-  {
-   "name": "o-stamp",
-   "q": "rubber stamp",
-   "src": [
-    "commons"
-   ],
-   "n": 8
-  },
-  {
-   "name": "o-docs",
-   "q": "documents paper desk",
-   "src": [
-    "commons"
-   ],
-   "n": 8
-  },
-  {
-   "name": "o-ul",
-   "q": "University of Łódź",
-   "src": [
-    "commons"
-   ],
-   "n": 6
-  }
- ],
  "get": [
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg/1920px-The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/hero.jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Piotrkowska_Street_in_%C5%81%C3%B3d%C5%BA_at_the_intersection_with_Tuwima_Street._July_2023%2C_%C5%81%C3%B3dz%2C_Poland.jpg/1920px-Piotrkowska_Street_in_%C5%81%C3%B3d%C5%BA_at_the_intersection_with_Tuwima_Street._July_2023%2C_%C5%81%C3%B3dz%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/hero.jpg",
    "w": 1920
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Piazza_dei_miracoli_-_aerial_panorama.jpg/1600px-Piazza_dei_miracoli_-_aerial_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Critcal_Mass_in_%C5%81%C3%B3d%C5%BA%2C_Piotrkowska_Street%2C_October_2015_01.jpg/1280px-Critcal_Mass_in_%C5%81%C3%B3d%C5%BA%2C_Piotrkowska_Street%2C_October_2015_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/piotrkowska-night.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Fountain_pen_writing_%28literacy%29.jpg/1280px-Fountain_pen_writing_%28literacy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/pen.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/The_Residence_of_Bukovinian_and_Dalmatian_Metropolitans_in_Chernivtsi_DSC_9710.JPG/1280px-The_Residence_of_Bukovinian_and_Dalmatian_Metropolitans_in_Chernivtsi_DSC_9710.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/chernivtsi.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/%D0%A0%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D1%96%D1%8F_%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D1%96%D0%B2_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8_%D1%96_%D0%94%D0%B0%D0%BB%D0%BC%D0%B0%D1%86%D1%96%D1%97_5.jpg/1280px-%D0%A0%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D1%96%D1%8F_%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D1%96%D0%B2_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8_%D1%96_%D0%94%D0%B0%D0%BB%D0%BC%D0%B0%D1%86%D1%96%D1%97_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/chernivtsi-aerial.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Austria_-_G%C3%B6ttweig_Abbey_-_2015.jpg/1280px-Austria_-_G%C3%B6ttweig_Abbey_-_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/library.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%C5%81%C3%B3d%C5%BA_2023_13_Palace_Street_Corner.jpg/1280px-%C5%81%C3%B3d%C5%BA_2023_13_Palace_Street_Corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/poznanski.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/%C5%81%C3%B3d%C5%BA_2023_01.jpg/1280px-%C5%81%C3%B3d%C5%BA_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/manufaktura.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%C5%81%C3%B3d%C5%BA_Piotrkowska_December_2011.jpg/1280px-%C5%81%C3%B3d%C5%BA_Piotrkowska_December_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/piotrkowska-lights.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017.jpg/1280px-%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "out": "demos/gaiseniuk/img/fabryczna.jpg",
+   "w": 1280
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Piazza_dei_miracoli_-_aerial_panorama.jpg/1920px-Piazza_dei_miracoli_-_aerial_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "out": "demos/baskova/img/miracoli-aerial.jpg",
-   "w": 1600
+   "w": 1920
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Piazza_dei_Miracoli_%28Pisa%29_2023.jpg/1280px-Piazza_dei_Miracoli_%28Pisa%29_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/pisa.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lucca_-_Torre_Guinigi_from_Campanile.jpg/1280px-Lucca_-_Torre_Guinigi_from_Campanile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/lucca-guinigi.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/02_Lucca_seen_from_Torre_Guinigi.jpg/1280px-02_Lucca_seen_from_Torre_Guinigi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/lucca-roofs.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Lucca_-_Piazza_Anfiteatro_View.jpg/1280px-Lucca_-_Piazza_Anfiteatro_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/anfiteatro-day.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Piazza_dell%27Anfiteatro_tramonto.jpg/1280px-Piazza_dell%27Anfiteatro_tramonto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/anfiteatro-sunset.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Piazza_del_Duomo_Pisa_1.jpg/1280px-Piazza_del_Duomo_Pisa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/battistero.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Pisa_-_Chiesa_di_Santa_Maria_della_Spina_-_2025-09-07_21-59-42_001.jpg/1280px-Pisa_-_Chiesa_di_Santa_Maria_della_Spina_-_2025-09-07_21-59-42_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/arno.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Lucca_San_Michele_in_Foro_01.jpg/960px-Lucca_San_Michele_in_Foro_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/san-michele.jpg",
-   "w": 960
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Cypress_tree_alley_at_sunset_in_Asciano%2C_Tuscany.jpg/1600px-Cypress_tree_alley_at_sunset_in_Asciano%2C_Tuscany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Cypress_tree_alley_at_sunset_in_Asciano%2C_Tuscany.jpg/1920px-Cypress_tree_alley_at_sunset_in_Asciano%2C_Tuscany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "out": "demos/baskova/img/cypress.jpg",
-   "w": 1600
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Exterior_of_the_Leaning_Tower_%28Pisa%29_at_night.jpg/960px-Exterior_of_the_Leaning_Tower_%28Pisa%29_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/tower-night.jpg",
-   "w": 960
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Window_in_a_cafe_in_San_Gimignano_%2802182%292.jpg/960px-Window_in_a_cafe_in_San_Gimignano_%2802182%292.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/window.jpg",
-   "w": 960
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Duomo_di_Lucca_vom_Torre_Guinigi_2009-07.jpg/1280px-Duomo_di_Lucca_vom_Torre_Guinigi_2009-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/lucca-duomo.jpg",
-   "w": 1280
-  },
-  {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Walls_of_Lucca%2C_May_2013_%2802%29.JPG/1280px-Walls_of_Lucca%2C_May_2013_%2802%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "out": "demos/baskova/img/walls.jpg",
-   "w": 1280
+   "w": 1920
   }
  ]
 }
