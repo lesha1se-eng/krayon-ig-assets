@@ -1,8 +1,5 @@
-[lv-rynok] saved 6
-[lv-opera] saved 4
-[lv-panorama] saved 0
-[lv-church] saved 6
-[lv-street] saved 3
-[lv-night] saved 5
-[lv-lychakiv] saved 4
-[lv-coffee] saved 0
+[ul-food] saved 0
+[ul-fruit] saved 3
+[ul-lemon] saved 5
+[ul-tea] saved 0
+[ul-veg] saved 4
