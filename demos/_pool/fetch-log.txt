@@ -1,5 +1,7 @@
-[lk-reading] saved 2
-[lk-books] saved 6
-[lk-cafe] saved 0
-[lk-fabric] saved 0
-[lk-library] saved 4
+[ct-house] saved 6
+[ct-cottage] saved 5
+[ct-living] saved 0
+[ct-kitchen] saved 4
+[ct-construction] saved 4
+[ct-lviv] saved 4
+[ct-field] saved 0
