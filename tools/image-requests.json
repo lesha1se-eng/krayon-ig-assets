@@ -1,8 +1,8 @@
 {
  "pool": [
   {
-   "name": "ra-hero-int",
-   "q": "incategory:\"Quality_images\" living room interior",
+   "name": "lv-rynok",
+   "q": "incategory:\"Quality_images\" Lviv Market Square",
    "src": [
     "commons"
    ],
@@ -10,8 +10,17 @@
    "w": 1920
   },
   {
-   "name": "ra-kitchen",
-   "q": "incategory:\"Quality_images\" kitchen interior",
+   "name": "lv-opera",
+   "q": "incategory:\"Quality_images\" Lviv Opera",
+   "src": [
+    "commons"
+   ],
+   "n": 4,
+   "w": 1280
+  },
+  {
+   "name": "lv-panorama",
+   "q": "incategory:\"Quality_images\" Lviv panorama High Castle",
    "src": [
     "commons"
    ],
@@ -19,17 +28,8 @@
    "w": 1920
   },
   {
-   "name": "ra-alicante",
-   "q": "incategory:\"Quality_images\" Alicante",
-   "src": [
-    "commons"
-   ],
-   "n": 8,
-   "w": 1920
-  },
-  {
-   "name": "ra-bath",
-   "q": "modern bathroom interior tiles shower",
+   "name": "lv-church",
+   "q": "incategory:\"Quality_images\" Lviv cathedral",
    "src": [
     "commons"
    ],
@@ -37,17 +37,8 @@
    "w": 1280
   },
   {
-   "name": "ra-bath-q",
-   "q": "incategory:\"Quality_images\" bathroom",
-   "src": [
-    "commons"
-   ],
-   "n": 5,
-   "w": 1280
-  },
-  {
-   "name": "ra-reno",
-   "q": "apartment renovation interior walls",
+   "name": "lv-street",
+   "q": "incategory:\"Quality_images\" Lviv street old town",
    "src": [
     "commons"
    ],
@@ -55,8 +46,17 @@
    "w": 1280
   },
   {
-   "name": "ra-reno2",
-   "q": "room under renovation plaster",
+   "name": "lv-night",
+   "q": "incategory:\"Quality_images\" Lviv night",
+   "src": [
+    "commons"
+   ],
+   "n": 5,
+   "w": 1280
+  },
+  {
+   "name": "lv-lychakiv",
+   "q": "incategory:\"Quality_images\" Lychakiv Cemetery",
    "src": [
     "commons"
    ],
@@ -64,139 +64,13 @@
    "w": 1280
   },
   {
-   "name": "ra-parquet",
-   "q": "parquet floor laying installation",
-   "src": [
-    "commons"
-   ],
-   "n": 6,
-   "w": 960
-  },
-  {
-   "name": "ra-parquet2",
-   "q": "Parkett verlegen",
+   "name": "lv-coffee",
+   "q": "Lviv coffee house interior",
    "src": [
     "commons"
    ],
    "n": 4,
-   "w": 960
-  },
-  {
-   "name": "ra-parquet-q",
-   "q": "incategory:\"Quality_images\" parquet",
-   "src": [
-    "commons"
-   ],
-   "n": 5,
-   "w": 960
-  },
-  {
-   "name": "ra-tiles",
-   "q": "tiler laying tiles",
-   "src": [
-    "commons"
-   ],
-   "n": 6,
-   "w": 960
-  },
-  {
-   "name": "ra-tiles2",
-   "q": "Fliesenleger",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 960
-  },
-  {
-   "name": "ra-azulejos",
-   "q": "incategory:\"Quality_images\" azulejos",
-   "src": [
-    "commons"
-   ],
-   "n": 5,
-   "w": 960
-  },
-  {
-   "name": "ra-drywall",
-   "q": "drywall installation",
-   "src": [
-    "commons"
-   ],
-   "n": 6,
-   "w": 960
-  },
-  {
-   "name": "ra-drywall2",
-   "q": "Trockenbau",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 960
-  },
-  {
-   "name": "ra-drywall3",
-   "q": "plasterboard ceiling construction",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 960
-  },
-  {
-   "name": "ra-weld-q",
-   "q": "incategory:\"Quality_images\" welding",
-   "src": [
-    "commons"
-   ],
-   "n": 8,
-   "w": 960
-  },
-  {
-   "name": "ra-weld2",
-   "q": "welder at work sparks",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 960
-  },
-  {
-   "name": "ra-elec",
-   "q": "electrician at work",
-   "src": [
-    "commons"
-   ],
-   "n": 6,
-   "w": 960
-  },
-  {
-   "name": "ra-elec-q",
-   "q": "incategory:\"Quality_images\" electrical installation",
-   "src": [
-    "commons"
-   ],
-   "n": 5,
-   "w": 960
-  },
-  {
-   "name": "ra-elec3",
-   "q": "Elektroinstallation",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 960
-  },
-  {
-   "name": "ra-paint",
-   "q": "painter painting wall roller",
-   "src": [
-    "commons"
-   ],
-   "n": 4,
-   "w": 960
+   "w": 1280
   }
  ]
 }
