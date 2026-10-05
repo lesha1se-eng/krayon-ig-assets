@@ -1,0 +1,70 @@
+[
+ {
+  "src": "commons",
+  "id": "File:Dahlia Pollen 27012015.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Dahlia_Pollen_27012015.jpg/960px-Dahlia_Pollen_27012015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Dahlia_Pollen_27012015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 3157,
+  "h": 2079,
+  "alt": "File:Dahlia Pollen 27012015.jpg",
+  "author": "Joydeep\n",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Dahlia_Pollen_27012015.jpg",
+  "file": "demos/_pool/kv-dahlia/00-commons.jpg",
+  "saved": [
+   960,
+   632
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Dahlia 'Biedermannsdorf' 01.JPG",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Dahlia_%27Biedermannsdorf%27_01.JPG/960px-Dahlia_%27Biedermannsdorf%27_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/2/25/Dahlia_%27Biedermannsdorf%27_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4000,
+  "h": 3000,
+  "alt": "File:Dahlia 'Biedermannsdorf' 01.JPG",
+  "author": "AfroBrazilian: Aleksandrs Balodis",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Dahlia_%27Biedermannsdorf%27_01.JPG",
+  "file": "demos/_pool/kv-dahlia/01-commons.jpg",
+  "saved": [
+   960,
+   720
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Un bourdon des champs sur un dahlia à fleur simple.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Un_bourdon_des_champs_sur_un_dahlia_%C3%A0_fleur_simple.jpg/960px-Un_bourdon_des_champs_sur_un_dahlia_%C3%A0_fleur_simple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Un_bourdon_des_champs_sur_un_dahlia_%C3%A0_fleur_simple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4000,
+  "h": 4000,
+  "alt": "File:Un bourdon des champs sur un dahlia à fleur simple.jpg",
+  "author": "JackyM59",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Un_bourdon_des_champs_sur_un_dahlia_%C3%A0_fleur_simple.jpg",
+  "file": "demos/_pool/kv-dahlia/02-commons.jpg",
+  "saved": [
+   960,
+   960
+  ]
+ },
+ {
+  "src": "commons",
+  "id": "File:Георгины на бульваре Новаторов 01.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%BD%D1%8B_%D0%BD%D0%B0_%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80%D0%B5_%D0%9D%D0%BE%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2_01.jpg/960px-%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%BD%D1%8B_%D0%BD%D0%B0_%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80%D0%B5_%D0%9D%D0%BE%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/9/98/%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%BD%D1%8B_%D0%BD%D0%B0_%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80%D0%B5_%D0%9D%D0%BE%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 4896,
+  "h": 3672,
+  "alt": "File:Георгины на бульваре Новаторов 01.jpg",
+  "author": "Екатерина Борисова",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%BD%D1%8B_%D0%BD%D0%B0_%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80%D0%B5_%D0%9D%D0%BE%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2_01.jpg",
+  "file": "demos/_pool/kv-dahlia/03-commons.jpg",
+  "saved": [
+   960,
+   720
+  ]
+ }
+]
