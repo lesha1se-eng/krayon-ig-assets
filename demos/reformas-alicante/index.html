@@ -80,7 +80,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .stats span{font-size:13.5px;color:var(--muted);font-weight:600}
 
 /* sections */
-section{padding:100px 0}
+section{padding:100px 0;scroll-margin-top:70px}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--terra);margin-bottom:14px}
 .eyebrow::before{content:"";width:22px;height:2px;background:currentColor}
 .sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:42px;flex-wrap:wrap}
@@ -591,7 +591,10 @@ const hint=new IntersectionObserver(es=>{if(es[0].isIntersecting){hint.disconnec
     const v=50+Math.sin(p*Math.PI*2)*22*(1-p);setBA(v);requestAnimationFrame(run)};requestAnimationFrame(run)}},{threshold:.5});
 hint.observe(ba);
 
-const fab=document.querySelector('.fab'),fabT=()=>fab.classList.toggle('show',scrollY>innerHeight*.7);addEventListener('scroll',fabT,{passive:true});fabT();
+const fab=document.querySelector('.fab'),seen=new Set(),fabT=()=>fab.classList.toggle('show',scrollY>innerHeight*.7&&!seen.size);
+const fio=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?seen.add(e.target):seen.delete(e.target));fabT()});
+document.querySelectorAll('#send,.cta-band .btn.wa,.hero .btn.wa').forEach(el=>fio.observe(el));
+addEventListener('scroll',fabT,{passive:true});fabT();
 if(new URLSearchParams(location.search).get('lang')==='es')setLang('es');else calc();
 </script>
 </body>
