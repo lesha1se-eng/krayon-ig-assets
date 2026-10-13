@@ -1,1 +1,3 @@
-copenhagenaround.com FREE
+olhapoliakh.co.uk FREE
+--- dns/http 2026-10-13T14:42:19Z
+olhapoliakh.co.uk A=[46.101.229.52 ] www=[olhapoliakh.co.uk. 46.101.229.52 ] NS=[ns47.domaincontrol.com. ns48.domaincontrol.com. ] https=200
