@@ -20,6 +20,16 @@ jobs:
             else echo "$d TAKEN (http $code) $(grep -o '"eventAction":"expiration","eventDate":"[^"]*"' /tmp/r.json | head -1)" >> tools/domains-result.txt; fi
           done < tools/domains.txt
           cat tools/domains-result.txt
+      - name: DNS and HTTP check
+        run: |
+          echo "--- dns/http $(date -u +%FT%TZ)" >> tools/domains-result.txt
+          while read -r d; do
+            [ -z "$d" ] && continue
+            a=$(dig +short A "$d" | tr '\n' ' '); w=$(dig +short A "www.$d" | tr '\n' ' '); ns=$(dig +short NS "$d" | tr '\n' ' ')
+            h=$(curl -s -o /dev/null -m 15 -w "%{http_code}" "https://$d" || true)
+            echo "$d A=[$a] www=[$w] NS=[$ns] https=$h" >> tools/domains-result.txt
+          done < tools/domains.txt
+          cat tools/domains-result.txt
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
