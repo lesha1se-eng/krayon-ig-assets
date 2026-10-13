@@ -28,6 +28,9 @@ jobs:
             a=$(dig +short A "$d" | tr '\n' ' '); w=$(dig +short A "www.$d" | tr '\n' ' '); ns=$(dig +short NS "$d" | tr '\n' ' ')
             h=$(curl -s -o /dev/null -m 15 -w "%{http_code}" "https://$d" || true)
             echo "$d A=[$a] www=[$w] NS=[$ns] https=$h" >> tools/domains-result.txt
+            t=$(curl -s -m 15 "https://$d" | tr '\n' ' ' | grep -o '<title>[^<]*</title>' | head -1)
+            l=$(curl -s -m 15 "https://$d" | grep -o -i 'wa.me/[0-9]*\|tel:[+0-9]*\|lang="[a-z]*"' | sort -u | tr '\n' ' ')
+            echo "$d title=$t links=$l" >> tools/domains-result.txt
           done < tools/domains.txt
           cat tools/domains-result.txt
       - name: Commit
