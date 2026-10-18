@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Олена Баскова · Гід у Пізі та Луцці українською</title>
-<meta name="description" content="Індивідуальні екскурсії Пізою, Луккою та Тосканою українською мовою. Гід і перекладач Трибуналу Лукки Олена Баскова.">
+<title>Олена Баскова · Гід у Тоскані українською: Флоренція, Піза, Лукка</title>
+<meta name="description" content="Екскурсії Флоренцією, Пізою та Луккою українською. Флоренція 80 € за годину, Піза і Лукка 130 € за екскурсію до 2 годин для групи до 50 людей. Гід і перекладачка зі списку Трибуналу Лукки Олена Баскова.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -80,21 +80,22 @@ section{padding:100px 0}
 .intro-grid span{font-size:14px;color:var(--muted)}
 
 /* tours */
-.tours{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.tours{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .tour{position:relative;border-radius:26px;overflow:hidden;background:var(--card);border:1px solid var(--line);display:grid;grid-template-rows:280px auto;transition:.3s}
 .tour:hover{transform:translateY(-5px);box-shadow:0 26px 50px -28px rgba(70,40,15,.5)}
 .tour .ph{position:relative;overflow:hidden}
 .tour .ph img{transition:transform .8s}
+.tour .ph img.fl{object-position:62% 60%}
 .tour:hover .ph img{transform:scale(1.06)}
 .tag{position:absolute;top:16px;left:16px;background:rgba(255,253,249,.95);font-size:12px;font-weight:800;padding:6px 12px;border-radius:999px;z-index:2}
 .dur{position:absolute;bottom:16px;left:16px;color:#fff;font-size:13px;font-weight:700;z-index:2;display:flex;gap:14px;text-shadow:0 1px 8px rgba(0,0,0,.5)}
 .tour .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.55))}
 .tour .body{padding:26px;display:flex;flex-direction:column;gap:12px}
-.tour h3{font-size:31px}
+.tour h3{font-size:29px}
 .tour p{color:var(--muted);font-size:15px}
 .incl{display:flex;flex-wrap:wrap;gap:8px}
 .incl span{font-size:12.5px;background:#f5ecdf;border-radius:999px;padding:5px 11px;color:#5a4c40;font-weight:600}
-.tour .bottom{display:flex;justify-content:space-between;align-items:center;padding-top:16px;margin-top:6px;border-top:1px dashed var(--line)}
+.tour .bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:16px;margin-top:auto;border-top:1px dashed var(--line)}
 .price{font-family:"Cormorant Garamond",serif;font-size:34px;font-weight:700;line-height:1}
 .price small{font-family:Manrope;font-size:12px;color:var(--muted);font-weight:600;margin-left:4px}
 
@@ -140,13 +141,19 @@ section{padding:100px 0}
 .who i{width:40px;height:40px;border-radius:50%;background:#f3e3d2;display:grid;place-items:center;font-style:normal;font-weight:800;color:var(--terra)}
 .who small{display:block;color:var(--muted);font-size:12.5px}
 .demo-note{font-size:12.5px;color:var(--muted);margin-top:16px;font-style:italic}
+.rev-empty{max-width:880px;margin:0 auto;text-align:center;background:var(--cream);border:1.5px dashed #d9c3a2;border-radius:28px;padding:44px 32px}
+.rev-empty .stars{font-size:22px;letter-spacing:6px;margin-bottom:14px}
+.rev-empty h3{font-size:clamp(26px,3.4vw,36px);margin-bottom:12px}
+.rev-empty p{color:var(--muted);max-width:560px;margin:0 auto}
+.rev-empty .src{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:20px}
+.rev-empty .src span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:700;color:#5a4c40}
 
 /* faq */
 .faq{max-width:820px}
 details{border-bottom:1px solid var(--line);padding:20px 0}
 summary{cursor:pointer;font-family:"Cormorant Garamond",serif;font-size:26px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:20px}
 summary::after{content:"+";color:var(--terra);font-size:30px;line-height:1}
-details[open] summary::after{content:"–"}
+details[open] summary::after{content:"\2212"}
 details p{color:var(--muted);margin-top:10px}
 
 /* booking */
@@ -158,6 +165,7 @@ label{font-size:13px;color:#cdbfae;display:grid;gap:6px;font-weight:600}
 input,select,textarea{font:inherit;font-weight:500;background:#221c18;border:1px solid #5a4b40;color:#f3e7d4;border-radius:12px;padding:13px 14px;width:100%}
 input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);border-color:transparent}
 textarea{min-height:90px;resize:vertical}
+select{-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23cdbfae' stroke-width='1.6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;background-size:12px 8px;padding-right:42px;cursor:pointer}
 .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .tele{display:none;background:#e9f8ec;color:#11331a;border-radius:16px;padding:16px;font-size:14px;white-space:pre-wrap;line-height:1.5}
 .tele.show{display:block}
@@ -175,7 +183,8 @@ textarea{min-height:90px;resize:vertical}
 .vcard .n{font-family:"Cormorant Garamond",serif;font-size:46px;color:var(--terra);line-height:1}
 .vcard h3{font-size:25px;margin:10px 0 8px}
 .vcard p{color:var(--muted);font-size:14.5px}
-.serp{margin-top:34px;background:#fff;border-radius:22px;border:1px solid var(--line);padding:26px;max-width:720px;font-family:Arial,sans-serif}
+.serps{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px}
+.serp{background:#fff;border-radius:22px;border:1px solid var(--line);padding:26px;font-family:Arial,sans-serif}
 .serp .q{border:1px solid #dfe1e5;border-radius:24px;padding:10px 18px;font-size:15px;color:#202124;margin-bottom:18px}
 .serp .u{font-size:13px;color:#202124}
 .serp .t{font-size:20px;color:#1a0dab;margin:4px 0}
@@ -194,7 +203,7 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
   .links{display:none}
   .intro-grid{grid-template-columns:1fr 1fr}
   .tours,.about-grid,.tr-grid,.book-grid{grid-template-columns:1fr}
-  .reviews,.vgrid{grid-template-columns:1fr}
+  .reviews,.vgrid,.serps{grid-template-columns:1fr}
   .gal{grid-template-columns:1fr 1fr;grid-template-rows:200px 160px 160px}
   .gal .ph:first-child{grid-column:span 2;grid-row:auto}
   .portrait{max-width:380px;margin:0 auto}
@@ -207,6 +216,7 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
   .intro-grid{grid-template-columns:1fr}
   .row2{grid-template-columns:1fr}
   .tour{grid-template-rows:220px auto}
+  .rev-empty{padding:34px 20px}
   .facts{gap:22px}
   .ribbon{font-size:12px}
   nav{top:52px}
@@ -221,7 +231,7 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
 <nav id="nav"><div class="wrap">
   <a href="#" class="logo">Олена <span>Баскова</span></a>
   <div class="links">
-    <a href="#tours" data-i="nav1">Екскурсії</a>
+    <a href="#tours" data-i="nav1">Екскурсії та ціни</a>
     <a href="#about" data-i="nav2">Про мене</a>
     <a href="#translate" data-i="nav3">Переклади</a>
     <a href="#faq" data-i="nav5">Питання</a>
@@ -235,70 +245,61 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
 <header class="hero">
   <div class="bg ph"><img src="img/hero.jpg" alt="Собор і вежа Пізи на світанку" fetchpriority="high"></div>
   <div class="wrap">
-    <span class="kicker">📍 <span data-i="kick">Піза · Лукка · Тоскана</span></span>
+    <span class="kicker">📍 <span data-i="kick">Флоренція · Піза · Лукка</span></span>
     <h1 data-i="h1">Тоскана, яку вам розкажуть <em>українською</em></h1>
-    <p class="lead" data-i="lead">Індивідуальні прогулянки Пізою та Луккою з гідом, який тут живе. Історії, яких немає в путівниках, найкращі ракурси для фото і місця, де обідають місцеві.</p>
+    <p class="lead" data-i="lead">Екскурсії Флоренцією, Пізою та Луккою з гідом, який живе в Тоскані. Історії, яких немає в путівниках, і найкращі ракурси для фото.</p>
     <div class="cta">
       <a href="#book" class="btn" data-i="cta1">Забронювати екскурсію</a>
-      <a href="#tours" class="btn light" data-i="cta2">Подивитися маршрути</a>
+      <a href="#tours" class="btn light" data-i="cta2">Маршрути й ціни</a>
     </div>
     <div class="facts">
-      <div><b>3</b><span data-i="f1">мови: українська, італійська, чеська</span></div>
-      <div><b>2</b><span data-i="f2">міста, які я знаю напам'ять</span></div>
-      <div><b>1–8</b><span data-i="f3">гостей, лише ваша група</span></div>
+      <div data-i="f2"><b>3</b><span>міста: Флоренція, Піза, Лукка</span></div>
+      <div data-i="f1"><b>3</b><span>мови: українська, італійська, чеська</span></div>
+      <div data-i="f3"><b>до 50</b><span>гостей у групі в Пізі та Луцці</span></div>
     </div>
   </div>
   <span class="credit">Фото: Wikimedia Commons</span>
 </header>
 
 <div class="intro"><div class="wrap intro-grid">
-  <div><div class="ic">🗣️</div><p><b data-i="i1">Рідною мовою</b><span data-i="i1p">Без навушників і перекладу з англійської</span></p></div>
-  <div><div class="ic">👨‍👩‍👧</div><p><b data-i="i2">Тільки ваша група</b><span data-i="i2p">Темп, зупинки і кава під вас</span></p></div>
+  <div><div class="ic">🗣️</div><p><b data-i="i1">Рідною мовою</b><span data-i="i1p">Розповідаю українською, без перекладу з англійської</span></p></div>
+  <div><div class="ic">🏛️</div><p><b data-i="i4">Три міста Тоскани</b><span data-i="i4p">Флоренція, Піза і Лукка з одним гідом</span></p></div>
+  <div><div class="ic">👥</div><p><b data-i="i2">Групи до 50 людей</b><span data-i="i2p">У Пізі та Луцці одна ціна за всю групу</span></p></div>
   <div><div class="ic">📸</div><p><b data-i="i3">Найкращі ракурси</b><span data-i="i3p">Покажу, де фото з вежею виходить ідеально</span></p></div>
-  <div><div class="ic">💶</div><p><b data-i="i4">Оплата на місці</b><span data-i="i4p">Без передоплат і комісій</span></p></div>
 </div></div>
 
 <section id="tours">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div><div class="eyebrow" data-i="t-eye">Маршрути</div><h2 data-i="t-h">Оберіть свою прогулянку Тосканою</h2></div>
-      <p data-i="t-p">Усі екскурсії індивідуальні. Можна поєднати Пізу та Лукку за один день, я допоможу з потягом між містами.</p>
+      <div><div class="eyebrow" data-i="t-eye">Екскурсії та ціни</div><h2 data-i="t-h">Оберіть свою прогулянку Тосканою</h2></div>
+      <p data-i="t-p">Три міста, три прогулянки українською. У Пізі та Луцці ціна за всю екскурсію для групи до 50 людей.</p>
     </div>
     <div class="tours">
       <article class="tour reveal">
-        <div class="ph"><img loading="lazy" src="img/pisa.jpg" alt="Площа Чудес"><span class="tag" data-i="tag1">⭐ Найпопулярніша</span><span class="dur"><span>⏱ 2,5 год</span><span>👣 3 км</span></span></div>
+        <div class="ph"><img loading="lazy" class="fl" src="img/florence-duomo.jpg" alt="Собор Санта-Марія-дель-Фйоре, Флоренція"><span class="tag" data-i="tag1">🎨 Мистецтво і Медічі</span><span class="dur"><span data-i="d1">⏱ Оплата погодинна</span></span></div>
         <div class="body">
-          <h3 data-i="tr1">Піза: Площа Чудес і не тільки</h3>
-          <p data-i="tr1p">Вежа, Собор і Баптистерій з їхніми легендами, а потім місто, яке туристи пропускають: набережні Арно, студентські квартали і найсмачніша чечина.</p>
-          <div class="incl"><span data-i="in1">Площа Чудес</span><span data-i="in2">Набережні Арно</span><span data-i="in3">Площа Лицарів</span><span data-i="in4">Фотостоп</span></div>
-          <div class="bottom"><div class="price">€120<small data-i="pg">за групу</small></div><a href="#book" class="btn sm" data-tour="0" data-i="bk">Обрати</a></div>
+          <h3 data-i="tr1">Флоренція: серце Відродження</h3>
+          <p data-i="tr1p">Собор Санта-Марія-дель-Фйоре з куполом Брунеллескі, площа Синьйорії, Понте Веккіо і вулиці, якими ходили Данте, Медічі та Мікеланджело.</p>
+          <div class="incl"><span data-i="in1">Санта-Марія-дель-Фйоре</span><span data-i="in2">Площа Синьйорії</span><span data-i="in3">Понте Веккіо</span></div>
+          <div class="bottom"><div class="price">80 €<small data-i="p-h">за годину</small></div><a href="#book" class="btn sm" data-tour="0" data-i="bk">Обрати</a></div>
         </div>
       </article>
       <article class="tour reveal">
-        <div class="ph"><img loading="lazy" src="img/lucca-guinigi.jpg" alt="Вежа Гвініджі, Лукка"><span class="tag" data-i="tag2">🌿 Для неспішних</span><span class="dur"><span>⏱ 3 год</span><span>👣 4 км</span></span></div>
+        <div class="ph"><img loading="lazy" src="img/pisa.jpg" alt="Площа Чудес, Піза"><span class="tag" data-i="tag2">⭐ Легенди вежі</span><span class="dur"><span data-i="d2">⏱ До 2 годин</span><span data-i="d3">👥 До 50 людей</span></span></div>
         <div class="body">
-          <h3 data-i="tr2">Лукка: стіни, вежі й Пуччіні</h3>
-          <p data-i="tr2p">Прогулянка ренесансними стінами, вежа Гвініджі з дубами на даху, овальна Площа Амфітеатру і будинок, де народився Пуччіні.</p>
-          <div class="incl"><span data-i="in5">Стіни Лукки</span><span data-i="in6">Вежа Гвініджі</span><span data-i="in7">Площа Амфітеатру</span><span data-i="in8">Дім Пуччіні</span></div>
-          <div class="bottom"><div class="price">€140<small data-i="pg">за групу</small></div><a href="#book" class="btn sm" data-tour="1" data-i="bk">Обрати</a></div>
+          <h3 data-i="tr2">Піза: Площа Чудес і не тільки</h3>
+          <p data-i="tr2p">Пізанська вежа, Собор і Баптистерій з їхніми легендами, а далі місто, яке туристи часто пропускають: набережні Арно і Площа Лицарів.</p>
+          <div class="incl"><span data-i="in4">Площа Чудес</span><span data-i="in5">Пізанська вежа</span><span data-i="in6">Набережні Арно</span><span data-i="in7">Площа Лицарів</span></div>
+          <div class="bottom"><div class="price">130 €<small data-i="p-e">за екскурсію</small></div><a href="#book" class="btn sm" data-tour="1" data-i="bk">Обрати</a></div>
         </div>
       </article>
       <article class="tour reveal">
-        <div class="ph"><img loading="lazy" src="img/lucca-roofs.jpg" alt="Дахи Лукки"><span class="tag" data-i="tag3">🚆 Два міста за день</span><span class="dur"><span>⏱ 6–7 год</span><span>🍝 обід</span></span></div>
+        <div class="ph"><img loading="lazy" src="img/lucca-guinigi.jpg" alt="Вежа Гвініджі, Лукка"><span class="tag" data-i="tag3">🌿 Місто в стінах</span><span class="dur"><span data-i="d2">⏱ До 2 годин</span><span data-i="d4">👥 Від 1 до 50 людей</span></span></div>
         <div class="body">
-          <h3 data-i="tr3">Піза + Лукка за один день</h3>
-          <p data-i="tr3p">Зранку Площа Чудес, обід у справжній тосканській тратторії, а ввечері стіни Лукки на заході сонця. Ідеально, якщо у вас лише один день.</p>
-          <div class="incl"><span data-i="in9">Обидва міста</span><span data-i="in10">Тратторія</span><span data-i="in11">Захід сонця</span></div>
-          <div class="bottom"><div class="price">€240<small data-i="pg">за групу</small></div><a href="#book" class="btn sm" data-tour="2" data-i="bk">Обрати</a></div>
-        </div>
-      </article>
-      <article class="tour reveal">
-        <div class="ph"><img loading="lazy" src="img/anfiteatro-day.jpg" alt="Кафе на Площі Амфітеатру"><span class="tag" data-i="tag4">🍷 Смак Тоскани</span><span class="dur"><span>⏱ 2,5 год</span><span>🧀 4 зупинки</span></span></div>
-        <div class="body">
-          <h3 data-i="tr4">Гастро-прогулянка Луккою</h3>
-          <p data-i="tr4p">Бучелато з пекарні, якій понад 140 років, тосканські сири, оливкова олія і келих місцевого вина. Плюс список місць, куди піти повечеряти.</p>
-          <div class="incl"><span data-i="in12">Дегустації включено</span><span data-i="in13">Бучелато</span><span data-i="in14">Вино</span></div>
-          <div class="bottom"><div class="price">€75<small data-i="pp">з особи</small></div><a href="#book" class="btn sm" data-tour="3" data-i="bk">Обрати</a></div>
+          <h3 data-i="tr3">Лукка: стіни, вежі й Пуччіні</h3>
+          <p data-i="tr3p">Ренесансні міські стіни, вежа Гвініджі з дубами на даху, овальна Площа Амфітеатру і рідне місто Пуччіні.</p>
+          <div class="incl"><span data-i="in8">Стіни Лукки</span><span data-i="in9">Вежа Гвініджі</span><span data-i="in10">Площа Амфітеатру</span><span data-i="in11">Дім Пуччіні</span></div>
+          <div class="bottom"><div class="price">130 €<small data-i="p-e">за екскурсію</small></div><a href="#book" class="btn sm" data-tour="2" data-i="bk">Обрати</a></div>
         </div>
       </article>
     </div>
@@ -307,10 +308,10 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
 
 <div class="gallery"><div class="wrap gal reveal">
   <figure class="ph"><img loading="lazy" src="img/miracoli-aerial.jpg" alt="Площа Чудес з висоти"><figcaption data-i="g1">Площа Чудес з висоти</figcaption></figure>
-  <figure class="ph"><img loading="lazy" src="img/battistero.jpg" alt="Баптистерій Пізи"><figcaption data-i="g2">Баптистерій на заході сонця</figcaption></figure>
-  <figure class="ph"><img loading="lazy" src="img/anfiteatro-sunset.jpg" alt="Площа Амфітеатру"><figcaption data-i="g3">Площа Амфітеатру ввечері</figcaption></figure>
-  <figure class="ph"><img loading="lazy" src="img/arno.jpg" alt="Арно в Пізі"><figcaption data-i="g4">Набережні Арно</figcaption></figure>
-  <figure class="ph"><img loading="lazy" src="img/tower-night.jpg" alt="Вежа вночі"><figcaption data-i="g5">Вежа вночі</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/florence-ponte-vecchio.jpg" alt="Понте Веккіо, Флоренція"><figcaption data-i="g2">Понте Веккіо, Флоренція</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/anfiteatro-sunset.jpg" alt="Площа Амфітеатру, Лукка"><figcaption data-i="g3">Площа Амфітеатру ввечері</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/lucca-roofs.jpg" alt="Дахи Лукки з вежі Гвініджі"><figcaption data-i="g4">Дахи Лукки з вежі Гвініджі</figcaption></figure>
+  <figure class="ph"><img loading="lazy" src="img/tower-night.jpg" alt="Пізанська вежа вночі"><figcaption data-i="g5">Пізанська вежа вночі</figcaption></figure>
 </div></div>
 
 <section id="about" class="about">
@@ -322,7 +323,7 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
     <div class="reveal">
       <div class="eyebrow" data-i="a-eye">Про мене</div>
       <h2 data-i="a-h">Привіт, я Олена</h2>
-      <p data-i="a-p1">Я живу в Тоскані й показую Пізу та Лукку так, як їх бачать місцеві: з історіями, легендами і смачними адресами. Мої гості не біжать за парасолькою в натовпі, а гуляють у своєму темпі й ставлять скільки завгодно питань.</p>
+      <p data-i="a-p1">Я живу в Тоскані й показую Флоренцію, Пізу та Лукку так, як їх бачать місцеві: з історіями, легендами і деталями, повз які зазвичай проходять. Розповідаю українською, тож можна питати про все, що цікаво.</p>
       <p data-i="a-p2">Окрім екскурсій, я перекладачка, внесена до списку Трибуналу Лукки. Тож якщо під час поїздки знадобиться допомога з документами, лікарем чи орендою, я поруч.</p>
       <div class="badges">
         <span>🇺🇦 Українська</span><span>🇮🇹 Italiano</span><span>🇨🇿 Čeština</span><span data-i="b4">⚖️ Перекладач Tribunale di Lucca</span>
@@ -341,7 +342,7 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
     <div class="tr-grid">
       <div class="tr-photo ph reveal"><img loading="lazy" src="img/lucca-duomo.jpg" alt="Лукка"><div class="over"><h3 data-i="tr-o">Документи, суд, лікар, оренда</h3><p data-i="tr-op">Спокійно, зрозуміло і вашою мовою.</p></div></div>
       <div class="tr-list">
-        <div class="tcard reveal"><div class="ic">📄</div><div><h3 data-i="s1">Переклад документів</h3><p data-i="s1p">Свідоцтва, дипломи, довідки, договори. Українська, чеська та італійська.</p></div></div>
+        <div class="tcard reveal"><div class="ic">📄</div><div><h3 data-i="s1">Присяжний переклад документів</h3><p data-i="s1p">Свідоцтва, дипломи, довідки, договори. Українська, чеська та італійська.</p></div></div>
         <div class="tcard reveal"><div class="ic">🏛️</div><div><h3 data-i="s2">Суд і установи</h3><p data-i="s2p">Усний переклад у суді, квестурі, комуні та під час нотаріальних дій.</p></div></div>
         <div class="tcard reveal"><div class="ic">🩺</div><div><h3 data-i="s3">Лікар і щоденні справи</h3><p data-i="s3p">Супровід до лікаря, у банк, під час оренди житла чи оформлення авто.</p></div></div>
         <div class="tcard reveal"><div class="ic">🔁</div><div><h3 data-i="s4">Мовні пари</h3><div class="pairs"><b>UA ↔ IT</b><b>CZ ↔ IT</b><b>UA ↔ CZ</b></div></div></div>
@@ -350,15 +351,15 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
   </div>
 </section>
 
-<section style="background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+<section id="reviews" style="background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
   <div class="wrap">
     <div class="sec-head reveal"><div><div class="eyebrow" data-i="r-eye">Відгуки</div><h2 data-i="r-h">Що кажуть гості</h2></div></div>
-    <div class="reviews">
-      <div class="rev reveal"><div class="stars">★★★★★</div><p data-i="rv1">«Ми були в Пізі вдруге, але вперше справді її побачили. І дякуємо за ресторанчик після екскурсії!»</p><div class="who"><i>І</i><div>Ірина<small data-i="rw1">Київ · Піза</small></div></div></div>
-      <div class="rev reveal"><div class="stars">★★★★★</div><p data-i="rv2">«Прогулянка стінами Лукки на заході сонця стала найкращим вечором нашої відпустки в Італії.»</p><div class="who"><i>А</i><div>Андрій і Оля<small data-i="rw2">Варшава · Лукка</small></div></div></div>
-      <div class="rev reveal"><div class="stars">★★★★★</div><p data-i="rv3">«Олена допомогла з перекладом документів для квестури швидко і без стресу. Дуже рекомендую.»</p><div class="who"><i>М</i><div>Марія<small data-i="rw3">Лукка · переклад</small></div></div></div>
+    <div class="rev-empty reveal">
+      <div class="stars">★★★★★</div>
+      <h3 data-i="r-t">Тут будуть справжні відгуки ваших гостей</h3>
+      <p data-i="r-p">Ми не вигадуємо відгуків. Перенесемо сюди ваші оцінки з Google і найтепліші слова з повідомлень, з іменами та містами гостей.</p>
+      <div class="src"><span data-i="r-s1">Google Maps</span><span data-i="r-s2">Повідомлення гостей</span><span data-i="r-s3">Фото з екскурсій</span></div>
     </div>
-    <p class="demo-note" data-i="note">* У демо відгуки для прикладу. На сайті будуть ваші справжні відгуки з Google і повідомлень.</p>
   </div>
 </section>
 
@@ -366,35 +367,35 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
   <div class="wrap">
     <div class="sec-head reveal"><div><div class="eyebrow" data-i="q-eye">Питання</div><h2 data-i="q-h">Часті питання</h2></div></div>
     <div class="faq reveal">
-      <details open><summary data-i="q1">Чи потрібно купувати квитки на вежу заздалегідь?</summary><p data-i="a1">Так, у сезон краще за кілька днів. Я підкажу, на який час брати, щоб підйом вписався в екскурсію.</p></details>
-      <details><summary data-i="q2">Можна з дітьми чи візочком?</summary><p data-i="a2">Звісно. Для дітей у мене є легенди і маленькі завдання, а маршрут підлаштуємо під візочок.</p></details>
-      <details><summary data-i="q3">Як дістатися з Пізи до Лукки?</summary><p data-i="a3">Потягом за 30 хвилин, квиток коштує кілька євро. Якщо берете екскурсію на день, поїдемо разом.</p></details>
-      <details><summary data-i="q4">Як оплатити?</summary><p data-i="a4">На місці готівкою або карткою. Передоплати немає, скасувати можна безкоштовно за 24 години.</p></details>
+      <details open><summary data-i="q1">Скільки коштує екскурсія?</summary><p data-i="a1">Флоренція: 80 € за годину. Піза і Лукка: 130 € за екскурсію до 2 годин.</p></details>
+      <details><summary data-i="q2">Скільки людей може бути в групі?</summary><p data-i="a2">У Пізі та Луцці до 50 людей. 130 € це ціна за всю екскурсію, а не з кожного гостя.</p></details>
+      <details><summary data-i="q3">Чи потрібно купувати квитки заздалегідь?</summary><p data-i="a3">На Пізанську вежу і до музеїв Флоренції в сезон краще брати квитки за кілька днів. Напишіть дату, і я підкажу, на який час їх брати.</p></details>
+      <details><summary data-i="q4">Чи можна замовити переклад документів?</summary><p data-i="a4">Так. Я в списку перекладачів Трибуналу Лукки і працюю з українською, італійською та чеською. Напишіть, який документ потрібен, і я відповім щодо термінів і вартості.</p></details>
     </div>
   </div>
 </section>
 
 <section id="book" class="book">
   <div class="wrap">
-    <div class="sec-head"><div><div class="eyebrow" style="color:var(--gold)" data-i="bk-eye">Бронювання</div><h2 data-i="bk-h">Оберіть дату, решту я підкажу</h2></div><p data-i="bk-p">Відповідаю протягом кількох годин. Оплата на місці, без передоплати.</p></div>
+    <div class="sec-head"><div><div class="eyebrow" style="color:var(--gold)" data-i="bk-eye">Бронювання</div><h2 data-i="bk-h">Оберіть дату, решту я підкажу</h2></div><p data-i="bk-p">Напишіть дату, місто й кількість гостей, і я відповім з усіма деталями.</p></div>
     <div class="book-grid">
       <form id="f">
         <label><span data-i="l1">Екскурсія або послуга</span>
-          <select id="tour"><option>Піза: Площа Чудес</option><option>Лукка: стіни і вежі</option><option>Піза + Лукка за день</option><option>Гастро-прогулянка Луккою</option><option>Переклад / супровід</option></select></label>
+          <select id="tour"><option data-i="o1">Флоренція · 80 € за годину</option><option data-i="o2">Піза · 130 € за екскурсію</option><option data-i="o3">Лукка · 130 € за екскурсію</option><option data-i="o4">Переклад / супровід</option></select></label>
         <div class="row2">
           <label><span data-i="l2">Дата</span><input type="date" id="date"></label>
-          <label><span data-i="l3">Кількість гостей</span><input type="number" id="ppl" min="1" max="20" value="2"></label>
+          <label><span data-i="l3">Кількість гостей</span><input type="number" id="ppl" min="1" max="50" value="2"></label>
         </div>
-        <label><span data-i="l4">Ваше ім'я</span><input id="name" placeholder="Ірина"></label>
-        <label><span data-i="l5">Телефон або WhatsApp</span><input id="phone" placeholder="+380 ..."></label>
-        <label><span data-i="l6">Побажання</span><textarea id="msg" placeholder="Подорожуємо з дитиною 8 років, хочемо більше легенд :)"></textarea></label>
+        <label><span data-i="l4">Ваше ім'я</span><input id="name" placeholder="Ірина" data-ph-it="Giulia"></label>
+        <label><span data-i="l5">Телефон або WhatsApp</span><input id="phone" placeholder="+380 ..." data-ph-it="+39 ..."></label>
+        <label><span data-i="l6">Побажання</span><textarea id="msg" placeholder="Наприклад: Флоренція, 3 години, нас четверо, подорожуємо з дитиною" data-ph-it="Per esempio: Firenze, 3 ore, siamo in quattro con un bambino"></textarea></label>
         <button class="btn" type="submit" data-i="send">Надіслати запит</button>
         <div class="tele" id="pv"></div>
       </form>
       <div class="side">
-        <div class="cbox"><h3>WhatsApp</h3><p data-i="c1">Найшвидше: напишіть мені, відповім з фото місця зустрічі.</p><a class="btn sm" href="#book" style="background:#25d366" data-i="c1b">Написати у WhatsApp</a></div>
-        <div class="cbox"><h3>Email</h3><p>guidapisalucca@gmail.com</p></div>
-        <div class="cbox"><h3 data-i="c3h">Де зустрічаємось</h3><p data-i="c3">Піза: біля воріт Порта Санта Марія. Лукка: біля вокзалу або воріт Сан П'єтро.</p></div>
+        <div class="cbox"><h3>WhatsApp</h3><p data-i="c1">Найшвидше: напишіть мені дату, місто й кількість гостей.</p><a class="btn sm" href="#book" style="background:#25d366" data-i="c1b">Написати у WhatsApp</a></div>
+        <div class="cbox"><h3>Email</h3><p><a href="mailto:guidapisalucca@gmail.com">guidapisalucca@gmail.com</a></p></div>
+        <div class="cbox"><h3 data-i="c3h">Місце зустрічі</h3><p data-i="c3">Домовимося разом, коли оберете дату й місто.</p></div>
       </div>
     </div>
   </div>
@@ -403,27 +404,34 @@ details.credits{font-size:11.5px;max-width:640px;border:0;padding:0}details.cred
 <section id="value" class="value">
   <div class="wrap">
     <span class="badge">Для Олени</span>
-    <div class="sec-head" style="margin-bottom:24px"><div><h2>Що цей сайт дасть вам</h2></div><p>Це демо, яке можна змінити як завгодно: фото, тексти, ціни, маршрути. Ось чому воно працюватиме на вас.</p></div>
+    <div class="sec-head" style="margin-bottom:24px"><div><h2>Що цей сайт дасть вам</h2></div><p>Ваші три екскурсії й ціни вже на сайті. Фото, тексти й маршрути можна змінити як завгодно. Ось чому він працюватиме на вас.</p></div>
     <div class="vgrid">
-      <div class="vcard"><div class="n">01</div><h3>Вас знаходять у Google</h3><p>Туристи шукають «гід Піза українською», «екскурсія Лукка», «traduttrice ucraina Lucca». Сайт налаштовуємо під ці запити, щоб клієнти приходили самі, а не лише з каталогів.</p></div>
-      <div class="vcard"><div class="n">02</div><h3>Бронювання без комісій</h3><p>GetYourGuide і подібні сервіси забирають 20–30%. Тут запит приходить вам напряму у WhatsApp, з датою, кількістю людей і побажаннями.</p></div>
+      <div class="vcard"><div class="n">01</div><h3>Вас знаходять у Google</h3><p>Туристи шукають «гід Флоренція українською», «екскурсія Піза українською», «екскурсія Лукка», а італійці «traduzione giurata ucraino Lucca». Сайт налаштовуємо під ці запити, щоб клієнти приходили самі, а не лише з каталогів.</p></div>
+      <div class="vcard"><div class="n">02</div><h3>Бронювання без комісій</h3><p>GetYourGuide і подібні сервіси забирають від 20 до 30%. Тут запит приходить вам напряму у WhatsApp, з датою, кількістю людей і побажаннями.</p></div>
       <div class="vcard"><div class="n">03</div><h3>Два напрямки на одному сайті</h3><p>Туристи бачать екскурсії, а українці й чехи, які живуть у Тоскані, бачать перекладача Трибуналу. Більше клієнтів цілий рік, а не лише в сезон.</p></div>
       <div class="vcard"><div class="n">04</div><h3>Довіра з першого погляду</h3><p>Фото, ваша історія, відгуки і чіткі ціни. Людина вирішує ще до першого повідомлення, і вам не треба щоразу пояснювати одне й те саме.</p></div>
       <div class="vcard"><div class="n">05</div><h3>Українська та італійська</h3><p>Одна кнопка перемикає мову. Італійці, яким потрібен перекладач, теж знаходять вас.</p></div>
       <div class="vcard"><div class="n">06</div><h3>Ваш домен і без клопоту</h3><p>Адреса на кшталт olenaguida.com, перший рік домену і хостинг включено. Зміни вносимо ми, вам не треба нічого налаштовувати.</p></div>
     </div>
-    <div class="serp">
-      <div class="q">🔍 гід у Пізі українською</div>
-      <div class="u">olenaguida.com › pisa</div>
-      <div class="t">Олена Баскова · Екскурсії Пізою та Луккою українською</div>
-      <div class="stars2">★★★★★ 5,0 · 27 відгуків</div>
-      <div class="d">Індивідуальні прогулянки Пізою і Луккою з гідом, який тут живе. Площа Чудес, стіни Лукки, гастро-тури. Бронювання у WhatsApp, оплата на місці.</div>
+    <div class="serps">
+      <div class="serp">
+        <div class="q">🔍 гід у Флоренції українською</div>
+        <div class="u">olenaguida.com › firenze</div>
+        <div class="t">Олена Баскова · Екскурсії Флоренцією, Пізою та Луккою</div>
+        <div class="d">Екскурсії українською з гідом, який живе в Тоскані. Флоренція 80 € за годину, Піза і Лукка 130 € за екскурсію до 2 годин. Бронювання у WhatsApp.</div>
+      </div>
+      <div class="serp">
+        <div class="q">🔍 traduzione giurata ucraino Lucca</div>
+        <div class="u">olenaguida.com › traduzioni</div>
+        <div class="t">Traduzione giurata ucraino italiano a Lucca · Olena Baskova</div>
+        <div class="d">Traduttrice iscritta all'albo del Tribunale di Lucca. Traduzioni giurate di documenti e interpretariato: ucraino, italiano, ceco.</div>
+      </div>
     </div>
-    <p style="margin-top:22px;color:var(--muted);font-size:14px">Так ваш сайт може виглядати в Google. Демо підготував <b>Олексій, Krayon</b> · krayon.site</p>
+    <p style="margin-top:22px;color:var(--muted);font-size:14px">Так ваш сайт може виглядати в Google українською та італійською. Демо підготував <b>Олексій, Krayon</b> · krayon.site</p>
   </div>
 </section>
 
-<footer><div class="wrap"><span>© Олена Баскова · Гід і перекладач у Пізі та Луцці</span><details class="credits"><summary>Фото: Wikimedia Commons</summary><p><a href="https://commons.wikimedia.org/wiki/File:The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg" target="_blank" rel="noopener">MHoser</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_miracoli_-_aerial_panorama.jpg" target="_blank" rel="noopener">Guglielmo Giambartolomei</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_Miracoli_(Pisa)_2023.jpg" target="_blank" rel="noopener">PaestumPaestum</a> (CC BY 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Lucca_-_Torre_Guinigi_from_Campanile.jpg" target="_blank" rel="noopener">Ingo Mehling</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:02_Lucca_seen_from_Torre_Guinigi.jpg" target="_blank" rel="noopener">Myrabella</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Lucca_-_Piazza_Anfiteatro_View.jpg" target="_blank" rel="noopener">Ingo Mehling</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dell%27Anfiteatro_tramonto.jpg" target="_blank" rel="noopener">TeKappa</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo_Pisa_1.jpg" target="_blank" rel="noopener">kallerna</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Pisa_-_Chiesa_di_Santa_Maria_della_Spina_-_2025-09-07_21-59-42_001.jpg" target="_blank" rel="noopener">Pardi Marco</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Cypress_tree_alley_at_sunset_in_Asciano,_Tuscany.jpg" target="_blank" rel="noopener">Eric Kilby</a> (CC BY-SA 2.0) · <a href="https://commons.wikimedia.org/wiki/File:Exterior_of_the_Leaning_Tower_(Pisa)_at_night.jpg" target="_blank" rel="noopener">PaestumPaestum</a> (CC BY 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Window_in_a_cafe_in_San_Gimignano_(02182)2.jpg" target="_blank" rel="noopener">Rhododendrites</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Duomo_di_Lucca_vom_Torre_Guinigi_2009-07.jpg" target="_blank" rel="noopener">H005</a> (CC BY-SA 3.0)</p></details><span>Демо від Krayon</span></div></footer>
+<footer><div class="wrap"><span data-i="ft">© Олена Баскова · Гід у Тоскані та перекладачка зі списку Трибуналу Лукки</span><details class="credits"><summary>Фото: Wikimedia Commons</summary><p><a href="https://commons.wikimedia.org/wiki/File:The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg" target="_blank" rel="noopener">MHoser</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_miracoli_-_aerial_panorama.jpg" target="_blank" rel="noopener">Guglielmo Giambartolomei</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_Miracoli_(Pisa)_2023.jpg" target="_blank" rel="noopener">PaestumPaestum</a> (CC BY 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Lucca_-_Torre_Guinigi_from_Campanile.jpg" target="_blank" rel="noopener">Ingo Mehling</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:02_Lucca_seen_from_Torre_Guinigi.jpg" target="_blank" rel="noopener">Myrabella</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Lucca_-_Piazza_Anfiteatro_View.jpg" target="_blank" rel="noopener">Ingo Mehling</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_dell%27Anfiteatro_tramonto.jpg" target="_blank" rel="noopener">TeKappa</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo_Pisa_1.jpg" target="_blank" rel="noopener">kallerna</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Pisa_-_Chiesa_di_Santa_Maria_della_Spina_-_2025-09-07_21-59-42_001.jpg" target="_blank" rel="noopener">Pardi Marco</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Cypress_tree_alley_at_sunset_in_Asciano,_Tuscany.jpg" target="_blank" rel="noopener">Eric Kilby</a> (CC BY-SA 2.0) · <a href="https://commons.wikimedia.org/wiki/File:Exterior_of_the_Leaning_Tower_(Pisa)_at_night.jpg" target="_blank" rel="noopener">PaestumPaestum</a> (CC BY 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Window_in_a_cafe_in_San_Gimignano_(02182)2.jpg" target="_blank" rel="noopener">Rhododendrites</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Duomo_di_Lucca_vom_Torre_Guinigi_2009-07.jpg" target="_blank" rel="noopener">H005</a> (CC BY-SA 3.0) · <a href="https://commons.wikimedia.org/wiki/File:Firenze_-_Cattedrale_di_Santa_Maria_del_Fiore_da_Piazzale_Michelangelo.jpg" target="_blank" rel="noopener">Liridon</a> (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_sunset_from_Piazzale_Michelangelo_Florence_2023_dllu.jpg" target="_blank" rel="noopener">Daniel Lu</a> (CC BY-SA 4.0)</p></details><span>Демо від Krayon</span></div></footer>
 
 <a class="wa-float" href="#book" aria-label="WhatsApp"><svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.9-1.1-4.7-4-4.9-4.2-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg></a>
 
@@ -442,36 +450,48 @@ document.querySelectorAll('[data-tour]').forEach(b=>b.addEventListener('click',(
 document.getElementById('f').addEventListener('submit',e=>{
   e.preventDefault();const v=id=>document.getElementById(id).value;const pv=document.getElementById('pv');
   pv.textContent=(lang==='it'?'✅ Richiesta inviata! Olena riceverà su WhatsApp:\n\n':'✅ Запит надіслано! Олена отримає у WhatsApp:\n\n')+
-  `🗓 ${v('tour')}\n📅 ${v('date')||'—'} · 👥 ${v('ppl')}\n🙋 ${v('name')||'—'} · ${v('phone')||'—'}\n💬 ${v('msg')||'—'}`;
+  (()=>{const t=document.getElementById('tour');const na=lang==='it'?'n.d.':'не вказано';return `🗓 ${t.options[t.selectedIndex].text}\n📅 ${v('date')||na} · 👥 ${v('ppl')}\n🙋 ${v('name')||na} · ${v('phone')||na}\n💬 ${v('msg')||na}`})();
   pv.classList.add('show');
 });
 // UA / IT
-const IT={nav1:'Tour',nav2:'Chi sono',nav3:'Traduzioni',nav5:'FAQ',navb:'Prenota',kick:'Pisa · Lucca · Toscana',
-h1:'La Toscana raccontata <em>da chi ci vive</em>',lead:'Passeggiate private a Pisa e Lucca con una guida che vive qui. Storie che non trovi nelle guide, i migliori scorci per le foto e i posti dove mangiano i locali.',
-cta1:'Prenota un tour',cta2:'Vedi gli itinerari',f1:'lingue: ucraino, italiano, ceco',f2:'città che conosco a memoria',f3:'ospiti, solo il tuo gruppo',
-i1:'Nella tua lingua',i1p:'Senza audioguide',i2:'Solo il tuo gruppo',i2p:'Ritmo e soste su misura',i3:'Gli scorci migliori',i3p:'Ti mostro dove la foto con la Torre viene perfetta',i4:'Pagamento sul posto',i4p:'Nessun anticipo',
-'t-eye':'Itinerari','t-h':'Scegli la tua passeggiata in Toscana','t-p':'Tutti i tour sono privati. Puoi unire Pisa e Lucca in un giorno.',
-tag1:'⭐ Il più amato',tag2:'🌿 Senza fretta',tag3:'🚆 Due città in un giorno',tag4:'🍷 Sapori di Toscana',
-tr1:'Pisa: Piazza dei Miracoli e oltre',tr1p:'Torre, Duomo e Battistero con le loro leggende, poi la città che i turisti saltano: lungarni, quartieri universitari e la cecina più buona.',
-tr2:'Lucca: mura, torri e Puccini',tr2p:'Le mura rinascimentali, la Torre Guinigi con i lecci in cima, Piazza dell\'Anfiteatro e la casa natale di Puccini.',
-tr3:'Pisa + Lucca in un giorno',tr3p:'Mattina in Piazza dei Miracoli, pranzo in trattoria, tramonto sulle mura di Lucca.',
-tr4:'Passeggiata gastronomica a Lucca',tr4p:'Buccellato dal forno storico, formaggi toscani, olio e un calice di vino locale.',
-in1:'Piazza dei Miracoli',in2:'Lungarni',in3:'Piazza dei Cavalieri',in4:'Foto stop',in5:'Mura di Lucca',in6:'Torre Guinigi',in7:'Piazza Anfiteatro',in8:'Casa di Puccini',in9:'Due città',in10:'Trattoria',in11:'Tramonto',in12:'Degustazioni incluse',in13:'Buccellato',in14:'Vino',
-pg:'a gruppo',pp:'a persona',bk:'Scegli',g1:'Piazza dei Miracoli dall\'alto',g2:'Il Battistero al tramonto',g3:'Piazza dell\'Anfiteatro',g4:'I lungarni',g5:'La Torre di notte',
-ph1:'Qui la tua foto',ph2:'meglio sulle mura di Lucca',
-'a-eye':'Chi sono','a-h':'Ciao, sono Olena','a-p1':'Vivo in Toscana e mostro Pisa e Lucca come le vedono i locali: storie, leggende e indirizzi buoni.','a-p2':'Sono anche interprete iscritta all\'albo del Tribunale di Lucca: posso aiutarti con documenti, medici e uffici.',b4:'⚖️ Interprete Tribunale di Lucca',
-'tl-eye':'Traduzioni','tl-h':'Un\'interprete di fiducia del tribunale','tl-p':'Per ucraini e cechi in Toscana: documenti, uffici e accompagnamento.','tr-o':'Documenti, tribunale, medico','tr-op':'Con calma e nella tua lingua.',
-s1:'Traduzione documenti',s1p:'Certificati, diplomi, contratti. Ucraino, ceco e italiano.',s2:'Tribunale e uffici',s2p:'Interpretariato in tribunale, questura, comune e dal notaio.',s3:'Medico e vita quotidiana',s3p:'Accompagnamento dal medico, in banca, per affitti e auto.',s4:'Coppie linguistiche',
-'r-eye':'Recensioni','r-h':'Cosa dicono gli ospiti',note:'* Nella demo le recensioni sono esempi.',
-'q-eye':'Domande','q-h':'Domande frequenti',q1:'Devo comprare i biglietti per la Torre in anticipo?',a1:'Sì, in alta stagione qualche giorno prima. Ti dico quale orario scegliere.',q2:'Si può con bambini o passeggino?',a2:'Certo. Per i bambini ho leggende e piccoli giochi.',q3:'Come arrivare da Pisa a Lucca?',a3:'In treno in 30 minuti.',q4:'Come si paga?',a4:'Sul posto, contanti o carta. Cancellazione gratuita fino a 24 ore prima.',
-'bk-eye':'Prenotazione','bk-h':'Scegli la data, al resto penso io','bk-p':'Rispondo entro poche ore. Pagamento sul posto.',
-l1:'Tour o servizio',l2:'Data',l3:'Ospiti',l4:'Nome',l5:'Telefono o WhatsApp',l6:'Richieste',send:'Invia richiesta',c1:'Il modo più veloce: scrivimi su WhatsApp.',c1b:'Scrivi su WhatsApp',c3h:'Dove ci incontriamo',c3:'Pisa: Porta Santa Maria. Lucca: stazione o Porta San Pietro.'};
+const IT={nav1:"Tour e prezzi",nav2:"Chi sono",nav3:"Traduzioni",nav5:"FAQ",navb:"Prenota",kick:"Firenze · Pisa · Lucca",
+h1:"La Toscana raccontata <em>da chi ci vive</em>",lead:"Visite guidate in lingua ucraina a Firenze, Pisa e Lucca, con una guida che vive in Toscana. Storie che non trovi nelle guide e gli scorci migliori per le foto.",
+cta1:"Prenota una visita",cta2:"Vedi itinerari e prezzi",
+f1:"<b>3</b><span>lingue: ucraino, italiano, ceco</span>",f2:"<b>3</b><span>città: Firenze, Pisa, Lucca</span>",f3:"<b>fino a 50</b><span>persone per gruppo a Pisa e Lucca</span>",
+i1:"In lingua ucraina",i1p:"Per ospiti ucraini, senza passare dall'inglese",i2:"Gruppi fino a 50 persone",i2p:"A Pisa e Lucca un prezzo unico per tutto il gruppo",i3:"Gli scorci migliori",i3p:"Ti mostro dove la foto con la Torre viene perfetta",i4:"Tre città toscane",i4p:"Firenze, Pisa e Lucca con la stessa guida",
+"t-eye":"Itinerari e prezzi","t-h":"Scegli la tua passeggiata in Toscana","t-p":"Tre città, tre visite in ucraino. A Pisa e Lucca il prezzo è per l'intera visita, per gruppi fino a 50 persone.",
+tag1:"🎨 Arte e Medici",tag2:"⭐ Le leggende della Torre",tag3:"🌿 La città delle mura",
+d1:"⏱ Tariffa oraria",d2:"⏱ Fino a 2 ore",d3:"👥 Fino a 50 persone",d4:"👥 Da 1 a 50 persone",
+tr1:"Firenze: il cuore del Rinascimento",tr1p:"Santa Maria del Fiore con la cupola del Brunelleschi, Piazza della Signoria, Ponte Vecchio e le strade di Dante, dei Medici e di Michelangelo.",
+tr2:"Pisa: Piazza dei Miracoli e non solo",tr2p:"La Torre, il Duomo e il Battistero con le loro leggende, poi la città che i turisti spesso saltano: i lungarni e Piazza dei Cavalieri.",
+tr3:"Lucca: mura, torri e Puccini",tr3p:"Le mura rinascimentali, la Torre Guinigi con i lecci in cima, l'ovale di Piazza dell'Anfiteatro e la città natale di Puccini.",
+in1:"Duomo",in2:"Piazza della Signoria",in3:"Ponte Vecchio",in4:"Piazza dei Miracoli",in5:"Torre pendente",in6:"Lungarni",in7:"Piazza dei Cavalieri",in8:"Mura di Lucca",in9:"Torre Guinigi",in10:"Piazza Anfiteatro",in11:"Casa di Puccini",
+"p-h":"all'ora","p-e":"a visita",bk:"Scegli",
+g1:"Piazza dei Miracoli dall'alto",g2:"Ponte Vecchio, Firenze",g3:"Piazza dell'Anfiteatro al tramonto",g4:"I tetti di Lucca dalla Torre Guinigi",g5:"La Torre di Pisa di notte",
+ph1:"Qui la tua foto",ph2:"meglio sulle mura di Lucca o accanto alla Torre",
+"a-eye":"Chi sono","a-h":"Ciao, sono Olena","a-p1":"Vivo in Toscana e racconto Firenze, Pisa e Lucca come le vedono i locali: storie, leggende e dettagli che di solito sfuggono. Le visite sono in ucraino, e puoi fare tutte le domande che vuoi.","a-p2":"Sono anche traduttrice e interprete iscritta all'albo del Tribunale di Lucca: posso aiutarti con documenti, medici e uffici.",b4:"⚖️ Interprete Tribunale di Lucca",
+"tl-eye":"Traduzioni e interpretariato","tl-h":"Traduzione giurata ucraino italiano a Lucca","tl-p":"Per ucraini e cechi in Toscana: traduzioni di documenti e un'interprete dove serve. Sono iscritta all'albo del Tribunale di Lucca.","tr-o":"Documenti, tribunale, medico, affitto","tr-op":"Con calma, in modo chiaro e nella tua lingua.",
+s1:"Traduzioni giurate",s1p:"Certificati, diplomi, attestati e contratti. Ucraino, ceco e italiano.",s2:"Tribunale e uffici",s2p:"Interpretariato in tribunale, in questura, in comune e dal notaio.",s3:"Medico e vita quotidiana",s3p:"Accompagnamento dal medico, in banca, per l'affitto di casa o le pratiche dell'auto.",s4:"Combinazioni linguistiche",
+"r-eye":"Recensioni","r-h":"Cosa dicono gli ospiti","r-t":"Qui compariranno le vere recensioni dei tuoi ospiti","r-p":"Non inventiamo recensioni. Porteremo qui le tue valutazioni su Google e le parole più belle dei messaggi, con nomi e città degli ospiti.","r-s1":"Google Maps","r-s2":"Messaggi degli ospiti","r-s3":"Foto dalle visite",
+"q-eye":"Domande","q-h":"Domande frequenti",
+q1:"Quanto costa una visita?",a1:"Firenze: 80 € all'ora. Pisa e Lucca: 130 € a visita, fino a 2 ore.",
+q2:"Quante persone possono partecipare?",a2:"A Pisa e Lucca fino a 50 persone. I 130 € sono il prezzo dell'intera visita, non a persona.",
+q3:"Devo comprare i biglietti in anticipo?",a3:"Per la Torre di Pisa e i musei di Firenze, in alta stagione conviene prenotare qualche giorno prima. Scrivimi la data e ti dico quale orario scegliere.",
+q4:"Fai traduzioni giurate di documenti?",a4:"Sì. Sono iscritta all'albo del Tribunale di Lucca e lavoro con ucraino, italiano e ceco. Scrivimi quale documento ti serve e ti rispondo con tempi e costi.",
+"bk-eye":"Prenotazione","bk-h":"Scegli la data, al resto penso io","bk-p":"Scrivimi data, città e numero di persone, e ti rispondo con tutti i dettagli.",
+l1:"Visita o servizio",l2:"Data",l3:"Numero di persone",l4:"Nome",l5:"Telefono o WhatsApp",l6:"Richieste",send:"Invia richiesta",
+o1:"Firenze · 80 € all'ora",o2:"Pisa · 130 € a visita",o3:"Lucca · 130 € a visita",o4:"Traduzione / accompagnamento",
+c1:"Il modo più veloce: scrivimi data, città e numero di persone.",c1b:"Scrivi su WhatsApp",c3h:"Punto d'incontro",c3:"Lo decidiamo insieme quando scegli data e città.",
+ft:"© Olena Baskova · Guida in Toscana e traduttrice iscritta all'albo del Tribunale di Lucca"};
 const UA={};document.querySelectorAll('[data-i]').forEach(el=>UA[el.dataset.i]=el.innerHTML);
 let lang='uk';
+const TITLE_UA=document.title,TITLE_IT='Olena Baskova · Guida in Toscana: Firenze, Pisa e Lucca';
 document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>{
   lang=b.dataset.l;document.querySelectorAll('.lang button').forEach(x=>x.classList.toggle('on',x===b));
   document.documentElement.lang=lang==='it'?'it':'uk';
+  document.title=lang==='it'?TITLE_IT:TITLE_UA;
   document.querySelectorAll('[data-i]').forEach(el=>{const t=(lang==='it'?IT:UA)[el.dataset.i];if(t)el.innerHTML=t;});
+  document.querySelectorAll('[data-ph-it]').forEach(el=>{if(!el.dataset.phUk)el.dataset.phUk=el.placeholder;el.placeholder=lang==='it'?el.dataset.phIt:el.dataset.phUk;});
 }));
 </script>
 </body>
